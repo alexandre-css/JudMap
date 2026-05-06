@@ -1,0 +1,495 @@
+{
+  "numProcesso": "5003329-12.2023.8.24.0057",
+  "versaoSchema": 6,
+  "atualizadoEm": "30/09/2025",
+  "statusProcesso": "sentenciado_aguardando_recursos",
+  "competencia": "criminal_comum",
+  "grau1": {
+    "dataFato": "01/11/2021",
+    "dataRecebimentoDenuncia": "28/08/2023",
+    "dataSentenca": "30/09/2025",
+    "juizSentenciante": "ANA LUISA KRUPP BOHMANN",
+    "varaOrigem": "2ª Vara da Comarca de Santo Amaro da Imperatriz",
+    "idEventoSentenca": null,
+    "vitimas": [
+      "Meio Ambiente"
+    ],
+    "reus": [
+      {
+        "nome": "JONAS PEREIRA DO ESPIRITO SANTO",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "privada",
+        "situacaoPrisional": {
+          "estadoAtual": "liberdade",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": false,
+          "tipo": "primario_sem_antecedentes",
+          "processosCitados": []
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "Art. 38-A da Lei 9.605/98",
+            "tipoCrime": "Dano a vegetação de Mata Atlântica",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "Art. 48 da Lei 9.605/98",
+            "tipoCrime": "Impedir regeneração de vegetação",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "Art. 60 da Lei 9.605/98",
+            "tipoCrime": "Atividade poluidora sem licença",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_parcialmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "Dano a vegetação de Mata Atlântica",
+            "dispositivoLegal": "Art. 38-A da Lei 9.605/98",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "compreendida como o grau de reprovabilidade da conduta, não merece valoração."
+                },
+                "antecedentes": {
+                  "valoracao": "neutra",
+                  "fundamento": null,
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "neutra",
+                  "fundamento": "Não existem elementos nos autos que desabonem sua conduta social."
+                },
+                "personalidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "Inexistente exame técnico no feito para análise da sua personalidade."
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "Os motivos e as circunstâncias foram normais à espécie."
+                },
+                "circunstancias": {
+                  "valoracao": "neutra",
+                  "fundamento": "Os motivos e as circunstâncias foram normais à espécie."
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As consequências foram todas inerentes ao tipo."
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "não há falar em comportamento da vítima."
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
+              "penaAbstrataMinima": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaAbstrataMaxima": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaPrivativaAplicada": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [
+                "confissao_espontanea"
+              ],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            }
+          },
+          {
+            "tipoCrime": "Impedir regeneração de vegetação",
+            "dispositivoLegal": "Art. 48 da Lei 9.605/98",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "não merece valoração"
+                },
+                "antecedentes": {
+                  "valoracao": "neutra",
+                  "fundamento": null,
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "neutra",
+                  "fundamento": "Não existem elementos nos autos que desabonem sua conduta social."
+                },
+                "personalidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "Inexistente exame técnico no feito para análise da sua personalidade."
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "Os motivos e as circunstâncias foram normais à espécie."
+                },
+                "circunstancias": {
+                  "valoracao": "neutra",
+                  "fundamento": "Os motivos e as circunstâncias foram normais à espécie."
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As consequências foram todas inerentes ao tipo."
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "não há falar em comportamento da vítima."
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
+              "penaAbstrataMinima": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaAbstrataMaxima": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [
+                "confissao_espontanea"
+              ],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            }
+          }
+        ],
+        "concursoDeCrimes": {
+          "regraAplicada": "material_art69",
+          "quantidadeCrimesConcorrentes": 2,
+          "fracaoExasperacao": "cumulacao_material",
+          "penaTotalPrivativa": {
+            "anos": 1,
+            "meses": 6,
+            "dias": 0,
+            "totalDias": 545
+          },
+          "penaTotalMulta": {
+            "diasMulta": 20,
+            "valorDiaMulta": "1/30",
+            "valorTotal": null
+          }
+        },
+        "execucaoDaPena": {
+          "detracao": {
+            "periodos": [],
+            "totalDiasDetraidos": null,
+            "consideradaParaRegime": null
+          },
+          "regimeInicial": "aberto",
+          "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
+          "substituicaoPRD": {
+            "concedida": true,
+            "quantidadePenas": 2,
+            "especiesAplicadas": [
+              "prestacao_servicos_comunidade",
+              "prestacao_pecuniaria"
+            ],
+            "fundamentoNegativa": null
+          },
+          "sursisPenal": {
+            "concedido": false,
+            "especieAplicada": null,
+            "prazoAnos": null,
+            "fundamentoNegativa": "considerando a prévia substituição da privação de liberdade por restrição de direitos."
+          },
+          "reparacaoDanosArt387IV": {
+            "fixada": true,
+            "valorMinimo": "28.636,77",
+            "destinatario": "erario",
+            "houvePedidoExpresso": true
+          },
+          "custasProcessuais": {
+            "condenado": true,
+            "isencaoPorMiserabilidade": false
+          },
+          "prescricaoReconhecida": null,
+          "fundamentoPrescricao": null,
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": null,
+              "meses": null,
+              "fundamentoLegal": null,
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": null,
+                "dataInicio": null,
+                "dataFim": null
+              }
+            }
+          }
+        },
+        "calculoPrescricao": {
+          "pppAbstrataDataLimite": "01/11/2029",
+          "pppAbstrataConfigurada": false,
+          "pppRetroativaDataLimite": "28/08/2027",
+          "pppIntercorrenteDataLimite": "30/09/2029",
+          "ppeDataLimite": null,
+          "risco": "baixo"
+        }
+      }
+    ],
+    "recursosMP": {
+      "interposto": null,
+      "dataInterposicao": null,
+      "tempestivo": null,
+      "objeto": []
+    },
+    "recursosDefesa": [],
+    "transitoAcusacao1G": null,
+    "embargosDeclaratorios1G": [],
+    "alegacoesGrau1": [
+      {
+        "tese": "nulidade_processual",
+        "teseTextoLivre": "Violação ao princípio da identidade física do juiz",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "JONAS PEREIRA DO ESPIRITO SANTO",
+        "fase": "preliminar",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "o princípio da identidade física do juiz não tem caráter absoluto. Assim, desde que não se vislumbre, no caso concreto, prejuízo a alguma das partes, é de se reconhecer como válida sentença proferida por juiz que não presidiu a instrução"
+      },
+      {
+        "tese": "livre",
+        "teseTextoLivre": "Princípio da Insignificância",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "JONAS PEREIRA DO ESPIRITO SANTO",
+        "fase": "merito",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "No caso, a importância do Bioma violado não autoriza a aplicação do princípio pretendido, mormente a considerar se tratar de área extensa, de aproximadamente 1.655 m²"
+      },
+      {
+        "tese": "livre",
+        "teseTextoLivre": "Erro de proibição / Ausência de dolo",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "JONAS PEREIRA DO ESPIRITO SANTO",
+        "fase": "merito",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "A proteção ambiental é matéria amplamente difundida nos meios de comunicação... sendo de conhecimento geral a impossibilidade de derrubada de qualquer tipo de árvore sem autorização específica."
+      }
+    ],
+    "fundamentacaoCondenatoria": {
+      "materialidade": {
+        "demonstrada": true,
+        "elementosTextuais": [
+          "Laudo Pericial nº 2022.21.05192.23.001-44",
+          "Auto de Infração Ambiental nº 56619-A",
+          "Imagens de satélite Google Earth Pro"
+        ]
+      },
+      "autoriaPorReu": [
+        {
+          "reuNome": "JONAS PEREIRA DO ESPIRITO SANTO",
+          "demonstrada": true,
+          "elementosTextuais": [
+            "Confissão do acusado em interrogatório judicial",
+            "Depoimentos dos policiais militares ambientais Maicon de Souza Ponciano e Jaison de Abreu Juttel"
+          ]
+        }
+      ],
+      "meiosDeProva": [
+        {
+          "tipo": "pericia_corpo_delito",
+          "descricao": "Laudo Pericial nº 2022.21.05192.23.001-44",
+          "usadoPara": [
+            "materialidade"
+          ],
+          "reuRelacionado": "JONAS PEREIRA DO ESPIRITO SANTO",
+          "questionadoPelaDefesa": false,
+          "resultado": "confirmou_materialidade",
+          "pericia_tipoExame": "direto",
+          "pericia_cadeiaPreservada": true,
+          "pericia_conclusao": "conclusivo_materialidade",
+          "interrogatorio_direito_silencio": null,
+          "confissao_tipo": null,
+          "confissao_momento": null,
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
+        },
+        {
+          "tipo": "confissao",
+          "descricao": "Interrogatório do réu",
+          "usadoPara": [
+            "autoria"
+          ],
+          "reuRelacionado": "JONAS PEREIRA DO ESPIRITO SANTO",
+          "questionadoPelaDefesa": false,
+          "resultado": "confirmou_autoria",
+          "pericia_tipoExame": null,
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": null,
+          "interrogatorio_direito_silencio": "nao_exercido",
+          "confissao_tipo": "simples",
+          "confissao_momento": "judicial",
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": "Réu admitiu a supressão mas alegou desconhecimento da ilicitude"
+        }
+      ],
+      "meiosDeObtencaoDeProva": []
+    }
+  },
+  "grau2": {
+    "recursos": [],
+    "parecerPGJ": null,
+    "embargosDeclaratorios2G": [],
+    "acordao": null,
+    "transitoAcusacao2G": null,
+    "prescricaoAReconhecer": null
+  },
+  "metadados": {
+    "preenchidoPor": "ia",
+    "confianca": 0.95,
+    "observacoes": "Sentença de primeiro grau com condenação por crimes ambientais e absolvição por atipicidade de um dos tipos (art. 60).",
+    "acordoNaoPersecucaoPenal": "nao_aplicavel",
+    "suspensaoCondicionalProcesso": "nao_aplicavel",
+    "modeloIA": "google/gemini-3-flash-preview",
+    "tokensConsumidos": null,
+    "ultimaExtracaoIA": "2026-05-06T21:28:28.136Z"
+  }
+}

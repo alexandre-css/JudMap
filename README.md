@@ -104,7 +104,10 @@ enum.json                   Valores válidos para todos os campos categóricos
 leis/
   index_penas.json          Penas abstratas por lei/artigo (lookup de dosimetria)
   index_dosimetria.json     Frações legais por causa de aumento/diminuição
-  historico_legislativo.json Alterações legislativas para análise intertemporal
+  historico_legislativo.json Alterações legislativas para análise intertemporal (curado + auto)
+  extrator.js               Extrai textos das leis do Planalto (versão compilada → RAG)
+  extrator_historico.js     Extrai alterações de pena via texto riscado da versão histórica
+  senado_api.js             Resolve dataVigor consultando API do Senado + Planalto
   rag/                      Textos dos artigos por lei (lazy-loaded)
   jsonld/                   Leis em JSON-LD (fonte dos textos)
   md/                       Leis em Markdown
@@ -140,6 +143,23 @@ npm run extract:leis:list
 # Extrair lei específica
 npm run extract:leis -- --lei codigo_penal
 ```
+
+## Atualização do histórico legislativo
+
+Para detectar automaticamente alterações de pena (texto riscado na versão não-compilada do Planalto) e estimar `dataVigor` via API do Senado:
+
+```bash
+# Gerar rascunho com alterações detectadas em todas as leis
+node leis/extrator_historico.js --out leis/rascunho_historico.json
+
+# Filtrar por uma lei
+node leis/extrator_historico.js codigo_penal --out rascunho.json
+
+# Mesclar rascunho ao histórico oficial (entradas manuais têm prioridade)
+node leis/extrator_historico.js --merge
+```
+
+O extrator marca entradas auto-extraídas com `"autoExtraido": true` e classifica `tipo` (`novatio_legis_in_pejus`, `_in_mellius`, `bifacial`) comparando penas riscadas vs. vigentes. Datas resolvidas pela API do Senado caem em fallback para data de publicação quando não há vacatio legis explícita no texto. Casos com vacatio incomum ("no 1º dia do 6º mês após", leis pré-2004 sem URL Planalto) precisam revisão manual — entradas corrigidas devem receber `"revisaoManual": "AAAA-MM-DD"` para rastreabilidade.
 
 ## Teste sem IA
 

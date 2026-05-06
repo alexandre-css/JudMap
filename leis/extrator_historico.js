@@ -189,7 +189,7 @@ function classificarTipo(anterior, nova) {
     if (maisPesado && maisLeve) return "bifacial";
     if (maisPesado) return "novatio_legis_in_pejus";
     if (maisLeve) return "novatio_legis_in_mellius";
-    return "novatio_legis_in_pejus"; // mesma pena, outra mudança
+    return null; // pena idêntica: alteração redacional, será descartada
 }
 
 function lexMitiorDerivada(tipo) {
@@ -300,6 +300,19 @@ function juntarLinhasQuebradas(linhas) {
             /[a-záàâãäåæçèéêëìíîïðñòóôõöøùúûüýþÿ0-9]/.test(primeiroChar) &&
             buf.length < 250;
         if (eContinuacao) {
+            buf += " " + l;
+            continue;
+        }
+
+        // Pena truncada: buffer termina com dígito ("...de 12 (doze) a 24") e
+        // próxima linha começa com '(' ("(vinte e quatro) anos."). Sem este
+        // join, a regex de pena perde a unidade e o número fica solto.
+        const bufLimpo = semMarcas(buf);
+        if (
+            primeiroChar === "(" &&
+            /\d\s*$/.test(bufLimpo) &&
+            buf.length < 250
+        ) {
             buf += " " + l;
             continue;
         }
@@ -519,6 +532,7 @@ export async function extrairHistoricoLei(leiConfig) {
             const penaAnt = parsearPena(textoAnterior);
             const penaNova = parsearPena(textoNovo);
             const tipo = classificarTipo(penaAnt, penaNova);
+            if (!tipo) continue; // pena idêntica → alteração redacional sem impacto penal
             const dataVigor = await obterDataVigor(anotacao);
 
             // Formata penas para o JSON (remove campos nulos)
@@ -596,10 +610,28 @@ async function main() {
         `\n[extrator_historico] Processando ${leisFiltradas.length} lei(s)…\n`,
     );
 
-    const saida = {};
-    for (const lei of leisFiltradas) {
-        const resultado = await extrairHistoricoLei(lei);
-        if (resultado) saida[lei.nomeArquivo] = resultado;
+    // Em modo --merge, prefere consumir o rascunho_historico.json existente
+    // (que pode ter correções manuais aplicadas pelo usuário). Re-extrair
+    // do zero perde essas correções silenciosamente.
+    const RASCUNHO_PATH = path.join(__dirname, "rascunho_historico.json");
+    let saida = {};
+    if (merge) {
+        try {
+            saida = JSON.parse(await fs.readFile(RASCUNHO_PATH, "utf-8"));
+            console.log(
+                `[merge] Consumindo rascunho_historico.json existente ` +
+                    `(${Object.keys(saida).length} lei(s) — pule '--merge' ` +
+                    `e use '--out' para regenerar antes)\n`,
+            );
+        } catch {
+            console.log("[merge] rascunho não encontrado — extraindo do zero\n");
+        }
+    }
+    if (Object.keys(saida).length === 0) {
+        for (const lei of leisFiltradas) {
+            const resultado = await extrairHistoricoLei(lei);
+            if (resultado) saida[lei.nomeArquivo] = resultado;
+        }
     }
 
     if (merge) {
@@ -613,12 +645,22 @@ async function main() {
             for (const [artKey, dadosNovos] of Object.entries(artsNovos)) {
                 const artExist = existente[nomeLei][artKey];
                 if (artExist) {
-                    // Adiciona apenas alterações auto-extraídas que ainda não existem
+                    // Normaliza variações de nome: "Lei 14.994/2024" e "Lei nº
+                    // 14.994/2024" devem ser identificadas como a mesma lei.
+                    // Sem isso, entradas auto duplicariam as manuais.
+                    const chaveLei = (nome) => {
+                        const m = (nome || "").match(
+                            /(\d[\d.]*)\s*[\/,].*?(\d{4})/,
+                        );
+                        return m
+                            ? "L" + m[1].replace(/\./g, "") + "/" + m[2]
+                            : nome;
+                    };
                     const leisManuais = new Set(
-                        (artExist.alteracoes ?? []).map((a) => a.lei),
+                        (artExist.alteracoes ?? []).map((a) => chaveLei(a.lei)),
                     );
                     const novas = (dadosNovos.alteracoes ?? []).filter(
-                        (a) => !leisManuais.has(a.lei),
+                        (a) => !leisManuais.has(chaveLei(a.lei)),
                     );
                     if (novas.length > 0) {
                         artExist.alteracoes = [

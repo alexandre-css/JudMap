@@ -1,0 +1,459 @@
+{
+  "numProcesso": "5005396-60.2020.8.24.0022",
+  "versaoSchema": 6,
+  "atualizadoEm": "04/08/2025",
+  "statusProcesso": "sentenciado_aguardando_recursos",
+  "competencia": "criminal_comum",
+  "grau1": {
+    "dataFato": "07/06/2020",
+    "dataRecebimentoDenuncia": "03/10/2020",
+    "dataSentenca": "04/08/2025",
+    "juizSentenciante": "EDISON ALVANIR ANJOS DE OLIVEIRA JUNIOR",
+    "varaOrigem": "Vara Criminal da Comarca de Curitibanos",
+    "idEventoSentenca": null,
+    "vitimas": [
+      "Thiago da Silva Tomas",
+      "Cáritas (Igreja Matriz)"
+    ],
+    "reus": [
+      {
+        "nome": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "defensoria_publica",
+        "situacaoPrisional": {
+          "estadoAtual": "liberdade",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": true,
+          "tipo": "primario_com_antecedentes",
+          "processosCitados": [
+            "5000579-16.2021.8.24.0022"
+          ]
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "art. 155, §1º, § 4º, I e IV, c/c art. 14, II, do CP",
+            "tipoCrime": "furto qualificado tentado",
+            "modalidadeConsumacao": "tentado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "art. 244-B do ECA",
+            "tipoCrime": "corrupção de menores",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_parcialmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "dano",
+            "dispositivoLegal": "art. 163, caput, do Código Penal",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "culpabilidade inerente ao tipo"
+                },
+                "antecedentes": {
+                  "valoracao": "negativa",
+                  "fundamento": "Registra maus antecedentes em razão da condenação no processo nº 5000579-16.2021.8.24.0022",
+                  "subcategoria": "condenacao_transitada_anterior"
+                },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "personalidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "motivos comuns ao tipo penal"
+                },
+                "circunstancias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As consequências foram normais à espécie"
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "O comportamento da vítima em nada contribuiu para a prática delitiva"
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 1,
+              "fracaoAumentoPorVetorial": "1/6",
+              "penaAbstrataMinima": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaAbstrataMaxima": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 1,
+                "dias": 5,
+                "totalDias": 35
+              },
+              "penaMultaAplicada": null
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [
+                "confissao_espontanea"
+              ],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": "1/6",
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 1,
+                "dias": 0,
+                "totalDias": 30
+              },
+              "penaMultaAplicada": null
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 1,
+                "dias": 0,
+                "totalDias": 30
+              },
+              "penaMultaAplicada": null
+            }
+          },
+          {
+            "tipoCrime": "corrupção de menores",
+            "dispositivoLegal": "art. 244-B do ECA",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "culpabilidade inerente ao tipo"
+                },
+                "antecedentes": {
+                  "valoracao": "negativa",
+                  "fundamento": "Registra maus antecedentes em razão da condenação no processo nº 5000579-16.2021.8.24.0022",
+                  "subcategoria": "condenacao_transitada_anterior"
+                },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "personalidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "motivos comuns ao tipo penal"
+                },
+                "circunstancias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As consequências foram normais à espécie"
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "O comportamento da vítima em nada contribuiu para a prática delitiva"
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 1,
+              "fracaoAumentoPorVetorial": "1/6",
+              "penaAbstrataMinima": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              },
+              "penaAbstrataMaxima": {
+                "anos": 4,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1460
+              },
+              "penaPrivativaAplicada": {
+                "anos": 1,
+                "meses": 2,
+                "dias": 0,
+                "totalDias": 425
+              },
+              "penaMultaAplicada": null
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [
+                "confissao_espontanea"
+              ],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": "1/6",
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 11,
+                "dias": 20,
+                "totalDias": 350
+              },
+              "penaMultaAplicada": null
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 11,
+                "dias": 20,
+                "totalDias": 350
+              },
+              "penaMultaAplicada": null
+            }
+          }
+        ],
+        "concursoDeCrimes": {
+          "regraAplicada": "material_art69",
+          "quantidadeCrimesConcorrentes": 2,
+          "fracaoExasperacao": "cumulacao_material",
+          "penaTotalPrivativa": {
+            "anos": 0,
+            "meses": 12,
+            "dias": 20,
+            "totalDias": 380
+          },
+          "penaTotalMulta": null
+        },
+        "execucaoDaPena": {
+          "detracao": {
+            "periodos": [],
+            "totalDiasDetraidos": null,
+            "consideradaParaRegime": null
+          },
+          "regimeInicial": "aberto",
+          "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
+          "substituicaoPRD": {
+            "concedida": true,
+            "quantidadePenas": 1,
+            "especiesAplicadas": [
+              "prestacao_servicos_comunidade"
+            ],
+            "fundamentoNegativa": null
+          },
+          "sursisPenal": {
+            "concedido": false,
+            "especieAplicada": null,
+            "prazoAnos": null,
+            "fundamentoNegativa": "inviável na espécie, considerando a prévia substituição da privação de liberdade por restrição de direitos"
+          },
+          "reparacaoDanosArt387IV": {
+            "fixada": false,
+            "valorMinimo": null,
+            "destinatario": null,
+            "houvePedidoExpresso": null
+          },
+          "custasProcessuais": {
+            "condenado": true,
+            "isencaoPorMiserabilidade": true
+          },
+          "prescricaoReconhecida": null,
+          "fundamentoPrescricao": null,
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": null,
+              "meses": null,
+              "fundamentoLegal": null,
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": null,
+                "dataInicio": null,
+                "dataFim": null
+              }
+            }
+          }
+        },
+        "calculoPrescricao": {
+          "pppAbstrataDataLimite": "07/06/2028",
+          "pppAbstrataConfigurada": false,
+          "pppRetroativaDataLimite": "03/10/2024",
+          "pppIntercorrenteDataLimite": "04/08/2029",
+          "ppeDataLimite": null,
+          "risco": "configurada"
+        }
+      }
+    ],
+    "recursosMP": {
+      "interposto": false,
+      "dataInterposicao": null,
+      "tempestive": null,
+      "objeto": []
+    },
+    "recursosDefesa": [],
+    "transitoAcusacao1G": null,
+    "embargosDeclaratorios1G": [],
+    "alegacoesGrau1": [
+      {
+        "tese": "desclassificacao",
+        "teseTextoLivre": "Desclassificação do delito de furto para o crime de dano (art. 163 do Código Penal)",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
+        "fase": "merito",
+        "resultado": "acolhida",
+        "fundamentoDecisao": "não há elementos que demonstrem o início da prática do núcleo do tipo penal de furto... sua conduta restringiu-se a atos preparatórios"
+      }
+    ],
+    "fundamentacaoCondenatoria": {
+      "materialidade": {
+        "demonstrada": true,
+        "elementosTextuais": [
+          "Laudo Pericial nº 9125.20.00153 constatou: Danos em uma porta metálica: amolgamento da esquadria e arrombamento de fechadura tipo simples"
+        ]
+      },
+      "autoriaPorReu": [
+        {
+          "reuNome": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
+          "demonstrada": true,
+          "elementosTextuais": [
+            "Na delegacia, Michel confessou que esteve no local em companhia de Robson",
+            "vítima quanto o policial reconheceram Michel e Robson como os autores do fato"
+          ]
+        }
+      ],
+      "meiosDeProva": [
+        {
+          "tipo": "pericia_corpo_delito",
+          "descricao": "Laudo Pericial nº 9125.20.00153",
+          "usadoPara": [
+            "materialidade"
+          ],
+          "reuRelacionado": null,
+          "questionadoPelaDefesa": null,
+          "resultado": "confirmou_materialidade",
+          "pericia_tipoExame": "direto",
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": "conclusivo_materialidade",
+          "interrogatorio_direito_silencio": null,
+          "confissao_tipo": null,
+          "confissao_momento": null,
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
+        },
+        {
+          "tipo": "confissao",
+          "descricao": "Confissão extrajudicial",
+          "usadoPara": [
+            "autoria",
+            "dosimetria"
+          ],
+          "reuRelacionado": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
+          "questionadoPelaDefesa": false,
+          "resultado": "confirmou_autoria",
+          "pericia_tipoExame": null,
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": null,
+          "interrogatorio_direito_silencio": "nao_exercido",
+          "confissao_tipo": "simples",
+          "confissao_momento": "extrajudicial",
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
+        },
+        {
+          "tipo": "declaracao_ofendido",
+          "descricao": "Depoimento de Thiago da Silva Tomas",
+          "usadoPara": [
+            "materialidade",
+            "autoria"
+          ],
+          "reuRelacionado": null,
+          "questionadoPelaDefesa": null,
+          "resultado": "confirmou_materialidade_e_autoria",
+          "pericia_tipoExame": null,
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": null,
+          "interrogatorio_direito_silencio": null,
+          "confissao_tipo": null,
+          "confissao_momento": null,
+          "testemunha_nome": "Thiago da Silva Tomas",
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": "direta_visual",
+          "testemunha_fase": "ambas",
+          "reconhecimento_modalidade": "presencial",
+          "reconhecimento_procedimentoLegal_Art226": "nao_informado",
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
+        }
+      ],
+      "meiosDeObtencaoDeProva": []
+    }
+  },
+  "grau2": null,
+  "metadados": {
+    "preenchidoPor": "ia",
+    "confianca": 0.95,
+    "observacoes": "Sentença de desclassificação de furto tentado para dano consumado e condenação por corrupção de menores.",
+    "acordoNaoPersecucaoPenal": "nao_aplicavel",
+    "suspensaoCondicionalProcesso": "nao_aplicavel",
+    "modeloIA": "google/gemini-3-flash-preview",
+    "tokensConsumidos": null,
+    "ultimaExtracaoIA": "2026-05-06T21:30:13.948Z"
+  }
+}

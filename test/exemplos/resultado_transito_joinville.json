@@ -1,7 +1,7 @@
 {
   "numProcesso": "5027353-30.2024.8.24.0038",
   "versaoSchema": 6,
-  "atualizadoEm": null,
+  "atualizadoEm": "28/07/2025",
   "statusProcesso": "sentenciado_aguardando_recursos",
   "competencia": "criminal_comum",
   "grau1": {
@@ -32,20 +32,20 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "Art. 304 do CTB",
-            "tipoCrime": "Omissão de socorro no trânsito",
+            "dispositivoLegal": "Art. 308, §1º, CTB",
+            "tipoCrime": "Participar de exibição de manobra perigosa com lesão grave",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           },
           {
-            "dispositivoLegal": "Art. 305 do CTB",
+            "dispositivoLegal": "Art. 304, CTB",
+            "tipoCrime": "Omissão de socorro",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "Art. 305, CTB",
             "tipoCrime": "Fuga do local do acidente",
-            "modalidadeConsumacao": "consumado",
-            "modalidadeSubjetiva": "doloso"
-          },
-          {
-            "dispositivoLegal": "Art. 308, §1º do CTB",
-            "tipoCrime": "Exibição de manobra perigosa com lesão grave",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           }
@@ -53,8 +53,8 @@
         "resultado": "condenado_integralmente",
         "crimesCondenado": [
           {
-            "tipoCrime": "Exibição de manobra perigosa com lesão grave",
-            "dispositivoLegal": "Art. 308, §1º do CTB",
+            "tipoCrime": "Participar de exibição de manobra perigosa com lesão grave",
+            "dispositivoLegal": "Art. 308, §1º, CTB",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
@@ -74,7 +74,7 @@
                 },
                 "personalidade": {
                   "valoracao": "neutra",
-                  "fundamento": "A personalidade não pode importar aumento da pena, pois o Direito Penal do Autor é incompatível"
+                  "fundamento": "a personalidade não pode importar aumento da pena, pois o Direito Penal do Autor é incompatível"
                 },
                 "motivos": {
                   "valoracao": "neutra",
@@ -91,10 +91,6 @@
                 "comportamentoVitima": {
                   "valoracao": "neutra",
                   "fundamento": "o comportamento da vítima não se aplica ao crime"
-                },
-                "naturezaQuantidadeDrogaArt42": {
-                  "valoracao": "nao_mencionada",
-                  "fundamento": null
                 }
               },
               "quantidadeVetoresNegativos": 0,
@@ -117,12 +113,7 @@
                 "dias": 0,
                 "totalDias": 1095
               },
-              "penaMultaAplicada": {
-                "diasMulta": null,
-                "valorDiaMulta": null,
-                "valorTotal": null,
-                "_nota_valorDiaMulta": null
-              }
+              "penaMultaAplicada": null
             },
             "fase2_PenaIntermediaria": {
               "agravantesReconhecidas": [],
@@ -156,8 +147,8 @@
             }
           },
           {
-            "tipoCrime": "Omissão de socorro no trânsito",
-            "dispositivoLegal": "Art. 304 do CTB",
+            "tipoCrime": "Omissão de socorro",
+            "dispositivoLegal": "Art. 304, CTB",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
@@ -174,7 +165,6 @@
                 "dias": 0,
                 "totalDias": 180
               },
-              "penaMultaAplicada": null,
               "penaAbstrataMinima": {
                 "anos": 0,
                 "meses": 6,
@@ -189,8 +179,6 @@
               }
             },
             "fase2_PenaIntermediaria": {
-              "agravantesReconhecidas": [],
-              "atenuantesReconhecidas": [],
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 6,
@@ -209,7 +197,7 @@
           },
           {
             "tipoCrime": "Fuga do local do acidente",
-            "dispositivoLegal": "Art. 305 do CTB",
+            "dispositivoLegal": "Art. 305, CTB",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
@@ -226,7 +214,6 @@
                 "dias": 0,
                 "totalDias": 180
               },
-              "penaMultaAplicada": null,
               "penaAbstrataMinima": {
                 "anos": 0,
                 "meses": 6,
@@ -241,8 +228,6 @@
               }
             },
             "fase2_PenaIntermediaria": {
-              "agravantesReconhecidas": [],
-              "atenuantesReconhecidas": [],
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 6,
@@ -265,28 +250,22 @@
           "quantidadeCrimesConcorrentes": 3,
           "fracaoExasperacao": "cumulacao_material",
           "penaTotalPrivativa": {
-            "anos": 3,
-            "meses": 12,
+            "anos": 4,
+            "meses": 0,
             "dias": 0,
-            "totalDias": 1455
+            "totalDias": 1460
           },
           "penaTotalMulta": null
         },
         "execucaoDaPena": {
           "detracao": {
-            "periodos": [
-              {
-                "modalidade": "suspensao_habilitacao_cautelar_ctb",
-                "dataInicio": null,
-                "dataFim": null,
-                "totalDias": 120
-              }
-            ],
+            "periodos": [],
             "totalDiasDetraidos": null,
             "consideradaParaRegime": true
           },
           "regimeInicial": "aberto",
           "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
           "substituicaoPRD": {
             "concedida": true,
             "quantidadePenas": 2,
@@ -304,7 +283,7 @@
           },
           "reparacaoDanosArt387IV": {
             "fixada": true,
-            "valorMinimo": "R$ 10.000,00",
+            "valorMinimo": "10.000,00",
             "destinatario": "vitima_direta",
             "houvePedidoExpresso": true
           },
@@ -314,7 +293,18 @@
           },
           "prescricaoReconhecida": null,
           "fundamentoPrescricao": null,
-          "sumulaViolada": null
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": true,
+              "meses": 4,
+              "fundamentoLegal": "ctb_art293_suspensao",
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": 4,
+                "dataInicio": "05/06/2022",
+                "dataFim": null
+              }
+            }
+          }
         },
         "calculoPrescricao": {
           "pppAbstrataDataLimite": "04/06/2034",
@@ -359,10 +349,9 @@
       "materialidade": {
         "demonstrada": true,
         "elementosTextuais": [
-          "boletim de ocorrência",
-          "relatório policial",
-          "laudo pericial n. 2022.01.06092.22.004-22",
-          "laudo pericial n. 2022.01.06092.22.005-94"
+          "boletim de ocorrência (evento 1, fls. 20/27)",
+          "laudo pericial n. 2022.01.06092.22.004-22 (evento 67, LAUDO2)",
+          "laudo pericial n. 2022.01.06092.22.005-94 (evento 69)"
         ]
       },
       "autoriaPorReu": [
@@ -379,7 +368,7 @@
       "meiosDeProva": [
         {
           "tipo": "declaracao_ofendido",
-          "descricao": "Depoimento de Elbert de Almeida Segatin",
+          "descricao": "Depoimento da vítima Elbert relatando a manobra de cavalo de pau e a colisão",
           "usadoPara": [
             "materialidade",
             "autoria"
@@ -389,24 +378,16 @@
         },
         {
           "tipo": "prova_testemunhal",
-          "descricao": "Depoimento de Danton Michel Garcias",
-          "usadoPara": [
-            "autoria"
-          ],
-          "reuRelacionado": "WILLIAN ANDRADE GESSER",
-          "resultado": "confirmou_autoria",
-          "testemunha_qualificacao": "compromissada",
-          "testemunha_tipoPercepcao": "direta_visual"
+          "testemunha_nome": "Danton Michel Garcias",
+          "testemunha_tipoPercepcao": "direta_visual",
+          "testemunha_fase": "ambas",
+          "resultado": "confirmou_materialidade_e_autoria"
         },
         {
           "tipo": "interrogatorio_acusado",
-          "descricao": "Interrogatório de Willian Andrade Gesser",
-          "usadoPara": [
-            "autoria"
-          ],
-          "reuRelacionado": "WILLIAN ANDRADE GESSER",
-          "resultado": "contradiz_versao_defesa",
-          "interrogatorio_direito_silencio": "nao_exercido"
+          "interrogatorio_direito_silencio": "nao_exercido",
+          "confissao_tipo": "parcial",
+          "observacoes": "Admitiu a colisão, mas negou a manobra de cavalo de pau e a intenção de fugir"
         }
       ],
       "meiosDeObtencaoDeProva": []
@@ -416,11 +397,11 @@
   "metadados": {
     "preenchidoPor": "ia",
     "confianca": 0.95,
-    "observacoes": "Extração focada na sentença de 1º grau. Penas somadas no concurso material totalizam 3 anos de reclusão e 1 ano de detenção.",
+    "observacoes": "Extração completa da sentença de primeiro grau. Penas de reclusão e detenção somadas pelo concurso material.",
     "acordoNaoPersecucaoPenal": "nao_aplicavel",
     "suspensaoCondicionalProcesso": "nao_aplicavel",
     "modeloIA": "google/gemini-3-flash-preview",
     "tokensConsumidos": null,
-    "ultimaExtracaoIA": "2026-05-06T17:30:47.330Z"
+    "ultimaExtracaoIA": "2026-05-06T21:16:12.381Z"
   }
 }

@@ -71,6 +71,7 @@ ANOTAÇÕES IMPORTANTES DO DICIONÁRIO:
 - compensacaoIntegral: true quando confissão compensa reincidência na fase 2.
 - recorrente: para réus específicos, usar "reu:Nome Completo".
 - teses dos recursos: usar valores padronizados do enum quando possível; complementar com texto livre quando necessário.
+- dataFato: a data do crime geralmente aparece na DENÚNCIA TRANSCRITA pelo juiz no início da sentença (relatório), em frases como "No dia DD de MMMM de AAAA, por volta das HHhMMmin..." ou "em data de DD/MM/AAAA, na cidade de...". SEMPRE procurar essa data no início do documento, não apenas no dispositivo. NÃO confundir com data de oferecimento da denúncia, data da prisão em flagrante, ou data da sentença.
 
 SCHEMA DE SAÍDA (preencher):
 ${SCHEMA_PROMPT}
