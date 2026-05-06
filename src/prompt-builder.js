@@ -1,39 +1,46 @@
-import { readFileSync } from 'fs';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+import { readFileSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 
 const __dir = dirname(fileURLToPath(import.meta.url));
-const ROOT = join(__dir, '..');
+const ROOT = join(__dir, "..");
 
-const SCHEMA  = JSON.parse(readFileSync(join(ROOT, 'sentenca_schema.json'), 'utf-8'));
-const ENUM    = JSON.parse(readFileSync(join(ROOT, 'enum.json'), 'utf-8'));
+const SCHEMA = JSON.parse(
+    readFileSync(join(ROOT, "sentenca_schema.json"), "utf-8"),
+);
+const ENUM = JSON.parse(readFileSync(join(ROOT, "enum.json"), "utf-8"));
 
 // Schema limpo para o prompt: remove _nota_ e campos que a IA não deve preencher
 const CAMPOS_NAO_IA = new Set([
-    'totalDias', 'tokensConsumidos', 'ultimaExtracaoIA',
-    'pppAbstrataDataLimite', 'pppAbstrataConfigurada',
-    'pppRetroativaDataLimite', 'pppIntercorrenteDataLimite',
-    'ppeDataLimite', 'sumulaViolada',
+    "totalDias",
+    "tokensConsumidos",
+    "ultimaExtracaoIA",
+    "pppAbstrataDataLimite",
+    "pppAbstrataConfigurada",
+    "pppRetroativaDataLimite",
+    "pppIntercorrenteDataLimite",
+    "ppeDataLimite",
+    "sumulaViolada",
 ]);
 
 function limparEnumParaPrompt(obj) {
-    if (!obj || typeof obj !== 'object') return obj;
+    if (!obj || typeof obj !== "object") return obj;
     if (Array.isArray(obj)) return obj;
     const out = {};
     for (const [k, v] of Object.entries(obj)) {
-        if (k.startsWith('_')) continue;
+        if (k.startsWith("_")) continue;
         out[k] = limparEnumParaPrompt(v);
     }
     return out;
 }
 
 function limparSchemaParaPrompt(obj) {
-    if (!obj || typeof obj !== 'object') return obj;
+    if (!obj || typeof obj !== "object") return obj;
     if (Array.isArray(obj)) return obj.map(limparSchemaParaPrompt);
     const out = {};
     for (const [k, v] of Object.entries(obj)) {
         if (CAMPOS_NAO_IA.has(k)) {
-            out[k] = '__calculado_pelo_sistema__';
+            out[k] = "__calculado_pelo_sistema__";
         } else {
             out[k] = limparSchemaParaPrompt(v);
         }
@@ -42,9 +49,9 @@ function limparSchemaParaPrompt(obj) {
 }
 
 const SCHEMA_PROMPT = JSON.stringify(limparSchemaParaPrompt(SCHEMA), null, 2);
-const ENUM_PROMPT   = JSON.stringify(limparEnumParaPrompt(ENUM), null, 2);
+const ENUM_PROMPT = JSON.stringify(limparEnumParaPrompt(ENUM), null, 2);
 
-const SYSTEM_TEXT = `Você é um extrator especializado em dosimetria penal brasileira.
+const SYSTEM_TEXT = `Você é um extrator especializado em análise de sentenças judiciais penais brasileiras.
 
 Sua única tarefa: analisar o texto jurídico fornecido e preencher o schema JSON abaixo com as informações encontradas.
 
@@ -85,12 +92,13 @@ function truncarTexto(texto, maxChars = 60_000) {
  * @param {string} textoSentenca  - Texto extraído da sentença/acórdão
  * @param {'grau1'|'grau2'|'completo'} grau - Contexto de extração
  */
-export function buildPrompt(textoSentenca, grau = 'grau1') {
-    const instrucaoGrau = grau === 'grau2'
-        ? 'Foco: preencher campos de grau2 (recursos, parecerPGJ, acórdão). Preservar dados de grau1 que já existam.'
-        : grau === 'completo'
-        ? 'Preencher todos os campos disponíveis (grau1 e grau2).'
-        : 'Foco: preencher campos de grau1 (sentença de primeiro grau). Deixar grau2 com null.';
+export function buildPrompt(textoSentenca, grau = "grau1") {
+    const instrucaoGrau =
+        grau === "grau2"
+            ? "Foco: preencher campos de grau2 (recursos, parecerPGJ, acórdão). Preservar dados de grau1 que já existam."
+            : grau === "completo"
+              ? "Preencher todos os campos disponíveis (grau1 e grau2)."
+              : "Foco: preencher campos de grau1 (sentença de primeiro grau). Deixar grau2 com null.";
 
     const userText = `${instrucaoGrau}
 
