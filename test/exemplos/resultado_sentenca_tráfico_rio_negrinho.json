@@ -8,24 +8,24 @@
     "dataFato": "11/07/2025",
     "dataRecebimentoDenuncia": null,
     "dataSentenca": "18/02/2026",
-    "juizSentenciante": "Rodrigo Clímaco José",
+    "juizSentenciante": "RODRIGO CLIMACO JOSE",
     "varaOrigem": "2ª Vara da Comarca de Rio Negrinho",
     "idEventoSentenca": null,
     "vitimas": [
       {
         "nome": "A Coletividade",
         "vulnerabilidade": "coletividade",
-        "relacaoComReu": null
+        "relacaoComReu": "desconhecido"
       }
     ],
     "reus": [
       {
-        "nome": "Kelly Floriano Vitencour",
+        "nome": "KELLY FLORIANO VITENCOUR",
         "cpfMascarado": null,
         "dataNascimento": null,
-        "tipoDefesa": "privada",
+        "tipoDefesa": "nao_informado",
         "situacaoPrisional": {
-          "estadoAtual": "liberdade",
+          "estadoAtual": "medida_cautelar_diversa",
           "tipoCustodia": null,
           "dataInicioCustodia": null
         },
@@ -36,8 +36,8 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "art. 33, caput, Lei 11.343/2006",
-            "tipoCrime": "Tráfico de drogas",
+            "dispositivoLegal": "art. 33, caput, da Lei n. 11.343/2006",
+            "tipoCrime": "tráfico de drogas",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           }
@@ -45,19 +45,19 @@
         "resultado": "condenado_integralmente",
         "crimesCondenado": [
           {
-            "tipoCrime": "Tráfico de drogas",
-            "dispositivoLegal": "art. 33, caput e §4º, Lei 11.343/2006",
+            "tipoCrime": "tráfico de drogas",
+            "dispositivoLegal": "art. 33, caput e § 4º, da Lei n. 11.343/2006",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "não se afasta da normalidade à espécie"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
-                  "fundamento": null,
+                  "fundamento": "não há antecedentes, assim entendidos como sentença condenatória que não surta efeitos de reincidência",
                   "subcategoria": null
                 },
                 "condutaSocial": {
@@ -74,18 +74,18 @@
                 },
                 "circunstancias": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "as circunstâncias não fugiram do padrão"
                 },
                 "consequencias": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "as consequências do crime são normais ao tipo"
                 },
                 "comportamentoVitima": {
-                  "valoracao": null,
-                  "fundamento": null
+                  "valoracao": "neutra",
+                  "fundamento": "por se tratar de delito praticado contra a coletividade, resta prejudicado o exame do comportamento da vítima"
                 },
                 "naturezaQuantidadeDrogaArt42": {
-                  "valoracao": null,
+                  "valoracao": "nao_mencionada",
                   "fundamento": null
                 }
               },
@@ -111,8 +111,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 500,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             },
             "fase2_PenaIntermediaria": {
@@ -130,8 +131,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 500,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             },
             "fase3_PenaDefinitiva": {
@@ -151,8 +153,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 417,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             }
           }
@@ -169,7 +172,7 @@
           },
           "penaTotalMulta": {
             "diasMulta": 417,
-            "valorDiaMulta": null,
+            "valorDiaMulta": "1/30",
             "valorTotal": null
           }
         },
@@ -186,22 +189,41 @@
             "concedida": false,
             "quantidadePenas": null,
             "especiesAplicadas": [],
-            "fundamentoNegativa": "pena superior a 4 anos (CP, art. 44, I)"
+            "fundamentoNegativa": "Em se tratando de crime doloso com pena privativa de liberdade superior a 4 anos (CP, art. 44, I), inviável a substituição"
           },
           "sursisPenal": {
             "concedido": false,
             "especieAplicada": null,
             "prazoAnos": null,
-            "fundamentoNegativa": "pena ultrapassa 2 anos",
+            "fundamentoNegativa": "Como a reprimenda privativa de liberdade ultrapassa os 2 anos, não se cogita da suspensão condicional da pena",
             "condicoes": []
           },
           "condicoesRegimeAberto": [],
-          "bensApreendidos": [],
+          "bensApreendidos": [
+            {
+              "descricao": "veículo Chevrolet/Celta, placas AVC0H37",
+              "destinacao": null,
+              "fundamentoLegal": null,
+              "ehInstrumentoCrime": true
+            },
+            {
+              "descricao": "aparelho celular",
+              "destinacao": null,
+              "fundamentoLegal": null,
+              "ehInstrumentoCrime": null
+            },
+            {
+              "descricao": "R$ 22,85 em espécie",
+              "destinacao": null,
+              "fundamentoLegal": null,
+              "ehInstrumentoCrime": null
+            }
+          ],
           "statusLiberdadeRecursal": {
             "concedidoLiberdade": true,
-            "impostoCautelarDiversa": null,
-            "manidaPrisaoPreventiva": null,
-            "fundamento": null
+            "impostoCautelarDiversa": true,
+            "manidaPrisaoPreventiva": false,
+            "fundamento": "permaneceu_solto_durante_processo"
           },
           "reparacaoDanosArt387IV": {
             "fixada": false,
@@ -211,10 +233,22 @@
           },
           "custasProcessuais": {
             "condenado": true,
-            "isencaoPorMiserabilidade": false
+            "isencaoPorMiserabilidade": null
           },
           "prescricaoReconhecida": null,
-          "fundamentoPrescricao": null
+          "fundamentoPrescricao": null,
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": null,
+              "meses": null,
+              "fundamentoLegal": null,
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": null,
+                "dataInicio": null,
+                "dataFim": null
+              }
+            }
+          }
         },
         "calculoPrescricao": {
           "pppAbstrataDataLimite": "11/07/2045",
@@ -226,10 +260,10 @@
         }
       },
       {
-        "nome": "Vabili Dariane de Moraes",
+        "nome": "VABILI DARIANE DE MORAES",
         "cpfMascarado": null,
         "dataNascimento": null,
-        "tipoDefesa": "privada",
+        "tipoDefesa": "nao_informado",
         "situacaoPrisional": {
           "estadoAtual": "liberdade",
           "tipoCustodia": null,
@@ -242,8 +276,8 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "art. 33, caput, Lei 11.343/2006",
-            "tipoCrime": "Tráfico de drogas",
+            "dispositivoLegal": "art. 33, caput, da Lei n. 11.343/2006",
+            "tipoCrime": "tráfico de drogas",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           }
@@ -251,19 +285,19 @@
         "resultado": "condenado_integralmente",
         "crimesCondenado": [
           {
-            "tipoCrime": "Tráfico de drogas",
-            "dispositivoLegal": "art. 33, caput e §4º, Lei 11.343/2006",
+            "tipoCrime": "tráfico de drogas",
+            "dispositivoLegal": "art. 33, caput e § 4º, da Lei n. 11.343/2006",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "não se afasta da normalidade à espécie"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
-                  "fundamento": null,
+                  "fundamento": "não há antecedentes, assim entendidos como sentença condenatória que não surta efeitos de reincidência",
                   "subcategoria": null
                 },
                 "condutaSocial": {
@@ -276,22 +310,22 @@
                 },
                 "motivos": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "o motivo do crime foi o lucro por meio do tráfico de drogas, mas deixo de considerar por ser inerente ao tipo"
                 },
                 "circunstancias": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "as circunstâncias não fugiram do padrão"
                 },
                 "consequencias": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "as consequências do crime são normais ao tipo"
                 },
                 "comportamentoVitima": {
-                  "valoracao": null,
-                  "fundamento": null
+                  "valoracao": "neutra",
+                  "fundamento": "por se tratar de delito praticado contra a coletividade, resta prejudicado o exame do comportamento da vítima"
                 },
                 "naturezaQuantidadeDrogaArt42": {
-                  "valoracao": null,
+                  "valoracao": "nao_mencionada",
                   "fundamento": null
                 }
               },
@@ -317,8 +351,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 500,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             },
             "fase2_PenaIntermediaria": {
@@ -336,8 +371,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 500,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             },
             "fase3_PenaDefinitiva": {
@@ -357,8 +393,9 @@
               },
               "penaMultaAplicada": {
                 "diasMulta": 417,
-                "valorDiaMulta": null,
-                "valorTotal": null
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             }
           }
@@ -375,7 +412,7 @@
           },
           "penaTotalMulta": {
             "diasMulta": 417,
-            "valorDiaMulta": null,
+            "valorDiaMulta": "1/30",
             "valorTotal": null
           }
         },
@@ -392,13 +429,13 @@
             "concedida": false,
             "quantidadePenas": null,
             "especiesAplicadas": [],
-            "fundamentoNegativa": "pena superior a 4 anos (CP, art. 44, I)"
+            "fundamentoNegativa": "Em se tratando de crime doloso com pena privativa de liberdade superior a 4 anos (CP, art. 44, I), inviável a substituição"
           },
           "sursisPenal": {
             "concedido": false,
             "especieAplicada": null,
             "prazoAnos": null,
-            "fundamentoNegativa": "pena ultrapassa 2 anos",
+            "fundamentoNegativa": "Como a reprimenda privativa de liberdade ultrapassa os 2 anos, não se cogita da suspensão condicional da pena",
             "condicoes": []
           },
           "condicoesRegimeAberto": [],
@@ -406,8 +443,8 @@
           "statusLiberdadeRecursal": {
             "concedidoLiberdade": true,
             "impostoCautelarDiversa": null,
-            "manidaPrisaoPreventiva": null,
-            "fundamento": null
+            "manidaPrisaoPreventiva": false,
+            "fundamento": "permaneceu_solto_durante_processo"
           },
           "reparacaoDanosArt387IV": {
             "fixada": false,
@@ -417,10 +454,22 @@
           },
           "custasProcessuais": {
             "condenado": true,
-            "isencaoPorMiserabilidade": false
+            "isencaoPorMiserabilidade": null
           },
           "prescricaoReconhecida": null,
-          "fundamentoPrescricao": null
+          "fundamentoPrescricao": null,
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": null,
+              "meses": null,
+              "fundamentoLegal": null,
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": null,
+                "dataInicio": null,
+                "dataFim": null
+              }
+            }
+          }
         },
         "calculoPrescricao": {
           "pppAbstrataDataLimite": "11/07/2045",
@@ -433,7 +482,7 @@
       }
     ],
     "recursosMP": {
-      "interposto": null,
+      "interposto": false,
       "dataInterposicao": null,
       "tempestivo": null,
       "objeto": []
@@ -443,59 +492,66 @@
     "embargosDeclaratorios1G": [],
     "alegacoesGrau1": [
       {
-        "tese": "nulidade_ausencia_aviso_miranda",
-        "teseTextoLivre": "Nulidade do interrogatório policial realizado sem advogado",
-        "suscitadaPor": "defesa",
-        "reuRelacionado": "Kelly Floriano Vitencour",
+        "tese": "absolvicao_insuficiencia_provas",
+        "teseTextoLivre": "inexiste a presença de provas acerca da materialidade do delito e da autoria imputada à denunciada Vabili",
+        "suscitadaPor": "defesa_especifica_reu",
+        "reuRelacionado": "VABILI DARIANE DE MORAES",
         "fase": "merito",
         "resultado": "rejeitada",
-        "fundamentoDecisao": "Ausência de advogado no interrogatório policial não gera nulidade automática; interrogatório judicial realizado com observância do contraditório"
+        "fundamentoDecisao": "julgo procedente a pretensão punitiva contida na denúncia"
       },
       {
-        "tese": "absolvicao_atipicidade",
-        "teseTextoLivre": "Absolvição por insuficiência probatória",
+        "tese": "nulidade_processual",
+        "teseTextoLivre": "quebra na cadeia de custódia",
         "suscitadaPor": "defesa",
-        "reuRelacionado": "Vabili Dariane de Moraes",
-        "fase": "merito",
+        "reuRelacionado": null,
+        "fase": "preliminar",
         "resultado": "rejeitada",
-        "fundamentoDecisao": "Autoria e materialidade demonstradas pela prova pericial e testemunhal"
+        "fundamentoDecisao": "a Defesa não demonstrou qualquer prejuízo que pudesse comprometer a confiabilidade da prova coletada"
+      },
+      {
+        "tese": "nulidade_ausencia_aviso_miranda",
+        "teseTextoLivre": "ausência do aviso de Miranda e da custódia irregular",
+        "suscitadaPor": "defesa_especifica_reu",
+        "reuRelacionado": "KELLY FLORIANO VITENCOUR",
+        "fase": "preliminar",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "a voz de prisão e os direitos das acusadas foram devidamente cientificados a elas"
       }
     ],
     "fundamentacaoCondenatoria": {
       "materialidade": {
         "demonstrada": true,
         "elementosTextuais": [
-          "Laudo de constatação provisória",
-          "Laudo definitivo de entorpecentes — substância identificada como cocaína (30g)"
+          "auto de apreensão de fl. 10 do evento 1 e auto de constatação do evento 1.3",
+          "uma porção petrificada com massa bruta de 530,10g de cocaína e uma porção em pó com massa bruta de 531,6g de cocaína"
         ]
       },
       "autoriaPorReu": [
         {
-          "reuNome": "Kelly Floriano Vitencour",
+          "reuNome": "KELLY FLORIANO VITENCOUR",
           "demonstrada": true,
           "elementosTextuais": [
-            "Flagrante lavrado pelos policiais militares",
-            "Substância encontrada em sua residência"
+            "policiais localizaram no interior do veículo as drogas mencionadas"
           ]
         },
         {
-          "reuNome": "Vabili Dariane de Moraes",
+          "reuNome": "VABILI DARIANE DE MORAES",
           "demonstrada": true,
           "elementosTextuais": [
-            "Flagrante lavrado pelos policiais militares",
-            "Conduta de guarda confirmada pelas testemunhas"
+            "as denunciadas Kelly Floriano Vitencour e Vabili Dariane de Moraes, dolosamente e cientes da ilicitude de suas condutas, transportavam"
           ]
         }
       ],
       "meiosDeProva": [
         {
           "tipo": "pericia_corpo_delito",
-          "descricao": "Laudo definitivo de entorpecentes n. 1234/2025 — substância identificada como cocaína, 30g",
+          "descricao": "auto de constatação de substância entorpecente",
           "usadoPara": [
             "materialidade"
           ],
           "reuRelacionado": null,
-          "questionadoPelaDefesa": false,
+          "questionadoPelaDefesa": true,
           "resultado": "confirmou_materialidade",
           "pericia_tipoExame": "direto",
           "pericia_cadeiaPreservada": true,
@@ -513,17 +569,18 @@
           "documento_cadeiaDigitalAdequada": null,
           "indicio_fatoBase": null,
           "indicio_fatoInferido": null,
-          "observacoes": null
+          "observacoes": "Defesa alegou quebra de cadeia de custódia por lacre violado, mas juiz manteve validade."
         },
         {
           "tipo": "prova_testemunhal",
-          "descricao": "Depoimento dos policiais militares que realizaram o flagrante",
+          "descricao": "depoimentos dos policiais militares",
           "usadoPara": [
-            "autoria"
+            "autoria",
+            "materialidade"
           ],
           "reuRelacionado": null,
-          "questionadoPelaDefesa": true,
-          "resultado": "confirmou_autoria",
+          "questionadoPelaDefesa": null,
+          "resultado": "confirmou_materialidade_e_autoria",
           "pericia_tipoExame": null,
           "pericia_cadeiaPreservada": null,
           "pericia_conclusao": null,
@@ -533,63 +590,47 @@
           "testemunha_nome": null,
           "testemunha_qualificacao": "compromissada",
           "testemunha_tipoPercepcao": "direta_visual",
-          "testemunha_fase": "apenas_juizo",
+          "testemunha_fase": "ambas",
           "reconhecimento_modalidade": null,
           "reconhecimento_procedimentoLegal_Art226": null,
           "documento_tipo": null,
           "documento_cadeiaDigitalAdequada": null,
           "indicio_fatoBase": null,
           "indicio_fatoInferido": null,
-          "observacoes": "Depoimentos coerentes entre si e com o auto de prisão em flagrante"
+          "observacoes": null
         }
       ],
-      "meiosDeObtencaoDeProva": []
+      "meiosDeObtencaoDeProva": [
+        {
+          "tipo": "busca_apreensao_veicular",
+          "descricao": "abordagem do veículo Celta no pátio do posto",
+          "autorizacaoJudicial": "sem_mandado_fundada_suspeita",
+          "serendipidade": false,
+          "questionadoPelaDefesa": true,
+          "resultado": "validado",
+          "colaboracao_homologada": null,
+          "colaboracao_corroboradaFonteAutonoma": null,
+          "observacoes": "Polícia detinha informação de que o veículo era usado para transporte de drogas."
+        }
+      ]
     }
   },
   "grau2": {
     "recursos": [],
-    "parecerPGJ": {
-      "teor": null,
-      "data": null,
-      "idEventoParecer": null,
-      "argumentosPrincipais": []
-    },
+    "parecerPGJ": null,
     "embargosDeclaratorios2G": [],
-    "acordao": {
-      "data": null,
-      "relator": null,
-      "redatorAcordao": null,
-      "orgaoJulgador": null,
-      "votacao": null,
-      "ementa": null,
-      "resultadoPorRecurso": [],
-      "dosimetriaModificada": null,
-      "novaPenaTotal": {
-        "anos": null,
-        "meses": null,
-        "dias": null,
-        "totalDias": null
-      },
-      "novoRegimeInicial": null,
-      "sumulasETemasCitados": [],
-      "transitoEmJulgadoFinal": null
-    },
+    "acordao": null,
     "transitoAcusacao2G": null,
-    "prescricaoAReconhecer": {
-      "configurada": null,
-      "especie": null,
-      "fundamento": null,
-      "dataLimitePrescricional": null
-    }
+    "prescricaoAReconhecer": null
   },
   "metadados": {
     "preenchidoPor": "ia",
-    "confianca": 0.91,
-    "observacoes": "Sentença de 1G. Dois réus com dosimetria idêntica. Tráfico privilegiado (art.33 §4º) com fração 1/6. Ausência de data de recebimento da denúncia no texto.",
+    "confianca": 0.95,
+    "observacoes": "Extração completa da sentença de primeiro grau. Identificadas duas rés com dosimetrias idênticas, exceto pela fundamentação da multa. Preliminares de cadeia de custódia e aviso de Miranda detalhadas.",
     "acordoNaoPersecucaoPenal": "nao_aplicavel",
     "suspensaoCondicionalProcesso": "nao_aplicavel",
-    "modeloIA": "simulado/manual",
+    "modeloIA": "google/gemini-3-flash-preview",
     "tokensConsumidos": null,
-    "ultimaExtracaoIA": "2026-05-06T23:01:06.920Z"
+    "ultimaExtracaoIA": "2026-05-06T23:04:10.857Z"
   }
 }

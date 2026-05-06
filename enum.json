@@ -1,6 +1,6 @@
 {
-    "_comentario": "Dicionário de dados JudMap v6. Todos os campos categóricos devem usar EXCLUSIVAMENTE os valores listados aqui. Campos não preenchidos: sempre null, nunca string vazia ou 0.",
-    "_versao": 6,
+    "_comentario": "Dicionário de dados JudMap v7. Todos os campos categóricos devem usar EXCLUSIVAMENTE os valores listados aqui. Campos não preenchidos: sempre null, nunca string vazia ou 0.",
+    "_versao": 7,
 
     "statusProcesso": [
         "em_andamento_1g",
@@ -731,6 +731,66 @@
 
         "_nota_valorDiaMulta": "Registrar como fração do salário mínimo quando a sentença assim determinar (ex: '1/30', '1/20', '1/10', '1', '5'). Registrar como string com valor em reais quando explicitamente fixado (ex: 'R$ 100,00'). Nunca converter fração para decimal."
     },
+
+    "vitima_vulnerabilidade": [
+        "crianca",
+        "adolescente",
+        "idoso",
+        "mulher_violencia_domestica",
+        "deficiente_fisico_mental",
+        "gestante",
+        "agente_publico_em_servico",
+        "coletividade",
+        "pessoa_juridica",
+        "nenhuma",
+        null
+    ],
+
+    "vitima_relacaoComReu": [
+        "conjuge_companheiro",
+        "ex_conjuge_companheiro",
+        "ascendente",
+        "descendente",
+        "irmao",
+        "outro_familiar",
+        "agente_publico",
+        "conhecido_sem_vinculo",
+        "desconhecido",
+        null
+    ],
+
+    "bensApreendidos_destinacao": [
+        "restituicao_reu",
+        "restituicao_terceiro_boa_fe",
+        "perdimento_uniao",
+        "encaminhamento_exercito",
+        "encaminhamento_policia_federal",
+        "incineracao",
+        "destruicao",
+        "permanece_apreendido_pendente_decisao",
+        null
+    ],
+
+    "_nota_bensApreendidos": "Instrumentos de crime têm destinação obrigatória: armas/munições ao Exército (Resolução GP/CGJ 9), drogas para incineração. Celulares, dinheiro e veículos podem ter restituição se procedência lícita comprovada.",
+
+    "prd_especie_beneficiario": [
+        "vitima_direta",
+        "fundo_publico",
+        "entidade_assistencial",
+        "erario",
+        "instituicao_indicada_juiz",
+        null
+    ],
+
+    "statusLiberdadeRecursal_fundamento": [
+        "garantia_ordem_publica",
+        "garantia_aplicacao_lei_penal",
+        "conveniencia_instrucao_criminal",
+        "garantia_ordem_economica",
+        "permaneceu_solto_durante_processo",
+        "primario_e_bons_antecedentes",
+        null
+    ],
 
     "_regrasGerais": {
         "valoresNulos": "Sempre null. Nunca string vazia '', nunca 0, nunca 'N/A', nunca 'não informado'.",

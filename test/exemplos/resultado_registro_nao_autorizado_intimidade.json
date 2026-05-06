@@ -1,7 +1,7 @@
 {
   "numProcesso": "5013781-34.2023.8.24.0008",
-  "versaoSchema": 6,
-  "atualizadoEm": "20/06/2025",
+  "versaoSchema": 7,
+  "atualizadoEm": null,
   "statusProcesso": "sentenciado_aguardando_recursos",
   "competencia": "criminal_comum",
   "grau1": {
@@ -12,7 +12,11 @@
     "varaOrigem": "2ª Vara Criminal da Comarca de Blumenau",
     "idEventoSentenca": null,
     "vitimas": [
-      "V. de N. Q. da C."
+      {
+        "nome": "V. de N. Q. da C.",
+        "vulnerabilidade": "nenhuma",
+        "relacaoComReu": "conhecido_sem_vinculo"
+      }
     ],
     "reus": [
       {
@@ -32,36 +36,36 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "art. 129, caput, do Código Penal",
-            "tipoCrime": "Lesão Corporal",
+            "dispositivoLegal": "art. 129, caput, CP",
+            "tipoCrime": "lesao_corporal",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           },
           {
-            "dispositivoLegal": "art. 147 do Código Penal",
-            "tipoCrime": "Ameaça",
+            "dispositivoLegal": "art. 147, CP",
+            "tipoCrime": "ameaca",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           },
           {
-            "dispositivoLegal": "art. 216-B do Código Penal",
-            "tipoCrime": "Registro não autorizado da intimidade sexual",
+            "dispositivoLegal": "art. 216-B, CP",
+            "tipoCrime": "registro_nao_autorizado_intimidade_sexual",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           }
         ],
-        "resultado": "condenado_integralmente",
+        "resultado": "condenado_parcialmente",
         "crimesCondenado": [
           {
-            "tipoCrime": "Lesão Corporal",
-            "dispositivoLegal": "art. 129, caput, do Código Penal",
+            "tipoCrime": "lesao_corporal",
+            "dispositivoLegal": "art. 129, caput, CP",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": "considero que a culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie."
+                  "fundamento": "culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
@@ -121,7 +125,7 @@
                 "diasMulta": null,
                 "valorDiaMulta": null,
                 "valorTotal": null,
-                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                "_nota_valorDiaMulta": null
               }
             },
             "fase2_PenaIntermediaria": {
@@ -141,7 +145,7 @@
                 "diasMulta": null,
                 "valorDiaMulta": null,
                 "valorTotal": null,
-                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                "_nota_valorDiaMulta": null
               }
             },
             "fase3_PenaDefinitiva": {
@@ -161,38 +165,57 @@
                 "diasMulta": null,
                 "valorDiaMulta": null,
                 "valorTotal": null,
-                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                "_nota_valorDiaMulta": null
               }
             }
           },
           {
-            "tipoCrime": "Ameaça",
-            "dispositivoLegal": "art. 147, caput, do Código Penal",
+            "tipoCrime": "ameaca",
+            "dispositivoLegal": "art. 147, caput, CP",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": "considero que a culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie."
+                  "fundamento": "culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
                   "fundamento": "O réu não registra antecedentes criminais.",
                   "subcategoria": null
                 },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
                 "personalidade": {
                   "valoracao": "neutra",
                   "fundamento": "Não há elementos para aferir a personalidade do réu."
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "O motivo e as consequências são próprias do tipo."
+                },
+                "circunstancias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As circunstâncias do crime foram normais à espécie."
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "O motivo e as consequências são próprias do tipo."
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "O comportamento da vítima em nada contribuiu para a prática do crime."
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
                 }
               },
               "quantidadeVetoresNegativos": 0,
-              "penaPrivativaAplicada": {
-                "anos": 0,
-                "meses": 1,
-                "dias": 0,
-                "totalDias": 30
-              },
+              "fracaoAumentoPorVetorial": null,
               "penaAbstrataMinima": {
                 "anos": 0,
                 "meses": 6,
@@ -204,50 +227,108 @@
                 "meses": 0,
                 "dias": 0,
                 "totalDias": 730
+              },
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 1,
+                "dias": 0,
+                "totalDias": 30
+              },
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
               }
             },
             "fase2_PenaIntermediaria": {
               "agravantesReconhecidas": [],
               "atenuantesReconhecidas": [],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 1,
                 "dias": 0,
                 "totalDias": 30
+              },
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
               }
             },
             "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 1,
                 "dias": 0,
                 "totalDias": 30
+              },
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
               }
             }
           },
           {
-            "tipoCrime": "Registro não autorizado da intimidade sexual",
-            "dispositivoLegal": "art. 216-B c/c art. 14, II, do Código Penal",
+            "tipoCrime": "registro_nao_autorizado_intimidade_sexual",
+            "dispositivoLegal": "art. 216-B c/c art. 14, II, CP",
             "modalidadeConsumacao": "tentado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": "considero que a culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie."
+                  "fundamento": "culpabilidade, compreendida como a reprovabilidade social da conduta, é normal à espécie"
+                },
+                "antecedentes": {
+                  "valoracao": "neutra",
+                  "fundamento": "O réu não registra antecedentes criminais.",
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                },
+                "personalidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "Não há elementos para aferir a personalidade do réu."
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "O motivo e as consequências são próprias do tipo."
+                },
+                "circunstancias": {
+                  "valoracao": "neutra",
+                  "fundamento": "As circunstâncias do crime foram normais à espécie."
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "O motivo e as consequências são próprias do tipo."
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "O comportamento da vítima em nada contribuiu para a prática do crime."
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
                 }
               },
-              "penaPrivativaAplicada": {
-                "anos": 0,
-                "meses": 6,
-                "dias": 0,
-                "totalDias": 180
-              },
-              "penaMultaAplicada": {
-                "diasMulta": 10,
-                "valorDiaMulta": "1/30",
-                "valorTotal": null
-              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
               "penaAbstrataMinima": {
                 "anos": 0,
                 "meses": 6,
@@ -259,17 +340,43 @@
                 "meses": 0,
                 "dias": 0,
                 "totalDias": 365
-              }
-            },
-            "fase2_PenaIntermediaria": {
+              },
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 6,
                 "dias": 0,
                 "totalDias": 180
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 10,
+                "valorDiaMulta": "1/30",
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             },
             "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
               "causasDiminuicaoReconhecidas": [
                 "art14_II_tentativa"
               ],
@@ -285,7 +392,8 @@
               "penaMultaAplicada": {
                 "diasMulta": 4,
                 "valorDiaMulta": "1/30",
-                "valorTotal": null
+                "valorTotal": null,
+                "_nota_valorDiaMulta": "1/30 do salário mínimo"
               }
             }
           }
@@ -319,13 +427,26 @@
             "concedida": false,
             "quantidadePenas": null,
             "especiesAplicadas": [],
-            "fundamentoNegativa": "uma vez que não estão preenchidas as condições legais, mormente a prevista no art. 44, I, do Código Penal, visto que dois delitos foi praticado mediante violência/grave ameaça à pessoa."
+            "fundamentoNegativa": "não estão preenchidas as condições legais, mormente a prevista no art. 44, I, do Código Penal, visto que dois delitos foi praticado mediante violência/grave ameaça à pessoa."
           },
           "sursisPenal": {
             "concedido": true,
             "especieAplicada": "simples_art77",
             "prazoAnos": 2,
-            "fundamentoNegativa": null
+            "fundamentoNegativa": null,
+            "condicoes": [
+              "proibição de frequentar determinados lugares",
+              "proibição de ausentar-se da comarca onde reside, sem autorização do juiz",
+              "comparecimento pessoal e obrigatório a juízo, mensalmente, para informar e justificar suas atividades"
+            ]
+          },
+          "condicoesRegimeAberto": [],
+          "bensApreendidos": [],
+          "statusLiberdadeRecursal": {
+            "concedidoLiberdade": true,
+            "impostoCautelarDiversa": null,
+            "manidaPrisaoPreventiva": null,
+            "fundamento": null
           },
           "reparacaoDanosArt387IV": {
             "fixada": false,
@@ -350,20 +471,20 @@
                 "dataFim": null
               }
             }
+          },
+          "calculoPrescricao": {
+            "pppAbstrataDataLimite": null,
+            "pppAbstrataConfigurada": null,
+            "pppRetroativaDataLimite": null,
+            "pppIntercorrenteDataLimite": null,
+            "ppeDataLimite": null,
+            "risco": "sem_risco"
           }
-        },
-        "calculoPrescricao": {
-          "pppAbstrataDataLimite": "15/02/2030",
-          "pppAbstrataConfigurada": false,
-          "pppRetroativaDataLimite": "20/06/2026",
-          "pppIntercorrenteDataLimite": "20/06/2028",
-          "ppeDataLimite": null,
-          "risco": "iminente"
         }
       }
     ],
     "recursosMP": {
-      "interposto": false,
+      "interposto": null,
       "dataInterposicao": null,
       "tempestivo": null,
       "objeto": []
@@ -379,7 +500,7 @@
         "reuRelacionado": "TIAGO OLIVEIRA DA SILVA",
         "fase": "merito",
         "resultado": "rejeitada",
-        "fundamentoDecisao": "As provas carreadas aos autos, destarte, são uníssonas, firmes e harmoniosas no tocante à autoria do réu no cometimento da infração penal sub examine"
+        "fundamentoDecisao": "provas carreadas aos autos, destarte, são uníssonas, firmes e harmoniosas no tocante à autoria do réu no cometimento da infração penal sub examine"
       }
     ],
     "fundamentacaoCondenatoria": {
@@ -388,7 +509,7 @@
         "elementosTextuais": [
           "boletim de ocorrência",
           "laudo pericial n. 2022.04.00938.22.001-94",
-          "equimose avermelhada na região temporal esquerda"
+          "declarações prestadas em ambas as fases da persecução penal"
         ]
       },
       "autoriaPorReu": [
@@ -396,24 +517,38 @@
           "reuNome": "TIAGO OLIVEIRA DA SILVA",
           "demonstrada": true,
           "elementosTextuais": [
-            "declarações da vítima em ambas as fases",
-            "depoimento da informante Angela em sede policial",
-            "reconhecimento do aparelho celular vermelho"
+            "vítima afirmou, em ambas as fases procedimentais, de maneira segura, que, no dia dos fatos, teve uma discussão com o acusado",
+            "relato da vítima é também corroborado pelas declarações da informante Angela"
           ]
         }
       ],
       "meiosDeProva": [
         {
           "tipo": "pericia_corpo_delito",
-          "descricao": "Laudo pericial de lesão corporal",
+          "descricao": "laudo pericial n. 2022.04.00938.22.001-94",
           "usadoPara": [
             "materialidade"
           ],
           "reuRelacionado": "TIAGO OLIVEIRA DA SILVA",
-          "questionadoPelaDefesa": false,
+          "questionadoPelaDefesa": null,
           "resultado": "confirmou_materialidade",
           "pericia_tipoExame": "direto",
-          "pericia_conclusao": "conclusivo_materialidade"
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": "conclusivo_materialidade",
+          "interrogatorio_direito_silencio": null,
+          "confissao_tipo": null,
+          "confissao_momento": null,
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
         },
         {
           "tipo": "declaracao_ofendido",
@@ -423,18 +558,25 @@
             "autoria"
           ],
           "reuRelacionado": "TIAGO OLIVEIRA DA SILVA",
-          "resultado": "confirmou_materialidade_e_autoria"
-        },
-        {
-          "tipo": "prova_testemunhal",
-          "testemunha_nome": "Angela Maria Correa da Silva",
-          "testemunha_qualificacao": "informante",
-          "testemunha_fase": "ambas",
-          "usadoPara": [
-            "autoria"
-          ],
-          "reuRelacionado": "TIAGO OLIVEIRA DA SILVA",
-          "resultado": "contradiz_versao_defesa"
+          "questionadoPelaDefesa": null,
+          "resultado": "confirmou_materialidade_e_autoria",
+          "pericia_tipoExame": null,
+          "pericia_cadeiaPreservada": null,
+          "pericia_conclusao": null,
+          "interrogatorio_direito_silencio": null,
+          "confissao_tipo": null,
+          "confissao_momento": null,
+          "testemunha_nome": null,
+          "testemunha_qualificacao": null,
+          "testemunha_tipoPercepcao": null,
+          "testemunha_fase": null,
+          "reconhecimento_modalidade": null,
+          "reconhecimento_procedimentoLegal_Art226": null,
+          "documento_tipo": null,
+          "documento_cadeiaDigitalAdequada": null,
+          "indicio_fatoBase": null,
+          "indicio_fatoInferido": null,
+          "observacoes": null
         }
       ],
       "meiosDeObtencaoDeProva": []
@@ -451,11 +593,11 @@
   "metadados": {
     "preenchidoPor": "ia",
     "confianca": 0.95,
-    "observacoes": "Sentença de primeiro grau com condenação por três crimes em concurso material. Reconhecida a tentativa no crime do art. 216-B.",
+    "observacoes": "Extração realizada a partir de sentença de primeiro grau. Crime do art. 216-B desclassificado para tentado.",
     "acordoNaoPersecucaoPenal": "nao_aplicavel",
     "suspensaoCondicionalProcesso": "nao_aplicavel",
     "modeloIA": "google/gemini-3-flash-preview",
     "tokensConsumidos": null,
-    "ultimaExtracaoIA": "2026-05-06T21:35:30.032Z"
+    "ultimaExtracaoIA": "2026-05-06T23:03:42.672Z"
   }
 }

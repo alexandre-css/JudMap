@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node --input-type=module)"
+      "Bash(node --input-type=module)",
+      "Bash(node cli.js --provider google --out test/exemplos/resultado_registro_nao_autorizado_intimidade.json sentencas_reais/registro_nao_autorizado_intimidade.md)",
+      "Bash(node cli.js --provider google --out \"test/exemplos/resultado_sentenca_tráfico_rio_negrinho.json\" \"sentencas_reais/sentenca_tráfico_rio_negrinho.md\")"
     ]
   }
 }

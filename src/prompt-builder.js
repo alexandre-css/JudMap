@@ -72,6 +72,11 @@ ANOTAÇÕES IMPORTANTES DO DICIONÁRIO:
 - recorrente: para réus específicos, usar "reu:Nome Completo".
 - teses dos recursos: usar valores padronizados do enum quando possível; complementar com texto livre quando necessário.
 - dataFato: a data do crime geralmente aparece na DENÚNCIA TRANSCRITA pelo juiz no início da sentença (relatório), em frases como "No dia DD de MMMM de AAAA, por volta das HHhMMmin..." ou "em data de DD/MM/AAAA, na cidade de...". SEMPRE procurar essa data no início do documento, não apenas no dispositivo. NÃO confundir com data de oferecimento da denúncia, data da prisão em flagrante, ou data da sentença.
+- vitimas: estruturar cada vítima com nome (ou apelido/iniciais preservando sigilo), vulnerabilidade (crianca, idoso, mulher_violencia_domestica, coletividade etc.) e relacaoComReu (conjuge_companheiro, agente_publico, desconhecido etc.). Quando o crime não tem vítima individualizada (tráfico, ambiental), usar nome "A Coletividade" com vulnerabilidade "coletividade".
+- bensApreendidos: listar todo bem citado no dispositivo da sentença com destinação. Armas/munições → encaminhamento_exercito (Resolução GP/CGJ 9); drogas → incineracao; celulares/dinheiro/veículos → indicar destinação fixada pelo juiz. ehInstrumentoCrime: true para armas, drogas, veículos usados no crime.
+- substituicaoPRD.especiesAplicadas: para cada espécie, preencher horasTotal (PSC), valorTotal (prestação pecuniária), beneficiario (vitima_direta, entidade_assistencial etc.) e fundamentoArt quando citado ("art. 44, §2º, CP").
+- sursisPenal.condicoes e condicoesRegimeAberto: copiar literais do dispositivo ("comparecer mensalmente em juízo", "não se ausentar da comarca por mais de 8 dias sem autorização judicial", "não frequentar lugares de duvidosa reputação"). Um item por condição.
+- statusLiberdadeRecursal: extrair do dispositivo final. "concedo o direito de recorrer em liberdade" → concedidoLiberdade: true; "mantenho a prisão preventiva" → manidaPrisaoPreventiva: true; "imponho cautelar diversa" → impostoCautelarDiversa: true. Preencher fundamento quando o juiz explicitar (ex: garantia da ordem pública).
 
 SCHEMA DE SAÍDA (preencher):
 ${SCHEMA_PROMPT}

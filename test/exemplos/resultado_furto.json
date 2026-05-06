@@ -1,6 +1,6 @@
 {
   "numProcesso": "5005396-60.2020.8.24.0022",
-  "versaoSchema": 6,
+  "versaoSchema": 7,
   "atualizadoEm": "04/08/2025",
   "statusProcesso": "sentenciado_aguardando_recursos",
   "competencia": "criminal_comum",
@@ -12,8 +12,16 @@
     "varaOrigem": "Vara Criminal da Comarca de Curitibanos",
     "idEventoSentenca": null,
     "vitimas": [
-      "Thiago da Silva Tomas",
-      "Cáritas (Igreja Matriz)"
+      {
+        "nome": "Thiago da Silva Tomas",
+        "vulnerabilidade": "nenhuma",
+        "relacaoComReu": "desconhecido"
+      },
+      {
+        "nome": "Robson dos Santos Pires",
+        "vulnerabilidade": "adolescente",
+        "relacaoComReu": "conhecido_sem_vinculo"
+      }
     ],
     "reus": [
       {
@@ -35,7 +43,7 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "art. 155, §1º, § 4º, I e IV, c/c art. 14, II, do CP",
+            "dispositivoLegal": "art. 155, §1º, § 4º, I e IV, c/c art. 14, II, CP",
             "tipoCrime": "furto qualificado tentado",
             "modalidadeConsumacao": "tentado",
             "modalidadeSubjetiva": "doloso"
@@ -51,7 +59,7 @@
         "crimesCondenado": [
           {
             "tipoCrime": "dano",
-            "dispositivoLegal": "art. 163, caput, do Código Penal",
+            "dispositivoLegal": "art. 163, caput, CP",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
@@ -114,7 +122,12 @@
                 "dias": 5,
                 "totalDias": 35
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             },
             "fase2_PenaIntermediaria": {
               "agravantesReconhecidas": [],
@@ -131,7 +144,12 @@
                 "dias": 0,
                 "totalDias": 30
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             },
             "fase3_PenaDefinitiva": {
               "causasAumentoReconhecidas": [],
@@ -146,7 +164,12 @@
                 "dias": 0,
                 "totalDias": 30
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             }
           },
           {
@@ -214,7 +237,12 @@
                 "dias": 0,
                 "totalDias": 425
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             },
             "fase2_PenaIntermediaria": {
               "agravantesReconhecidas": [],
@@ -231,7 +259,12 @@
                 "dias": 20,
                 "totalDias": 350
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             },
             "fase3_PenaDefinitiva": {
               "causasAumentoReconhecidas": [],
@@ -246,7 +279,12 @@
                 "dias": 20,
                 "totalDias": 350
               },
-              "penaMultaAplicada": null
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
             }
           }
         ],
@@ -260,7 +298,11 @@
             "dias": 20,
             "totalDias": 380
           },
-          "penaTotalMulta": null
+          "penaTotalMulta": {
+            "diasMulta": null,
+            "valorDiaMulta": null,
+            "valorTotal": null
+          }
         },
         "execucaoDaPena": {
           "detracao": {
@@ -275,7 +317,13 @@
             "concedida": true,
             "quantidadePenas": 1,
             "especiesAplicadas": [
-              "prestacao_servicos_comunidade"
+              {
+                "especie": "prestacao_servicos_comunidade",
+                "horasTotal": null,
+                "valorTotal": null,
+                "beneficiario": "instituicao_indicada_juiz",
+                "fundamentoArt": "art. 44 do CP"
+              }
             ],
             "fundamentoNegativa": null
           },
@@ -283,7 +331,16 @@
             "concedido": false,
             "especieAplicada": null,
             "prazoAnos": null,
-            "fundamentoNegativa": "inviável na espécie, considerando a prévia substituição da privação de liberdade por restrição de direitos"
+            "fundamentoNegativa": "considerando a prévia substituição da privação de liberdade por restrição de direitos",
+            "condicoes": []
+          },
+          "condicoesRegimeAberto": [],
+          "bensApreendidos": [],
+          "statusLiberdadeRecursal": {
+            "concedidoLiberdade": true,
+            "impostoCautelarDiversa": null,
+            "manidaPrisaoPreventiva": null,
+            "fundamento": "permaneceu_solto_durante_processo"
           },
           "reparacaoDanosArt387IV": {
             "fixada": false,
@@ -321,9 +378,9 @@
       }
     ],
     "recursosMP": {
-      "interposto": false,
+      "interposto": null,
       "dataInterposicao": null,
-      "tempestive": null,
+      "tempestivo": null,
       "objeto": []
     },
     "recursosDefesa": [],
@@ -332,19 +389,19 @@
     "alegacoesGrau1": [
       {
         "tese": "desclassificacao",
-        "teseTextoLivre": "Desclassificação do delito de furto para o crime de dano (art. 163 do Código Penal)",
+        "teseTextoLivre": "desclassificação do delito de furto para o crime de dano (art. 163 do Código Penal)",
         "suscitadaPor": "defesa",
         "reuRelacionado": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
         "fase": "merito",
         "resultado": "acolhida",
-        "fundamentoDecisao": "não há elementos que demonstrem o início da prática do núcleo do tipo penal de furto... sua conduta restringiu-se a atos preparatórios"
+        "fundamentoDecisao": "não há elementos que demonstrem o início da prática do núcleo do tipo penal de furto... conduta restringiu-se a atos preparatórios"
       }
     ],
     "fundamentacaoCondenatoria": {
       "materialidade": {
         "demonstrada": true,
         "elementosTextuais": [
-          "Laudo Pericial nº 9125.20.00153 constatou: Danos em uma porta metálica: amolgamento da esquadria e arrombamento de fechadura tipo simples"
+          "Laudo Pericial nº 9125.20.00153 constatou: 'Danos em uma porta metálica: amolgamento da esquadria e arrombamento de fechadura tipo simples'"
         ]
       },
       "autoriaPorReu": [
@@ -387,13 +444,12 @@
         },
         {
           "tipo": "confissao",
-          "descricao": "Confissão extrajudicial",
+          "descricao": "Confissão em sede policial",
           "usadoPara": [
-            "autoria",
-            "dosimetria"
+            "autoria"
           ],
           "reuRelacionado": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
-          "questionadoPelaDefesa": false,
+          "questionadoPelaDefesa": null,
           "resultado": "confirmou_autoria",
           "pericia_tipoExame": null,
           "pericia_cadeiaPreservada": null,
@@ -414,23 +470,22 @@
           "observacoes": null
         },
         {
-          "tipo": "declaracao_ofendido",
-          "descricao": "Depoimento de Thiago da Silva Tomas",
+          "tipo": "prova_testemunhal",
+          "descricao": "Depoimento do policial Maurício Ramos",
           "usadoPara": [
-            "materialidade",
             "autoria"
           ],
-          "reuRelacionado": null,
+          "reuRelacionado": "MICHAEL JHONATAN DOS SANTOS DE OLIVEIRA",
           "questionadoPelaDefesa": null,
-          "resultado": "confirmou_materialidade_e_autoria",
+          "resultado": "confirmou_autoria",
           "pericia_tipoExame": null,
           "pericia_cadeiaPreservada": null,
           "pericia_conclusao": null,
           "interrogatorio_direito_silencio": null,
           "confissao_tipo": null,
           "confissao_momento": null,
-          "testemunha_nome": "Thiago da Silva Tomas",
-          "testemunha_qualificacao": null,
+          "testemunha_nome": "Maurício Ramos",
+          "testemunha_qualificacao": "compromissada",
           "testemunha_tipoPercepcao": "direta_visual",
           "testemunha_fase": "ambas",
           "reconhecimento_modalidade": "presencial",
@@ -449,11 +504,11 @@
   "metadados": {
     "preenchidoPor": "ia",
     "confianca": 0.95,
-    "observacoes": "Sentença de desclassificação de furto tentado para dano consumado e condenação por corrupção de menores.",
+    "observacoes": "Sentença de primeiro grau com desclassificação de furto tentado para dano consumado e corrupção de menores.",
     "acordoNaoPersecucaoPenal": "nao_aplicavel",
     "suspensaoCondicionalProcesso": "nao_aplicavel",
     "modeloIA": "google/gemini-3-flash-preview",
     "tokensConsumidos": null,
-    "ultimaExtracaoIA": "2026-05-06T21:30:13.948Z"
+    "ultimaExtracaoIA": "2026-05-06T23:03:00.550Z"
   }
 }

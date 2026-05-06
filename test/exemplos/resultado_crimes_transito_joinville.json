@@ -1,0 +1,469 @@
+{
+  "numProcesso": "5027353-30.2024.8.24.0038",
+  "versaoSchema": 7,
+  "atualizadoEm": null,
+  "statusProcesso": "sentenciado_aguardando_recursos",
+  "competencia": "criminal_comum",
+  "grau1": {
+    "dataFato": "04/06/2022",
+    "dataRecebimentoDenuncia": "28/06/2024",
+    "dataSentenca": "28/07/2025",
+    "juizSentenciante": "MARTA REGINA JAHNEL",
+    "varaOrigem": "Juizado Especial Criminal e Anexos da Comarca de Joinville",
+    "idEventoSentenca": null,
+    "vitimas": [
+      {
+        "nome": "Elbert de Almeida Segatin",
+        "vulnerabilidade": "nenhuma",
+        "relacaoComReu": "desconhecido"
+      }
+    ],
+    "reus": [
+      {
+        "nome": "WILLIAN ANDRADE GESSER",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "privada",
+        "situacaoPrisional": {
+          "estadoAtual": "liberdade",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": false,
+          "tipo": "primario_sem_antecedentes",
+          "processosCitados": []
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "art. 304 do CTB",
+            "tipoCrime": "omissao_socorro_transito",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "art. 305 do CTB",
+            "tipoCrime": "fuga_local_acidente",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          },
+          {
+            "dispositivoLegal": "art. 308, §1º do CTB",
+            "tipoCrime": "racha_com_lesao_grave",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_integralmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "racha_com_lesao_grave",
+            "dispositivoLegal": "art. 308, §1º do CTB",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "A culpabilidade, compreendida como o grau de reprovabilidade da conduta, é normal"
+                },
+                "antecedentes": {
+                  "valoracao": "neutra",
+                  "fundamento": "o acusado não registra antecedentes criminais",
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "neutra",
+                  "fundamento": "não existem elementos nos autos que desabonem sua conduta social"
+                },
+                "personalidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "a personalidade não pode importar aumento da pena, pois o Direito Penal do Autor é incompatível"
+                },
+                "motivos": {
+                  "valoracao": "neutra",
+                  "fundamento": "os motivos, as circunstâncias e as consequências foram normais à espécie"
+                },
+                "circunstancias": {
+                  "valoracao": "neutra",
+                  "fundamento": "os motivos, as circunstâncias e as consequências foram normais à espécie"
+                },
+                "consequencias": {
+                  "valoracao": "neutra",
+                  "fundamento": "os motivos, as circunstâncias e as consequências foram normais à espécie"
+                },
+                "comportamentoVitima": {
+                  "valoracao": "neutra",
+                  "fundamento": "o comportamento da vítima não se aplica ao crime"
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
+              "penaAbstrataMinima": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaAbstrataMaxima": {
+                "anos": 6,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 2190
+              },
+              "penaPrivativaAplicada": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaMultaAplicada": {
+                "diasMulta": null,
+                "valorDiaMulta": null,
+                "valorTotal": null,
+                "_nota_valorDiaMulta": null
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaMultaAplicada": null
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [],
+              "fracaoDiminuicao": null,
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 3,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1095
+              },
+              "penaMultaAplicada": null
+            }
+          },
+          {
+            "tipoCrime": "omissao_socorro_transito",
+            "dispositivoLegal": "art. 304 do CTB",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "A culpabilidade, compreendida como o grau de reprovabilidade da conduta, é normal"
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": null,
+              "penaAbstrataMinima": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaAbstrataMaxima": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              }
+            }
+          },
+          {
+            "tipoCrime": "fuga_local_acidente",
+            "dispositivoLegal": "art. 305 do CTB",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "A culpabilidade, compreendida como o grau de reprovabilidade da conduta, é normal"
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaMultaAplicada": null,
+              "penaAbstrataMinima": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              },
+              "penaAbstrataMaxima": {
+                "anos": 1,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 365
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "penaPrivativaAplicada": {
+                "anos": 0,
+                "meses": 6,
+                "dias": 0,
+                "totalDias": 180
+              }
+            }
+          }
+        ],
+        "concursoDeCrimes": {
+          "regraAplicada": "material_art69",
+          "quantidadeCrimesConcorrentes": 3,
+          "fracaoExasperacao": "cumulacao_material",
+          "penaTotalPrivativa": {
+            "anos": 4,
+            "meses": 0,
+            "dias": 0,
+            "totalDias": 1460
+          },
+          "penaTotalMulta": null
+        },
+        "execucaoDaPena": {
+          "detracao": {
+            "periodos": [
+              {
+                "modalidade": "prisao_em_flagrante",
+                "dataInicio": "05/06/2022",
+                "dataFim": null
+              }
+            ],
+            "totalDiasDetraidos": null,
+            "consideradaParaRegime": true
+          },
+          "regimeInicial": "aberto",
+          "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
+          "substituicaoPRD": {
+            "concedida": true,
+            "quantidadePenas": 2,
+            "especiesAplicadas": [
+              {
+                "especie": "prestacao_servicos_comunidade",
+                "horasTotal": null,
+                "valorTotal": null,
+                "beneficiario": "entidade_assistencial",
+                "fundamentoArt": "art. 312-A do CTB"
+              },
+              {
+                "especie": "prestacao_pecuniaria",
+                "horasTotal": null,
+                "valorTotal": "2 salários-mínimos",
+                "beneficiario": "vitima_direta",
+                "fundamentoArt": "art. 44 do CP"
+              }
+            ],
+            "fundamentoNegativa": null
+          },
+          "sursisPenal": {
+            "concedido": false,
+            "especieAplicada": null,
+            "prazoAnos": null,
+            "fundamentoNegativa": "Tendo em vista a substituição da pena por restritiva de direito, incabível a sua suspensão condicional",
+            "condicoes": []
+          },
+          "condicoesRegimeAberto": [],
+          "bensApreendidos": [],
+          "statusLiberdadeRecursal": {
+            "concedidoLiberdade": true,
+            "impostoCautelarDiversa": false,
+            "manidaPrisaoPreventiva": false,
+            "fundamento": null
+          },
+          "reparacaoDanosArt387IV": {
+            "fixada": true,
+            "valorMinimo": "10.000,00",
+            "destinatario": "vitima_direta",
+            "houvePedidoExpresso": true
+          },
+          "custasProcessuais": {
+            "condenado": true,
+            "isencaoPorMiserabilidade": null
+          },
+          "prescricaoReconhecida": null,
+          "fundamentoPrescricao": null,
+          "penasAcessoriasCtb": {
+            "suspensaoOuProibicaoHabilitacao": {
+              "aplicada": true,
+              "meses": 4,
+              "fundamentoLegal": "ctb_art293_suspensao",
+              "detracaoSuspensaoCautelar": {
+                "mesesJaCumpridos": 4,
+                "dataInicio": "05/06/2022",
+                "dataFim": null
+              }
+            }
+          },
+          "calculoPrescricao": {
+            "pppAbstrataDataLimite": null,
+            "pppAbstrataConfigurada": null,
+            "pppRetroativaDataLimite": null,
+            "pppIntercorrenteDataLimite": null,
+            "ppeDataLimite": null,
+            "risco": "sem_risco"
+          }
+        }
+      }
+    ],
+    "recursosMP": {
+      "interposto": null,
+      "dataInterposicao": null,
+      "tempestivo": null,
+      "objeto": []
+    },
+    "recursosDefesa": [],
+    "transitoAcusacao1G": null,
+    "embargosDeclaratorios1G": [],
+    "alegacoesGrau1": [
+      {
+        "tese": "absolvicao_insuficiencia_provas",
+        "teseTextoLivre": "absolvição nos termos do artigo 386, incisos III e VII, do CPP",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "WILLIAN ANDRADE GESSER",
+        "fase": "merito",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "as provas produzidas são suficientes para corroborar a ilustração do quadro fático delineado pelo Ministério Público"
+      },
+      {
+        "tese": "desclassificacao",
+        "teseTextoLivre": "desclassificação do crime do art. 308 para aquele do art. 303 do CTB",
+        "suscitadaPor": "defesa",
+        "reuRelacionado": "WILLIAN ANDRADE GESSER",
+        "fase": "merito",
+        "resultado": "rejeitada",
+        "fundamentoDecisao": "amplamente comprovado que a lesão corporal sofrida pela vítima decorre da manobra perigosa intencionalmente realizada"
+      }
+    ],
+    "fundamentacaoCondenatoria": {
+      "materialidade": {
+        "demonstrada": true,
+        "elementosTextuais": [
+          "boletim de ocorrência",
+          "relatório policial",
+          "laudo pericial n. 2022.01.06092.22.004-22",
+          "laudo pericial n. 2022.01.06092.22.005-94"
+        ]
+      },
+      "autoriaPorReu": [
+        {
+          "reuNome": "WILLIAN ANDRADE GESSER",
+          "demonstrada": true,
+          "elementosTextuais": [
+            "declarações vítima Elbert de Almeida Segatin",
+            "testemunha ocular Danton Michel Garcias Lorenzon",
+            "relatos dos policiais militares"
+          ]
+        }
+      ],
+      "meiosDeProva": [
+        {
+          "tipo": "prova_testemunhal",
+          "descricao": "Depoimento de Danton Michel Garcias",
+          "usadoPara": [
+            "autoria",
+            "materialidade"
+          ],
+          "reuRelacionado": "WILLIAN ANDRADE GESSER",
+          "questionadoPelaDefesa": null,
+          "resultado": "confirmou_materialidade_e_autoria",
+          "testemunha_nome": "Danton Michel Garcias",
+          "testemunha_qualificacao": "compromissada",
+          "testemunha_tipoPercepcao": "direta_visual",
+          "testemunha_fase": "ambas"
+        },
+        {
+          "tipo": "declaracao_ofendido",
+          "descricao": "Depoimento de Elbert de Almeida Segatin",
+          "usadoPara": [
+            "autoria",
+            "materialidade"
+          ],
+          "reuRelacionado": "WILLIAN ANDRADE GESSER",
+          "resultado": "confirmou_materialidade_e_autoria"
+        },
+        {
+          "tipo": "interrogatorio_acusado",
+          "descricao": "Interrogatório de Willian Andrade Gesser",
+          "usadoPara": [
+            "autoria"
+          ],
+          "reuRelacionado": "WILLIAN ANDRADE GESSER",
+          "interrogatorio_direito_silencio": "nao_exercido",
+          "confissao_tipo": "parcial",
+          "confissao_momento": "judicial"
+        }
+      ],
+      "meiosDeObtencaoDeProva": []
+    }
+  },
+  "grau2": null,
+  "metadados": {
+    "preenchidoPor": "ia",
+    "confianca": 0.95,
+    "observacoes": "Extração completa da sentença de primeiro grau. Penas somadas em concurso material. Detração da suspensão da CNH reconhecida.",
+    "acordoNaoPersecucaoPenal": "nao_aplicavel",
+    "suspensaoCondicionalProcesso": "nao_aplicavel",
+    "modeloIA": "google/gemini-3-flash-preview",
+    "tokensConsumidos": null,
+    "ultimaExtracaoIA": "2026-05-06T23:02:37.385Z"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "numProcesso": "5000979-55.2025.8.24.0518",
-  "versaoSchema": 6,
+  "versaoSchema": 7,
   "atualizadoEm": null,
   "statusProcesso": "sentenciado_aguardando_recursos",
   "competencia": "criminal_comum",
@@ -8,13 +8,24 @@
     "dataFato": "22/03/2025",
     "dataRecebimentoDenuncia": "25/03/2025",
     "dataSentenca": "05/08/2025",
-    "juizSentenciante": "MONICA FRACARI",
+    "juizSentenciante": "Monica Fracari",
     "varaOrigem": "1ª Vara Criminal da Comarca de Chapecó",
     "idEventoSentenca": null,
-    "vitimas": [],
+    "vitimas": [
+      {
+        "nome": "A Coletividade",
+        "vulnerabilidade": "coletividade",
+        "relacaoComReu": null
+      },
+      {
+        "nome": "Estado de Santa Catarina (Polícia Militar)",
+        "vulnerabilidade": "agente_publico_em_servico",
+        "relacaoComReu": "agente_publico"
+      }
+    ],
     "reus": [
       {
-        "nome": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
+        "nome": "Mauricio Antonio de Oliveira Dutra",
         "cpfMascarado": null,
         "dataNascimento": null,
         "tipoDefesa": "dativa",
@@ -30,8 +41,8 @@
         },
         "crimesImputados": [
           {
-            "dispositivoLegal": "artigo 16, § 1º, inciso IV da Lei n. 10.826/03",
-            "tipoCrime": "porte_arma_fogo_uso_restrito_num_suprimida",
+            "dispositivoLegal": "art. 16, § 1º, inciso IV da Lei n. 10.826/03",
+            "tipoCrime": "porte_arma_uso_restrito_num_suprimida",
             "modalidadeConsumacao": "consumado",
             "modalidadeSubjetiva": "doloso"
           },
@@ -45,44 +56,44 @@
         "resultado": "condenado_integralmente",
         "crimesCondenado": [
           {
-            "tipoCrime": "porte_arma_fogo_uso_restrito_num_suprimida",
-            "dispositivoLegal": "artigo 16, § 1º, inciso IV da Lei n. 10.826/03",
+            "tipoCrime": "porte_arma_uso_restrito_num_suprimida",
+            "dispositivoLegal": "art. 16, § 1º, inciso IV da Lei n. 10.826/03",
             "modalidadeConsumacao": "consumado",
             "idEventoDosimetria": null,
             "fase1_PenaBase": {
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "grau de reprovabilidade de sua conduta, não é grave"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
-                  "fundamento": null,
+                  "fundamento": "O réu não possui antecedentes",
                   "subcategoria": null
                 },
                 "condutaSocial": {
                   "valoracao": "nao_mencionada",
-                  "fundamento": null
+                  "fundamento": "Sua conduta social não foi objeto de prova"
                 },
                 "personalidade": {
                   "valoracao": "nao_mencionada",
-                  "fundamento": null
+                  "fundamento": "Não há elementos para aferir sua personalidade"
                 },
                 "motivos": {
-                  "valoracao": "neutra",
-                  "fundamento": null
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "Os motivos do crime são desconhecidos"
                 },
                 "circunstancias": {
                   "valoracao": "negativa",
-                  "fundamento": "réu portava arma de uso restrito com numeração suprimida e em local de grande movimentação de pessoas (avenida principal do município)"
+                  "fundamento": "portava arma de uso restrito com numeração suprimida e em local de grande movimentação de pessoas (avenida principal do município)"
                 },
                 "consequencias": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "As consequências do crime não ensejam maior reprovabilidade"
                 },
                 "comportamentoVitima": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "O comportamento da vítima não contribuiu para a prática do crime"
                 },
                 "naturezaQuantidadeDrogaArt42": {
                   "valoracao": "nao_mencionada",
@@ -168,40 +179,15 @@
               "vetores": {
                 "culpabilidade": {
                   "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "grau de reprovabilidade de sua conduta, não é grave"
                 },
                 "antecedentes": {
                   "valoracao": "neutra",
-                  "fundamento": null,
-                  "subcategoria": null
-                },
-                "condutaSocial": {
-                  "valoracao": "nao_mencionada",
-                  "fundamento": null
-                },
-                "personalidade": {
-                  "valoracao": "nao_mencionada",
-                  "fundamento": null
-                },
-                "motivos": {
-                  "valoracao": "neutra",
-                  "fundamento": null
+                  "fundamento": "O réu não possui antecedentes"
                 },
                 "circunstancias": {
                   "valoracao": "negativa",
-                  "fundamento": "réu utilizou, conforme reconhecido na fundamentação, arma de calibre restrito para efetuar o início da resistência"
-                },
-                "consequencias": {
-                  "valoracao": "neutra",
-                  "fundamento": null
-                },
-                "comportamentoVitima": {
-                  "valoracao": "neutra",
-                  "fundamento": null
-                },
-                "naturezaQuantidadeDrogaArt42": {
-                  "valoracao": "nao_mencionada",
-                  "fundamento": null
+                  "fundamento": "utilizou, conforme reconhecido na fundamentação, arma de calibre restrito para efetuar o início da resistência"
                 }
               },
               "quantidadeVetoresNegativos": 1,
@@ -224,51 +210,26 @@
                 "dias": 10,
                 "totalDias": 70
               },
-              "penaMultaAplicada": {
-                "diasMulta": null,
-                "valorDiaMulta": null,
-                "valorTotal": null,
-                "_nota_valorDiaMulta": null
-              }
+              "penaMultaAplicada": null
             },
             "fase2_PenaIntermediaria": {
               "agravantesReconhecidas": [],
               "atenuantesReconhecidas": [],
-              "compensacaoIntegral": null,
-              "agravantePreponderante": null,
-              "fracaoAgravamento": null,
-              "fracaoAtenuamento": null,
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 2,
                 "dias": 10,
                 "totalDias": 70
-              },
-              "penaMultaAplicada": {
-                "diasMulta": null,
-                "valorDiaMulta": null,
-                "valorTotal": null,
-                "_nota_valorDiaMulta": null
               }
             },
             "fase3_PenaDefinitiva": {
               "causasAumentoReconhecidas": [],
-              "fracaoAumento": null,
               "causasDiminuicaoReconhecidas": [],
-              "fracaoDiminuicao": null,
-              "tentativaReconhecida": false,
-              "fracaoTentativa": null,
               "penaPrivativaAplicada": {
                 "anos": 0,
                 "meses": 2,
                 "dias": 10,
                 "totalDias": 70
-              },
-              "penaMultaAplicada": {
-                "diasMulta": null,
-                "valorDiaMulta": null,
-                "valorTotal": null,
-                "_nota_valorDiaMulta": null
               }
             }
           }
@@ -304,7 +265,6 @@
           },
           "regimeInicial": "aberto",
           "fundamentoRegimeMaisGravoso": null,
-          "sumulaViolada": null,
           "substituicaoPRD": {
             "concedida": false,
             "quantidadePenas": null,
@@ -315,7 +275,29 @@
             "concedido": false,
             "especieAplicada": null,
             "prazoAnos": null,
-            "fundamentoNegativa": "não preenchidos os requisitos dos arts. 44 e 77, ambos do Código Penal"
+            "fundamentoNegativa": "não preenchidos os requisitos dos arts. 44 e 77, ambos do Código Penal",
+            "condicoes": []
+          },
+          "condicoesRegimeAberto": [],
+          "bensApreendidos": [
+            {
+              "descricao": "pistola, marca CAN, calibre 9mm, um carregador de arma, marca Canik e 18 munições, marca CBC, calibre 9mm",
+              "destinacao": "encaminhamento_exercito",
+              "fundamentoLegal": "artigo 25 da Lei n. 10.826/2003",
+              "ehInstrumentoCrime": true
+            },
+            {
+              "descricao": "celular",
+              "destinacao": "restituicao_reu",
+              "fundamentoLegal": null,
+              "ehInstrumentoCrime": false
+            }
+          ],
+          "statusLiberdadeRecursal": {
+            "concedidoLiberdade": true,
+            "impostoCautelarDiversa": false,
+            "manidaPrisaoPreventiva": false,
+            "fundamento": null
           },
           "reparacaoDanosArt387IV": {
             "fixada": false,
@@ -329,18 +311,8 @@
           },
           "prescricaoReconhecida": null,
           "fundamentoPrescricao": null,
-          "penasAcessoriasCtb": {
-            "suspensaoOuProibicaoHabilitacao": {
-              "aplicada": null,
-              "meses": null,
-              "fundamentoLegal": null,
-              "detracaoSuspensaoCautelar": {
-                "mesesJaCumpridos": null,
-                "dataInicio": null,
-                "dataFim": null
-              }
-            }
-          }
+          "penasAcessoriasCtb": null,
+          "sumulaViolada": null
         },
         "calculoPrescricao": {
           "pppAbstrataDataLimite": "22/03/2037",
@@ -364,18 +336,18 @@
     "alegacoesGrau1": [
       {
         "tese": "nulidade_processual",
-        "teseTextoLivre": "Nulidade das provas por tortura policial",
+        "teseTextoLivre": "Tortura no momento da abordagem policial",
         "suscitadaPor": "defesa",
-        "reuRelacionado": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
+        "reuRelacionado": "Mauricio Antonio de Oliveira Dutra",
         "fase": "preliminar",
         "resultado": "rejeitada",
         "fundamentoDecisao": "exame de corpo de delito corrobora a versão apresentada pelos militares e diverge das agressões relatadas pelo réu"
       },
       {
         "tese": "absolvicao_insuficiencia_provas",
-        "teseTextoLivre": "Inexistência de resistência e inexigibilidade de conduta diversa no porte",
+        "teseTextoLivre": "Inexigibilidade de conduta diversa por ameaças de morte",
         "suscitadaPor": "defesa",
-        "reuRelacionado": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
+        "reuRelacionado": "Mauricio Antonio de Oliveira Dutra",
         "fase": "merito",
         "resultado": "rejeitada",
         "fundamentoDecisao": "alegação de ameaças genéricas ou passadas, sem a comprovação de uma situação de perigo iminente e insuperável"
@@ -386,12 +358,13 @@
         "demonstrada": true,
         "elementosTextuais": [
           "auto de exibição e apreensão de fl. 14",
-          "laudo pericial do armamento e munições apreendidas"
+          "laudo pericial do armamento e munições apreendidas",
+          "laudo pericial nº 2025.22.01759.25.002-94"
         ]
       },
       "autoriaPorReu": [
         {
-          "reuNome": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
+          "reuNome": "Mauricio Antonio de Oliveira Dutra",
           "demonstrada": true,
           "elementosTextuais": [
             "réu foi claro ao afirmar que 'a acusação é verdadeira' no que tange à posse da arma",
@@ -402,30 +375,36 @@
       "meiosDeProva": [
         {
           "tipo": "pericia_corpo_delito",
-          "descricao": "Laudo Pericial nº 2025.22.01759-25.0001-22",
+          "descricao": "Laudo Pericial nº 2025.22.01759-25.0001-22 (Exame de corpo de delito do réu)",
           "usadoPara": [
             "outros"
           ],
-          "reuRelacionado": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
+          "reuRelacionado": "Mauricio Antonio de Oliveira Dutra",
           "questionadoPelaDefesa": true,
-          "resultado": "contradiz_versao_defesa",
+          "resultado": "neutro",
           "pericia_tipoExame": "direto",
-          "pericia_cadeiaPreservada": null,
-          "pericia_conclusao": "conclusivo_materialidade",
-          "interrogatorio_direito_silencio": null,
-          "confissao_tipo": null,
-          "confissao_momento": null,
-          "testemunha_nome": null,
-          "testemunha_qualificacao": null,
-          "testemunha_tipoPercepcao": null,
-          "testemunha_fase": null,
-          "reconhecimento_modalidade": null,
-          "reconhecimento_procedimentoLegal_Art226": null,
-          "documento_tipo": null,
-          "documento_cadeiaDigitalAdequada": null,
-          "indicio_fatoBase": null,
-          "indicio_fatoInferido": null,
-          "observacoes": "Usado para afastar preliminar de tortura"
+          "pericia_conclusao": "parcialmente_conclusivo"
+        },
+        {
+          "tipo": "pericia_outra",
+          "descricao": "Laudo pericial do armamento e munições nº 2025.22.01759.25.002-94",
+          "usadoPara": [
+            "materialidade"
+          ],
+          "reuRelacionado": "Mauricio Antonio de Oliveira Dutra",
+          "pericia_tipoExame": "direto",
+          "pericia_conclusao": "conclusivo_materialidade"
+        },
+        {
+          "tipo": "prova_testemunhal",
+          "descricao": "Depoimento do Policial Militar Rubens Renato Machado Antonelli",
+          "usadoPara": [
+            "autoria",
+            "materialidade"
+          ],
+          "testemunha_nome": "Rubens Renato Machado Antonelli",
+          "testemunha_qualificacao": "compromissada",
+          "testemunha_fase": "ambas"
         },
         {
           "tipo": "confissao",
@@ -433,87 +412,29 @@
           "usadoPara": [
             "autoria"
           ],
-          "reuRelacionado": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
-          "questionadoPelaDefesa": false,
-          "resultado": "confirmou_autoria",
-          "pericia_tipoExame": null,
-          "pericia_cadeiaPreservada": null,
-          "pericia_conclusao": null,
-          "interrogatorio_direito_silencio": "nao_exercido",
-          "confissao_tipo": "simples",
-          "confissao_momento": "judicial",
-          "testemunha_nome": null,
-          "testemunha_qualificacao": null,
-          "testemunha_tipoPercepcao": null,
-          "testemunha_fase": null,
-          "reconhecimento_modalidade": null,
-          "reconhecimento_procedimentoLegal_Art226": null,
-          "documento_tipo": null,
-          "documento_cadeiaDigitalAdequada": null,
-          "indicio_fatoBase": null,
-          "indicio_fatoInferido": null,
-          "observacoes": "Confessou o porte, mas negou a resistência"
-        },
-        {
-          "tipo": "prova_testemunhal",
-          "descricao": "Depoimento do Policial Rubens Renato Machado Antonelli",
-          "usadoPara": [
-            "materialidade",
-            "autoria"
-          ],
-          "reuRelacionado": "MAURICIO ANTONIO DE OLIVEIRA DUTRA",
-          "questionadoPelaDefesa": true,
-          "resultado": "confirmou_materialidade_e_autoria",
-          "pericia_tipoExame": null,
-          "pericia_cadeiaPreservada": null,
-          "pericia_conclusao": null,
-          "interrogatorio_direito_silencio": null,
-          "confissao_tipo": null,
-          "confissao_momento": null,
-          "testemunha_nome": "RUBENS RENATO MACHADO ANTONELLI",
-          "testemunha_qualificacao": "compromissada",
-          "testemunha_tipoPercepcao": "direta_visual",
-          "testemunha_fase": "ambas",
-          "reconhecimento_modalidade": null,
-          "reconhecimento_procedimentoLegal_Art226": null,
-          "documento_tipo": null,
-          "documento_cadeiaDigitalAdequada": null,
-          "indicio_fatoBase": null,
-          "indicio_fatoInferido": null,
-          "observacoes": null
+          "confissao_tipo": "parcial",
+          "confissao_momento": "judicial"
         }
       ],
       "meiosDeObtencaoDeProva": [
         {
           "tipo": "busca_apreensao_pessoal",
-          "descricao": "Abordagem e apreensão da arma após fuga",
+          "descricao": "Abordagem e revista após fuga",
           "autorizacaoJudicial": "sem_mandado_fundada_suspeita",
-          "serendipidade": false,
-          "questionadoPelaDefesa": true,
-          "resultado": "validado",
-          "colaboracao_homologada": null,
-          "colaboracao_corroboradaFonteAutonoma": null,
-          "observacoes": null
+          "resultado": "validado"
         }
       ]
     }
   },
-  "grau2": {
-    "recursos": [],
-    "parecerPGJ": null,
-    "embargosDeclaratorios2G": [],
-    "acordao": null,
-    "transitoAcusacao2G": null,
-    "prescricaoAReconhecer": null
-  },
+  "grau2": null,
   "metadados": {
     "preenchidoPor": "ia",
     "confianca": 0.95,
-    "observacoes": "Extração completa da sentença de primeiro grau. Réu condenado por porte de arma de uso restrito e resistência em concurso material.",
+    "observacoes": "Extração completa da sentença de primeiro grau. Réu primário condenado por porte de arma de uso restrito e resistência em concurso material.",
     "acordoNaoPersecucaoPenal": "nao_aplicavel",
     "suspensaoCondicionalProcesso": "nao_aplicavel",
     "modeloIA": "google/gemini-3-flash-preview",
     "tokensConsumidos": null,
-    "ultimaExtracaoIA": "2026-05-06T21:40:25.151Z"
+    "ultimaExtracaoIA": "2026-05-06T23:02:07.554Z"
   }
 }

@@ -9,7 +9,7 @@ const enumDict = JSON.parse(readFileSync("./enum.json", "utf-8"));
 
 const jsonIA = {
     numProcesso: "5001399-88.2025.8.24.0541",
-    versaoSchema: 6,
+    versaoSchema: 7,
     atualizadoEm: null,
     statusProcesso: "sentenciado_aguardando_recursos",
     competencia: "criminal_drogas",
@@ -21,7 +21,9 @@ const jsonIA = {
         juizSentenciante: "Rodrigo Clímaco José",
         varaOrigem: "2ª Vara da Comarca de Rio Negrinho",
         idEventoSentenca: null,
-        vitimas: [],
+        vitimas: [
+            { nome: "A Coletividade", vulnerabilidade: "coletividade", relacaoComReu: null }
+        ],
 
         reus: [
             {
@@ -201,6 +203,15 @@ const jsonIA = {
                         especieAplicada: null,
                         prazoAnos: null,
                         fundamentoNegativa: "pena ultrapassa 2 anos",
+                        condicoes: [],
+                    },
+                    condicoesRegimeAberto: [],
+                    bensApreendidos: [],
+                    statusLiberdadeRecursal: {
+                        concedidoLiberdade: true,
+                        impostoCautelarDiversa: null,
+                        manidaPrisaoPreventiva: null,
+                        fundamento: null,
                     },
                     reparacaoDanosArt387IV: {
                         fixada: false,
@@ -400,6 +411,15 @@ const jsonIA = {
                         especieAplicada: null,
                         prazoAnos: null,
                         fundamentoNegativa: "pena ultrapassa 2 anos",
+                        condicoes: [],
+                    },
+                    condicoesRegimeAberto: [],
+                    bensApreendidos: [],
+                    statusLiberdadeRecursal: {
+                        concedidoLiberdade: true,
+                        impostoCautelarDiversa: null,
+                        manidaPrisaoPreventiva: null,
+                        fundamento: null,
                     },
                     reparacaoDanosArt387IV: {
                         fixada: false,

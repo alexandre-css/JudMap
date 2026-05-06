@@ -392,12 +392,24 @@ function validarReu(reu, path, enumDict, causas, warnings) {
                 `${ep}.substituicaoPRD`,
                 warnings,
             );
-            checkArrayEnum(
-                prd.especiesAplicadas,
-                enumDict.execucaoDaPena.substituicaoPRD_especiesAplicadas,
-                `${ep}.substituicaoPRD.especiesAplicadas`,
-                warnings,
-            );
+            for (const [ei, esp] of (prd.especiesAplicadas ?? []).entries()) {
+                if (!esp || typeof esp !== "object") continue;
+                const espp = `${ep}.substituicaoPRD.especiesAplicadas[${ei}]`;
+                checkAndFix(
+                    esp,
+                    "especie",
+                    enumDict.execucaoDaPena.substituicaoPRD_especiesAplicadas,
+                    espp,
+                    warnings,
+                );
+                checkAndFix(
+                    esp,
+                    "beneficiario",
+                    enumDict.prd_especie_beneficiario,
+                    espp,
+                    warnings,
+                );
+            }
         }
 
         const sursis = exec.sursisPenal;
@@ -421,6 +433,28 @@ function validarReu(reu, path, enumDict, causas, warnings) {
                 "prazoAnos",
                 enumDict.execucaoDaPena.sursisPenal_prazoAnos,
                 `${ep}.sursisPenal`,
+                warnings,
+            );
+        }
+
+        for (const [bi, bem] of (exec.bensApreendidos ?? []).entries()) {
+            if (!bem || typeof bem !== "object") continue;
+            checkAndFix(
+                bem,
+                "destinacao",
+                enumDict.bensApreendidos_destinacao,
+                `${ep}.bensApreendidos[${bi}]`,
+                warnings,
+            );
+        }
+
+        const slr = exec.statusLiberdadeRecursal;
+        if (slr) {
+            checkAndFix(
+                slr,
+                "fundamento",
+                enumDict.statusLiberdadeRecursal_fundamento,
+                `${ep}.statusLiberdadeRecursal`,
                 warnings,
             );
         }
@@ -761,6 +795,13 @@ export function validar(json, enumDict) {
         warnings,
     );
     checkAndFix(json, "competencia", enumDict.competencia, "root", warnings);
+
+    for (const [vi, vit] of (json.grau1?.vitimas ?? []).entries()) {
+        if (!vit || typeof vit !== "object") continue;
+        const vp = `grau1.vitimas[${vi}]`;
+        checkAndFix(vit, "vulnerabilidade", enumDict.vitima_vulnerabilidade, vp, warnings);
+        checkAndFix(vit, "relacaoComReu", enumDict.vitima_relacaoComReu, vp, warnings);
+    }
 
     for (const [ri, reu] of (json.grau1?.reus ?? []).entries()) {
         validarReu(reu, `grau1.reus[${ri}]`, enumDict, causas, warnings);

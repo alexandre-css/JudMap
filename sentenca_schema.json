@@ -1,6 +1,6 @@
 {
     "numProcesso": null,
-    "versaoSchema": 6,
+    "versaoSchema": 7,
     "atualizadoEm": null,
     "statusProcesso": null,
     "competencia": null,
@@ -13,7 +13,13 @@
         "varaOrigem": null,
         "idEventoSentenca": null,
 
-        "vitimas": [],
+        "vitimas": [
+            {
+                "nome": null,
+                "vulnerabilidade": null,
+                "relacaoComReu": null
+            }
+        ],
 
         "reus": [
             {
@@ -194,7 +200,9 @@
                     "substituicaoPRD": {
                         "concedida": null,
                         "quantidadePenas": null,
-                        "especiesAplicadas": [],
+                        "especiesAplicadas": [
+                            { "especie": null, "horasTotal": null, "valorTotal": null, "beneficiario": null, "fundamentoArt": null }
+                        ],
                         "fundamentoNegativa": null
                     },
 
@@ -202,7 +210,21 @@
                         "concedido": null,
                         "especieAplicada": null,
                         "prazoAnos": null,
-                        "fundamentoNegativa": null
+                        "fundamentoNegativa": null,
+                        "condicoes": []
+                    },
+
+                    "condicoesRegimeAberto": [],
+
+                    "bensApreendidos": [
+                        { "descricao": null, "destinacao": null, "fundamentoLegal": null, "ehInstrumentoCrime": null }
+                    ],
+
+                    "statusLiberdadeRecursal": {
+                        "concedidoLiberdade": null,
+                        "impostoCautelarDiversa": null,
+                        "manidaPrisaoPreventiva": null,
+                        "fundamento": null
                     },
 
                     "reparacaoDanosArt387IV": {
