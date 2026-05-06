@@ -1,0 +1,20 @@
+{
+    "name": "judmap",
+    "version": "1.0.0",
+    "description": "Motor de extração de sentenças judiciais criminais → JSON estruturado",
+    "type": "module",
+    "main": "src/extractor.js",
+    "scripts": {
+        "extract": "node cli.js",
+        "extract:leis": "node leis/extrator.js",
+        "extract:leis:list": "node leis/extrator.js --list"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "dependencies": {
+        "axios": "^1.16.0",
+        "cheerio": "^1.2.0",
+        "iconv-lite": "^0.7.2"
+    }
+}

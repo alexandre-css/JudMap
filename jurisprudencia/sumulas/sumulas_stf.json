@@ -1,0 +1,710 @@
+{
+  "tribunal": "STF",
+  "total": 85,
+  "sumulas": [
+    {
+      "numero": 11,
+      "titulo": "Uso de Algemas",
+      "texto": "Só é lícito o uso de algemas em casos de resistência e de fundado receio de fuga ou de perigo à integridade física própria ou alheia, por parte do preso ou de terceiros, justificada a excepcionalidade por escrito, sob pena de responsabilidade disciplinar, civil e penal do agente ou da autoridade e de nulidade da prisão ou do ato processual a que se refere, sem prejuízo da responsabilidade civil do Estado.",
+      "cor": "emerald",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 14,
+      "titulo": "Acesso a Provas",
+      "texto": "É direito do defensor, no interesse do representado, ter acesso amplo aos elementos de prova que, já documentados em procedimento investigatório realizado por órgão com competência de polícia judiciária, digam respeito ao exercício do direito de defesa.",
+      "cor": "emerald",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 24,
+      "titulo": "Crime Tributário",
+      "texto": "Não se tipifica crime material contra a ordem tributária, previsto no art. 1º, incisos I a IV, da Lei 8.137/1990, antes do lançamento definitivo do tributo.",
+      "cor": "stone",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 26,
+      "titulo": "Exame Criminológico",
+      "texto": "Para efeito de progressão de regime no cumprimento de pena por crime hediondo, ou equiparado, o juízo da execução observará a inconstitucionalidade do art. 2º da Lei 8.072, de 25 de julho de 1990, sem prejuízo de avaliar se o condenado preenche, ou não, os requisitos objetivos e subjetivos do benefício, podendo determinar, para tal fim, de modo fundamentado, a realização de exame criminológico.",
+      "cor": "orange",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 35,
+      "titulo": "Transação Penal",
+      "texto": "A homologação da transação penal prevista no artigo 76 da Lei 9.099/1995 não faz coisa julgada material e, descumpridas suas cláusulas, retoma-se a situação anterior, possibilitando-se ao Ministério Público a continuidade da persecução penal mediante oferecimento de denúncia ou requisição de inquérito policial.",
+      "cor": "pink",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 36,
+      "titulo": "Falsificação Documentos",
+      "texto": "Compete à Justiça Federal comum processar e julgar civil denunciado pelos crimes de falsificação e de uso de documento falso quando se tratar de falsificação da Caderneta de Inscrição e Registro (CIR) ou de Carteira de Habilitação de Amador (CHA), ainda que expedidas pela Marinha do Brasil.",
+      "cor": "purple",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 45,
+      "titulo": "Júri - Foro por Prerrogativa",
+      "texto": "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente pela Constituição Estadual.",
+      "cor": "red",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 46,
+      "titulo": "Crimes de Responsabilidade",
+      "texto": "A definição dos crimes de responsabilidade e o estabelecimento das respectivas normas de processo e julgamento são da competência legislativa privativa da União.",
+      "cor": "purple",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ],
+      "nota": "Criada a partir da Súmula 722."
+    },
+    {
+      "numero": 56,
+      "titulo": "Regime mais Gravoso",
+      "texto": "A falta de estabelecimento penal adequado não autoriza a manutenção do condenado em regime prisional mais gravoso, devendo-se observar, nessa hipótese, os parâmetros fixados no RE 641.320/RS.",
+      "cor": "orange",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 59,
+      "titulo": "Tráfico Privilegiado",
+      "texto": "É impositiva a fixação do regime aberto e a substituição da pena privativa de liberdade por restritiva de direitos quando reconhecida a figura do tráfico privilegiado (art. 33, § 4º, da Lei 11.343/06) e ausentes vetores negativos na primeira fase da dosimetria (art. 59 do CP), observados os requisitos do art. 33, § 2º, alínea c, e do art. 44, ambos do Código Penal.",
+      "cor": "lime",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 63,
+      "titulo": "Tráfico - Crime Hediondo",
+      "texto": "O tráfico privilegiado (art. 33, § 4º, da Lei 11.343/2006) não configura crime hediondo, afastando-se a aplicação dos parâmetros mais rigorosos de progressão de regime e de livramento condicional.",
+      "cor": "orange",
+      "vinculante": true,
+      "chips": [
+        "VINCULANTE"
+      ]
+    },
+    {
+      "numero": 145,
+      "titulo": "Crime Impossível",
+      "texto": "Não há crime, quando a preparação do flagrante pela polícia torna impossível a sua consumação.",
+      "cor": "green",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 146,
+      "titulo": "Prescrição",
+      "texto": "A prescrição da ação penal regula-se pela pena concretizada na sentença, quando não há recurso da acusação.",
+      "cor": "indigo",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 155,
+      "titulo": "Intimação Precatória",
+      "texto": "É relativa a nulidade do processo criminal por falta de intimação da expedição de precatória para inquirição de testemunha.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 156,
+      "titulo": "Júri - Quesito Obrigatório",
+      "texto": "É absoluta a nulidade do julgamento, pelo júri, por falta de quesito obrigatório.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 160,
+      "titulo": "Nulidade Não Arguida",
+      "texto": "É nula a decisão do tribunal que acolhe, contra o réu, nulidade não arguida no recurso da acusação, ressalvados os casos de recurso de ofício.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 162,
+      "titulo": "Júri - Quesitos Defesa",
+      "texto": "É absoluta a nulidade do julgamento pelo júri, quando os quesitos da defesa não precedem aos das circunstâncias agravantes.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 206,
+      "titulo": "Júri - Jurado",
+      "texto": "É nulo o julgamento ulterior pelo Júri com a participação de jurado que funcionou em julgamento anterior do mesmo processo.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 210,
+      "titulo": "Assistente MP - Recurso",
+      "texto": "O assistente do ministério público pode recorrer, inclusive extraordinariamente, na ação penal, nos casos dos arts. 584, § 1º, e 598 do código de processo penal.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 246,
+      "titulo": "Cheque Sem Fundos",
+      "texto": "Comprovado não ter havido fraude, não se configura o crime de emissão de cheque sem fundos.",
+      "cor": "yellow",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 267,
+      "titulo": "Não Cabimento Mandado de Segurança",
+      "texto": "Não cabe mandado de segurança contra ato judicial passível de recurso ou correição.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 310,
+      "titulo": "Prazo intimação",
+      "texto": "Quando a intimação tiver lugar na sexta-feira, ou a publicação com efeito de intimação for feita nesse dia, o prazo judicial terá início na segunda-feira imediata, salvo se não houver expediente, caso em que começará no primeiro dia útil que se seguir.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 344,
+      "titulo": "HC - Recurso Ex Officio",
+      "texto": "Sentença de primeira instância concessiva de \"habeas corpus\", em caso de crime praticado em detrimento de bens, serviços ou interesses da união, está sujeita a recurso \"ex officio\".",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 351,
+      "titulo": "Citação por Edital",
+      "texto": "É nula a citação por edital de réu preso na mesma unidade da federação em que o juiz exerce a sua jurisdição.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 355,
+      "titulo": "Embargos Infringentes",
+      "texto": "Em caso de embargos infringentes parciais, é tardio o recurso extraordinário interposto após o julgamento dos embargos, quanto à parte da decisão embargada que não fora por eles abrangida.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 361,
+      "titulo": "Nulidade Exame Pericial",
+      "texto": "No processo penal, é nulo o exame realizado por um só perito, considerando-se impedido o que tiver funcionado, anteriormente, na diligência de apreensão.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 366,
+      "titulo": "Citação por Edital",
+      "texto": "Não é nula a citação por edital que indica o dispositivo da lei penal, embora não transcreva a denúncia ou queixa, ou não resuma os fatos em que se baseia.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 393,
+      "titulo": "Revisão Criminal",
+      "texto": "Para requerer revisão criminal, o condenado não é obrigado a recolher-se à prisão.",
+      "cor": "emerald",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 395,
+      "titulo": "Habeas Corpus - Custas",
+      "texto": "Não se conhece de recurso de \"habeas corpus\" cujo objeto seja resolver sobre o ônus das custas, por não estar mais em causa a liberdade de locomoção.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 396,
+      "titulo": "Término do Exercício Funcional",
+      "texto": "Para a ação penal por ofensa à honra, sendo admissível a exceção da verdade quanto ao desempenho de função pública, prevalece a competência especial por prerrogativa de função, ainda que já tenha cessado o exercício funcional do ofendido.",
+      "cor": "green",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 422,
+      "titulo": "Medida de Segurança",
+      "texto": "A absolvição criminal não prejudica a medida de segurança, quando couber, ainda que importe privação da liberdade.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 431,
+      "titulo": "Pauta Sessão",
+      "texto": "É nulo o julgamento de recurso criminal, na segunda instância, sem prévia intimação, ou publicação da pauta, salvo em \"habeas corpus\".",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 448,
+      "titulo": "Assistente - Prazo",
+      "texto": "O prazo para o assistente recorrer, supletivamente, começa a correr imediatamente após o transcurso do prazo do Ministério Público.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 451,
+      "titulo": "Cessação do Exercício",
+      "texto": "A competência especial por prerrogativa de função não se estende ao crime cometido após a cessação definitiva do exercício funcional.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 453,
+      "titulo": "Mutatio Libelli",
+      "texto": "Não se aplicam à segunda instância o art. 384 e parágrafo único do Código de Processo Penal, que possibilitam dar nova definição jurídica ao fato delituoso, em virtude de circunstância elementar não contida, explícita ou implicitamente, na denúncia ou queixa.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 497,
+      "titulo": "Prescrição - Crime Continuado",
+      "texto": "Quando se tratar de crime continuado, a prescrição regula-se pela pena imposta na sentença, não se computando o acréscimo decorrente da continuação.",
+      "cor": "indigo",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 498,
+      "titulo": "Economia Popular",
+      "texto": "Compete à Justiça dos Estados, em ambas as instâncias, o processo e o julgamento dos crimes contra a economia popular.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 499,
+      "titulo": "Sursis",
+      "texto": "Não obsta à concessão do \"sursis\" condenação anterior à pena de multa.",
+      "cor": "pink",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 508,
+      "titulo": "Banco do Brasil",
+      "texto": "Compete à Justiça Estadual, em ambas as instâncias, processar e julgar as causas em que for parte o Banco do Brasil S.A.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 521,
+      "titulo": "Cheque sem fundos",
+      "texto": "O foro competente para o processo e julgamento dos crimes de estelionato, sob a modalidade da emissão dolosa de cheque sem provisão de fundos, é o do local onde se deu a recusa do pagamento pelo sacado.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 522,
+      "titulo": "Tráfico de Drogas",
+      "texto": "Salvo ocorrência de tráfico para o exterior, quando, então, a competência será da Justiça Federal, compete à justiça dos estados o processo e julgamento dos crimes relativos a entorpecentes.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 523,
+      "titulo": "Falta de Defesa",
+      "texto": "No processo penal, a falta da defesa constitui nulidade absoluta, mas a sua deficiência só o anulará se houver prova de prejuízo para o réu.",
+      "cor": "pink",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 524,
+      "titulo": "Arquivamento Inquérito",
+      "texto": "Arquivado o inquérito policial, por despacho do juiz, a requerimento do promotor de justiça, não pode a ação penal ser iniciada, sem novas provas.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 525,
+      "titulo": "Medida de Segurança",
+      "texto": "A medida de segurança não será aplicada em segunda instância, quando só o réu tenha recorrido.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 554,
+      "titulo": "Cheque Sem Fundos",
+      "texto": "O pagamento de cheque emitido sem provisão de fundos, após o recebimento da denúncia, não obsta ao prosseguimento da ação penal.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 555,
+      "titulo": "Conflito de Jurisdição",
+      "texto": "É competente o Tribunal de Justiça para julgar conflito de jurisdição entre Juiz de Direito do estado e a Justiça Militar local.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 556,
+      "titulo": "Sociedade de Economia Mista",
+      "texto": "É competente a Justiça Comum para julgar as causas em que é parte sociedade de economia mista.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 592,
+      "titulo": "Prescrição - Crimes Falimentares",
+      "texto": "Nos crimes falimentares, aplicam-se as causas interruptivas da prescrição, previstas no Código Penal.",
+      "cor": "indigo",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 594,
+      "titulo": "Queixa e Representação",
+      "texto": "Os direitos de queixa e de representação podem ser exercidos, independentemente, pelo ofendido ou por seu representante legal.",
+      "cor": "orange",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 603,
+      "titulo": "Latrocínio",
+      "texto": "A competência para o processo e julgamento de latrocínio é do juiz singular e não do Tribunal do Júri.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 606,
+      "titulo": "Habeas Corpus Originário",
+      "texto": "Não cabe habeas corpus originário para o Tribunal Pleno de decisão de Turma, ou do Plenário, proferida em habeas corpus ou no respectivo recurso.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 608,
+      "titulo": "Ação Penal - Estupro",
+      "texto": "No crime de estupro, praticado mediante violência real, a ação penal é pública incondicionada.",
+      "cor": "magenta",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 609,
+      "titulo": "Ação Penal - Sonegação Fiscal",
+      "texto": "É pública incondicionada a ação penal por crime de sonegação fiscal.",
+      "cor": "stone",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 610,
+      "titulo": "Latrocínio - Consumação",
+      "texto": "Há crime de latrocínio, quando o homicídio se consuma, ainda que não realize o agente a subtração de bens da vítima.",
+      "cor": "yellow",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 611,
+      "titulo": "Lei Penal Mais Benigna",
+      "texto": "Transitada em julgado a sentença condenatória, compete ao juízo das execuções a aplicação de lei mais benigna.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 691,
+      "titulo": "Habeas Corpus - Competência",
+      "texto": "Não compete ao Supremo Tribunal Federal conhecer de \"habeas corpus\" impetrado contra decisão do relator que, em \"habeas corpus\" requerido a Tribunal Superior, indefere a liminar.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 692,
+      "titulo": "Habeas Corpus - Extradição",
+      "texto": "Não se conhece de \"habeas corpus\" contra omissão de relator de extradição, se fundado em fato ou direito estrangeiro cuja prova não constava dos autos, nem foi ele provocado a respeito.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 693,
+      "titulo": "Habeas Corpus - Multa",
+      "texto": "Não cabe \"habeas corpus\" contra decisão condenatória a pena de multa, ou relativo a processo em curso por infração penal a que a pena pecuniária seja a única cominada.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 694,
+      "titulo": "Habeas Corpus - Exclusão Militar",
+      "texto": "Não cabe \"habeas corpus\" contra a imposição da pena de exclusão de militar ou de perda de patente ou de função pública.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 695,
+      "titulo": "Habeas Corpus - Pena Extinta",
+      "texto": "Não cabe \"habeas corpus\" quando já extinta a pena privativa de liberdade.",
+      "cor": "amber",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 696,
+      "titulo": "Suspensão Condicional - Recusa pelo MP",
+      "texto": "Reunidos os pressupostos legais permissivos da suspensão condicional do processo, mas se recusando o promotor de justiça a propô-la, o juiz, dissentindo, remeterá a questão ao Procurador-Geral, aplicando-se por analogia o art. 28 do Código de Processo Penal.",
+      "cor": "fuchsia",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 700,
+      "titulo": "Agravo em Execução - Prazo",
+      "texto": "É de cinco dias o prazo para interposição de agravo contra decisão do juiz da execução penal.",
+      "cor": "orange",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 701,
+      "titulo": "Mandado de Segurança - Litisconsorte",
+      "texto": "No mandado de segurança impetrado pelo Ministério Público contra decisão proferida em processo penal, é obrigatória a citação do réu como litisconsorte passivo.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 702,
+      "titulo": "Julgamento de Prefeitos",
+      "texto": "A competência do tribunal de justiça para julgar prefeitos restringe-se aos crimes de competência da justiça comum estadual; nos demais casos, a competência originária caberá ao respectivo tribunal de segundo grau.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 703,
+      "titulo": "Prefeito - Extinção do Mandato",
+      "texto": "A extinção do mandato do prefeito não impede a instauração de processo pela prática dos crimes previstos no art. 1º do Dl. 201/67.",
+      "cor": "green",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 704,
+      "titulo": "Conexão - Foro por Prerrogativa",
+      "texto": "Não viola as garantias do juiz natural, da ampla defesa e do devido processo legal a atração por continência ou conexão do processo do corréu ao foro por prerrogativa de função de um dos denunciados.",
+      "cor": "emerald",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 705,
+      "titulo": "Renúncia Apelação",
+      "texto": "A renúncia do réu ao direito de apelação, manifestada sem a assistência do defensor, não impede o conhecimento da apelação por este interposta.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 706,
+      "titulo": "Nulidade - Prevenção",
+      "texto": "É relativa a nulidade decorrente da inobservância da competência penal por prevenção.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 707,
+      "titulo": "Nulidade - Intimação Contrarrazões",
+      "texto": "Constitui nulidade a falta de intimação do denunciado para oferecer contra-razões ao recurso interposto da rejeição da denúncia, não a suprindo a nomeação de defensor dativo.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 708,
+      "titulo": "Apelação - Renúncia",
+      "texto": "É nulo o julgamento da apelação se, após a manifestação nos autos da renúncia do único defensor, o réu não foi previamente intimado para constituir outro.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 709,
+      "titulo": "Acórdão - Recebimento Denúncia",
+      "texto": "Salvo quando nula a decisão de primeiro grau, o acórdão que provê o recurso contra a rejeição da denúncia vale, desde logo, pelo recebimento dela.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 710,
+      "titulo": "Contagem Prazos",
+      "texto": "No processo penal, contam-se os prazos da data da intimação, e não da juntada aos autos do mandado ou da carta precatória ou de ordem.",
+      "cor": "teal",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 711,
+      "titulo": "Crimes Continuado e Permanente",
+      "texto": "A lei penal mais grave aplica-se ao crime continuado ou ao crime permanente, se a sua vigência é anterior à cessação da continuidade ou da permanência.",
+      "cor": "pink",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 712,
+      "titulo": "Contraditório no Desaforamento",
+      "texto": "É nula a decisão que determina o desaforamento de processo da competência do júri sem audiência da defesa.",
+      "cor": "violet",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 713,
+      "titulo": "Efeitos Apelação Júri",
+      "texto": "O efeito devolutivo da apelação contra decisões do júri é adstrito aos fundamentos da sua interposição.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 714,
+      "titulo": "Legitimidade Crime Contra a Honra",
+      "texto": "É concorrente a legitimidade do ofendido, mediante queixa, e do ministério público, condicionada à representação do ofendido, para a ação penal por crime contra a honra de servidor público em razão do exercício de suas funções.",
+      "cor": "green",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 715,
+      "titulo": "Pena Unificada e Benefícios",
+      "texto": "A pena unificada para atender ao limite de trinta anos de cumprimento, determinado pelo art. 75 do código penal, não é considerada para a concessão de outros benefícios, como o livramento condicional ou regime mais favorável de execução.",
+      "cor": "orange",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 716,
+      "titulo": "Progressão Antes do Trânsito",
+      "texto": "Admite-se a progressão de regime de cumprimento da pena ou a aplicação imediata de regime menos severo nela determinada, antes do trânsito em julgado da sentença condenatória.",
+      "cor": "orange",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 717,
+      "titulo": "Progressão em Prisão Especial",
+      "texto": "Não impede a progressão de regime de execução da pena, fixada em sentença não transitada em julgado, o fato de o réu se encontrar em prisão especial.",
+      "cor": "orange",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 718,
+      "titulo": "Regime - Gravidade em Abstrato",
+      "texto": "A opinião do julgador sobre a gravidade em abstrato do crime não constitui motivação idônea para a imposição de regime mais severo do que o permitido segundo a pena aplicada.",
+      "cor": "pink",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 719,
+      "titulo": "Regime Mais Severo - Motivação",
+      "texto": "A imposição do regime de cumprimento mais severo do que a pena aplicada permitir exige motivação idônea.",
+      "cor": "pink",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 720,
+      "titulo": "Direção Sem Habilitação",
+      "texto": "O art. 309 do Código de Trânsito Brasileiro, que reclama decorra do fato perigo de dano, derrogou o art. 32 da lei das contravenções penais no tocante à direção sem habilitação em vias terrestres.",
+      "cor": "green",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 721,
+      "titulo": "Tribunal do Júri - Competência",
+      "texto": "A competência constitucional do Tribunal do Júri prevalece sobre o foro por prerrogativa de função estabelecido exclusivamente pela Constituição Estadual.",
+      "cor": "red",
+      "vinculante": false,
+      "chips": []
+    },
+    {
+      "numero": 722,
+      "titulo": "Crimes de Responsabilidade",
+      "texto": "São da competência legislativa da União a definição dos crimes de responsabilidade e o estabelecimento das respectivas normas de processo e julgamento.",
+      "cor": "purple",
+      "vinculante": false,
+      "chips": [],
+      "nota": "Convertida na Súmula Vinculante 46."
+    },
+    {
+      "numero": 723,
+      "titulo": "Suspensão Condicional e Crime Continuado",
+      "texto": "Não se admite a suspensão condicional do processo por crime continuado, se a soma da pena mínima da infração mais grave com o aumento mínimo de um sexto for superior a um ano.",
+      "cor": "fuchsia",
+      "vinculante": false,
+      "chips": []
+    }
+  ]
+}

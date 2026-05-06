@@ -1,0 +1,57 @@
+{
+  "numProcesso": "5001399-88.2025.8.24.0541",
+  "versaoSchema": 5,
+  "atualizadoEm": null,
+  "statusProcesso": "sentenciado_aguardando_recursos",
+  "competencia": "criminal_drogas",
+  "grau1": {
+    "dataFato": "11/07/2025",
+    "dataRecebimentoDenuncia": null,
+    "dataSentenca": "18/02/2026",
+    "dataPublicacaoSentenca": null,
+    "juizSentenciante": "Rodrigo Climaco Jose",
+    "varaOrigem": "2ª Vara da Comarca de Rio Negrinho",
+    "idEventoSentenca": null,
+    "vitimas": [
+      "A Coletividade"
+    ],
+    "reus": [
+      {
+        "nome": "Kelly Floriano Vitencour",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "privada",
+        "situacaoPrisional": {
+          "estadoAtual": "medida_cautelar_diversa",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": false,
+          "tipo": "primario_sem_antecedentes",
+          "processosCitados": []
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "art. 33, caput, da Lei n. 11.343/2006",
+            "tipoCrime": "Tráfico de Drogas",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_integralmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "Tráfico de Drogas",
+            "dispositivoLegal": "art. 33, caput e § 4º, da Lei n. 11.343/2006",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "neutra",
+                  "fundamento": "não se afasta da normalidade à espécie"
+                },
+                "antecedentes": {
+                  "valoracao": "neutra",
+                  "fundamento": "não há antecedentes,

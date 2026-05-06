@@ -1,0 +1,756 @@
+{
+    "_comentario": "Dicionário de dados JudMap v6. Todos os campos categóricos devem usar EXCLUSIVAMENTE os valores listados aqui. Campos não preenchidos: sempre null, nunca string vazia ou 0.",
+    "_versao": 6,
+
+    "statusProcesso": [
+        "em_andamento_1g",
+        "sentenciado_aguardando_recursos",
+        "em_recurso_2g",
+        "transitado_em_julgado",
+        "em_execucao",
+        "extinto"
+    ],
+
+    "competencia": [
+        "criminal_comum",
+        "criminal_drogas",
+        "juri",
+        "violencia_domestica",
+        "jecrim",
+        "execucao_penal",
+        "infancia_juventude",
+        "militar",
+        "federal"
+    ],
+
+    "reu": {
+        "tipoDefesa": [
+            "privada",
+            "dativa",
+            "defensoria_publica",
+            "autodefesa",
+            "nao_informado"
+        ],
+
+        "situacaoPrisional_estadoAtual": [
+            "liberdade",
+            "preso_preventivo",
+            "preso_definitivo",
+            "prisao_domiciliar",
+            "foragido",
+            "medida_cautelar_diversa",
+            "nao_informado"
+        ],
+
+        "situacaoPrisional_tipoCustodia": [
+            "flagrante_convertido",
+            "preventiva",
+            "temporaria",
+            "definitiva",
+            "recambiado",
+            null
+        ],
+
+        "antecedentesCriminais_tipo": [
+            "primario_sem_antecedentes",
+            "primario_com_antecedentes",
+            "reincidente_generico",
+            "reincidente_especifico",
+            "multireincidente",
+            null
+        ],
+
+        "_nota_antecedentes": "Distinguir: primario_com_antecedentes = condenação sem reincidência (prazo >5 anos, Súmula 636 STJ). Nunca usar processos em curso como antecedentes negativos (Súmula 444 STJ).",
+
+        "resultado": [
+            "condenado_integralmente",
+            "condenado_parcialmente",
+            "absolvido",
+            "absolvicao_sumaria",
+            "extinta_punibilidade",
+            "impronunciado",
+            "despronunciado"
+        ]
+    },
+
+    "crime": {
+        "modalidadeConsumacao": [
+            "consumado",
+            "tentado",
+            "desistencia_voluntaria",
+            "arrependimento_eficaz",
+            "crime_impossivel"
+        ],
+
+        "modalidadeSubjetiva": ["doloso", "culposo", "preterdoloso"]
+    },
+
+    "fase1": {
+        "valoracao": ["negativa", "positiva", "neutra", "nao_mencionada"],
+
+        "_nota_fundamento": "Extrair trecho literal da sentença (80-250 chars). Se valoração for neutra ou nao_mencionada, fundamento = null.",
+
+        "antecedentes_subcategoria": [
+            "condenacao_transitada_anterior",
+            "processos_em_curso_indevido_sumula_444",
+            "condenacao_apos_5_anos_sumula_636",
+            "atos_infracionais_indevidos",
+            null
+        ],
+
+        "_nota_subcategoria": "Preencher subcategoria apenas quando valoracao = negativa. As subcategorias marcadas como 'indevido' devem gerar alerta automático no sistema."
+    },
+
+    "fase2": {
+        "agravantesReconhecidas": [
+            "reincidencia_comum",
+            "reincidencia_especifica",
+            "multireincidencia",
+            "motivo_futil",
+            "motivo_torpe",
+            "facilitar_assegurar_outro_crime",
+            "facilitar_assegurar_ocultacao_impunidade",
+            "traicao_emboscada_dissimulacao",
+            "meio_cruel_fogo_explosivo_veneno",
+            "recurso_dificultou_defesa",
+            "contra_ascendente_descendente_irmao_conjuge",
+            "abuso_autoridade_relacoes_domesticas_coabitacao_hospitalidade",
+            "violacao_dever_oficio_profissao",
+            "contra_crianca_idoso_enfermo_gestante",
+            "sob_protecao_autoridade",
+            "calamidade_publica_ou_desgraca_particular",
+            "embriaguez_preordenada",
+            "promove_organiza_crime_dirige_atividade",
+            "coage_induz_outrem_execucao",
+            "instiga_determina_subordinacao_autoridade",
+            "executa_mediante_paga_promessa_recompensa"
+        ],
+
+        "atenuantesReconhecidas": [
+            "menoridade_relativa",
+            "senilidade_maior_70_data_sentenca",
+            "desconhecimento_lei",
+            "motivo_relevante_valor_social",
+            "motivo_relevante_valor_moral",
+            "arrependimento_posterior_reparacao_dano",
+            "diminuir_consequencias_evitar_atenuar",
+            "coacao_resistivel",
+            "cumprimento_ordem_autoridade_superior",
+            "violenta_emocao_logo_apos_provocacao_injusta",
+            "confissao_espontanea",
+            "confissao_qualificada_sumula_545_stj",
+            "influencia_multidao_tumulto_nao_provocado",
+            "atenuante_inominada_art66",
+            "colaboracao_premiada_como_atenuante",
+            "reparacao_no_jecrim"
+        ],
+
+        "_nota_compensacao": "compensacaoIntegral = true ativa verificação de Súmula 545 STJ (confissão compensa reincidência). Sistema deve alertar quando compensacaoIntegral = false com ambas presentes.",
+
+        "compensacaoIntegral": [true, false, null],
+
+        "agravantePreponderante": [
+            "reincidencia",
+            "motivo_determinante",
+            "personalidade_agente",
+            null
+        ],
+
+        "fracoes_permitidas": ["1/8", "1/6", "1/5", "1/4", "1/3", "1/2", "2/3"]
+    },
+
+    "fase3": {
+        "_nota_causas": "Usar dispositivo legal padronizado conforme lista abaixo. Aceitar free-text apenas para causas não listadas.",
+
+        "causasAumento_parteGeral": [
+            "art70_concurso_formal_proprio",
+            "art71_continuidade_delitiva",
+            "art71_par_unico_continuidade_especifica"
+        ],
+
+        "causasAumento_homicidio": [
+            "art121_par4_culposo_inobservancia_regra",
+            "art121_par6_milicia",
+            "art121_par7_feminicidio_majorantes"
+        ],
+
+        "causasAumento_lesaoCorporal": [
+            "art129_par7_violencia_domestica",
+            "art129_par11_deficiente"
+        ],
+
+        "causasAumento_furto": ["art155_par1_repouso_noturno"],
+
+        "causasAumento_roubo": [
+            "art157_par2_I_concurso_pessoas",
+            "art157_par2_II_restricao_liberdade",
+            "art157_par2A_arma_fogo",
+            "art157_par2B_arma_uso_restrito",
+            "art157_par3_lesao_grave_morte"
+        ],
+
+        "causasAumento_extorsaoSequestro": [
+            "art158_par1",
+            "art158_par3_extorsao_mediante_sequestro",
+            "art159_par1",
+            "art159_par2",
+            "art159_par3"
+        ],
+
+        "causasAumento_estelionato": ["art171_par4_idoso_vulneravel"],
+
+        "causasAumento_dignidadeSexual": [
+            "art226_I_concurso_pessoas",
+            "art226_II_relacao_familiar_autoridade",
+            "art234A_III_resultado_gravidez",
+            "art234A_IV_dst_vitima_idosa_deficiente"
+        ],
+
+        "causasAumento_feminicidio": [
+            "art121A_par2_I_gestacao_postparto_crianca_deficiente",
+            "art121A_par2_II_vitima_menor14_idosa_deficiente",
+            "art121A_par2_III_presenca_descendente_ascendente",
+            "art121A_par2_IV_descumprimento_medida_protetiva",
+            "art121A_par2_V_qualificadoras_especificas"
+        ],
+
+        "causasAumento_corrupcaoPeculato": ["art327_par2", "art333_par_unico"],
+
+        "causasAumento_desarmamento": [
+            "art19_arma_uso_proibido_restrito",
+            "art20_I_integrante_orgao_habilitado",
+            "art20_II_reincidente_especifico"
+        ],
+
+        "causasAumento_organizacaoCriminosa": [
+            "art2_par2_emprego_arma_fogo",
+            "art2_par4_I_crianca_adolescente",
+            "art2_par4_II_funcionario_publico",
+            "art2_par4_III_destino_exterior",
+            "art2_par4_IV_conexao_outras_organizacoes",
+            "art2_par4_V_transnacionalidade"
+        ],
+
+        "causasAumento_leiDrogas": [
+            "art40_I_transnacionalidade",
+            "art40_II_interestadualidade",
+            "art40_III_local_proximidades",
+            "art40_IV_violencia_grave_ameaca",
+            "art40_V_transporte_publico",
+            "art40_VI_envolvimento_crianca_adolescente",
+            "art40_VII_financiamento_custeio"
+        ],
+
+        "causasDiminuicao_parteGeral": [
+            "art14_II_tentativa",
+            "art16_arrependimento_posterior",
+            "art21_erro_proibicao_evitavel",
+            "art24_par2_estado_necessidade_excessivo",
+            "art26_par_unico_semi_imputabilidade",
+            "art29_par1_participacao_menor_importancia",
+            "art29_par2_cooperacao_dolosamente_distinta"
+        ],
+
+        "causasDiminuicao_parteEspecial": [
+            "art121_par1_homicidio_privilegiado",
+            "art155_par2_furto_privilegiado",
+            "art171_par1_estelionato_privilegiado",
+            "art180_par5_receptacao_privilegiada"
+        ],
+
+        "causasDiminuicao_leiDrogas": [
+            "art33_par4_trafico_privilegiado",
+            "art41_colaboracao_leiDrogas"
+        ],
+
+        "causasDiminuicao_leiLavagem": ["art1_par5_colaboracao_lavagem"],
+
+        "causasDiminuicao_organizacaoCriminosa": [
+            "art4_lei12850_colaboracao_premiada"
+        ],
+
+        "tentativaReconhecida": [true, false, null],
+
+        "fracoesTentativa": ["1/3", "1/2", "2/3"]
+    },
+
+    "concursoDeCrimes": {
+        "regraAplicada": [
+            "crime_unico",
+            "material_art69",
+            "formal_perfeito_art70_caput_1parte",
+            "formal_imperfeito_art70_caput_2parte",
+            "continuidade_comum_art71_caput",
+            "continuidade_especifica_art71_par_unico",
+            null
+        ],
+
+        "_nota_fracao": "fracaoExasperacao: usar fração quando concurso formal próprio ou continuidade. Usar 'cumulacao_material' quando o resultado for soma de penas (material ou formal imperfeito).",
+
+        "fracaoExasperacao": [
+            "1/6",
+            "1/5",
+            "1/4",
+            "1/3",
+            "1/2",
+            "2/3",
+            "cumulacao_material",
+            null
+        ]
+    },
+
+    "execucaoDaPena": {
+        "detracao_periodos_modalidade": [
+            "prisao_em_flagrante",
+            "prisao_temporaria",
+            "prisao_preventiva",
+            "internacao_provisoria_medida_seguranca",
+            "prisao_administrativa",
+            "prisao_no_estrangeiro"
+        ],
+
+        "_nota_detracao_apenas_ppl": "detracao refere-se exclusivamente à pena privativa de liberdade (CP art. 42). Suspensão cautelar de habilitação (CTB art. 293 + CPP art. 319) é registrada em penasAcessoriasCtb.detracaoSuspensaoHabilitacao.",
+
+        "_nota_detracao_totalDias": "totalDias é computado pelo sistema (ano=365, mês=30). IA preenche apenas dataInicio, dataFim e modalidade de cada período.",
+
+        "detracao_consideradaParaRegime": [true, false, null],
+
+        "_nota_detracao_regra": "true = juiz aplicou art.387 §2º CPP e abrandou regime. false = mencionou mas remeteu ao juízo da execução. null = sem prisão provisória ou não mencionado.",
+
+        "regimeInicial": ["fechado", "semiaberto", "aberto", null],
+
+        "sumulaViolada": [
+            "sumula_440_stj",
+            "sumula_718_stf",
+            "sumula_719_stf",
+            "tema_1139_stf",
+            "sumula_269_stj",
+            null
+        ],
+
+        "_nota_sumulaViolada": "Preenchido automaticamente pelo sistema com base nos dados extraídos. NÃO preencher pela IA.",
+
+        "substituicaoPRD_concedida": [true, false, null],
+
+        "substituicaoPRD_quantidadePenas": [1, 2, null],
+
+        "_nota_prd_quantidade": "1 pena substitutiva quando pena ≤1 ano. 2 penas quando pena >1 ano (art.44 §2º CP).",
+
+        "substituicaoPRD_especiesAplicadas": [
+            "prestacao_servicos_comunidade",
+            "prestacao_pecuniaria",
+            "perda_bens_valores",
+            "interdicao_temporaria_direitos",
+            "limitacao_fim_de_semana",
+            "multa_substitutiva"
+        ],
+
+        "sursisPenal_concedido": [true, false, null],
+
+        "sursisPenal_especieAplicada": [
+            "simples_art77",
+            "especial_art78_par2",
+            "etario_art77_par2",
+            "humanitario_art77_par2",
+            null
+        ],
+
+        "_nota_sursis_prazos": "simples/especial: 2-4 anos. etario (>70 anos) e humanitario (razões de saúde): 4-6 anos.",
+
+        "sursisPenal_prazoAnos": [2, 3, 4, 5, 6, null],
+
+        "reparacaoDanos_destinatario": [
+            "vitima_direta",
+            "herdeiros",
+            "erario",
+            "fundo_publico",
+            null
+        ],
+
+        "_nota_reparacao_sumula588": "houvePedidoExpresso = false deve gerar alerta: Súmula 588 STJ exige pedido expresso para fixação do valor mínimo."
+    },
+
+    "penasAcessoriasCtb": {
+        "_nota_visaoGeral": "Penas e sanções acessórias específicas do CTB, independentes da pena privativa de liberdade. Suspensão/proibição de habilitação (CTB art. 293) é pena autônoma — não confundir com detração da PPL. A detração aqui refere-se ao desconto do tempo já cumprido da MESMA pena acessória em sede cautelar (CPP art. 319 + CTB art. 293 + CP art. 42, por analogia).",
+
+        "suspensaoOuProibicaoHabilitacao_fundamentoLegal": [
+            "ctb_art293_suspensao",
+            "ctb_art293_proibicao",
+            null
+        ]
+    },
+
+    "prescricao": {
+        "prescricaoReconhecida": [
+            "ppp_abstrata",
+            "ppp_retroativa",
+            "ppp_intercorrente_superveniente",
+            "ppe",
+            "extincao_punibilidade_morte",
+            "extincao_punibilidade_anistia_graca_indulto",
+            "extincao_punibilidade_perdao_judicial",
+            "extincao_punibilidade_perempcao",
+            "extincao_punibilidade_decadencia",
+            "extincao_punibilidade_renuncia_perdao_aceito",
+            "extincao_punibilidade_pagamento_tributo",
+            null
+        ],
+
+        "calculoPrescricao_risco": [
+            "sem_risco",
+            "baixo",
+            "medio",
+            "alto",
+            "iminente",
+            "configurada"
+        ],
+
+        "_nota_risco_limites": "sem_risco: >3 anos. baixo: 1-3 anos. medio: 6 meses-1 ano. alto: 3-6 meses. iminente: <3 meses. configurada: prazo já esgotado.",
+
+        "_nota_calculo": "Campos calculoPrescricao.* são computados pelo sistema usando prazos do art.109 CP. NÃO preencher pela IA. Penas calculadas usam: ano=365 dias, mês=30 dias."
+    },
+
+    "recursos": {
+        "tipo": [
+            "apelacao",
+            "recurso_em_sentido_estrito",
+            "agravo_execucao",
+            "agravo_instrumento",
+            "carta_testemunhavel",
+            "correicao_parcial",
+            "recurso_oficio",
+            "embargos_infringentes",
+            "revisao_criminal",
+            "habeas_corpus",
+            "embargos_declaratorios"
+        ],
+
+        "recorrente": [
+            "ministerio_publico",
+            "reu:{nome}",
+            "assistente_acusacao",
+            "querelante",
+            "defensoria_publica",
+            "de_oficio"
+        ],
+
+        "_nota_recorrente": "Para réus específicos, usar 'reu:' seguido do nome. Ex: 'reu:João da Silva'.",
+
+        "efeitos": [
+            "devolutivo",
+            "suspensivo",
+            "regressivo",
+            "extensivo_art580_cpp"
+        ],
+
+        "resultado": [
+            "provido_integralmente",
+            "provido_parcialmente",
+            "desprovido",
+            "nao_conhecido",
+            "prejudicado",
+            "convertido_em_diligencia",
+            "pendente_julgamento"
+        ],
+
+        "teses_padronizadas": [
+            "absolvicao_insuficiencia_provas",
+            "absolvicao_atipicidade",
+            "absolvicao_negativa_autoria",
+            "absolvicao_excludente_ilicitude",
+            "absolvicao_excludente_culpabilidade",
+            "desclassificacao",
+            "reducao_pena_base_fase1",
+            "afastamento_vetor_negativo",
+            "reconhecimento_atenuante",
+            "afastamento_agravante",
+            "reducao_fracao_aumento",
+            "aplicacao_minorante",
+            "afastamento_majorante",
+            "abrandamento_regime",
+            "substituicao_pena_prd",
+            "concessao_sursis",
+            "reconhecimento_prescricao",
+            "nulidade_processual",
+            "reformatio_in_pejus",
+            "violacao_sumula",
+            "violacao_tema_repetitivo",
+            "livre"
+        ],
+
+        "_nota_teses": "Usar teses_padronizadas como prefixo quando possível. Complementar com free-text no campo 'teses' do recurso quando a tese não couber nos valores acima.",
+
+        "objeto_recursosMP": [
+            "recurso_quanto_absolvicao",
+            "recurso_quanto_pena",
+            "recurso_quanto_regime",
+            "recurso_quanto_substituicao",
+            "recurso_quanto_sursis",
+            "recurso_quanto_dosimetria_fase1",
+            "recurso_quanto_dosimetria_fase2",
+            "recurso_quanto_dosimetria_fase3",
+            "recurso_quanto_concurso_crimes",
+            "recurso_quanto_reparacao_danos",
+            "recurso_quanto_prescricao"
+        ],
+
+        "embargosDeclaratorios_resultado": [
+            "acolhidos",
+            "rejeitados",
+            "acolhidos_com_efeitos_modificativos",
+            "nao_conhecidos"
+        ]
+    },
+
+    "parecerPGJ": {
+        "teor": [
+            "DESPROVIMENTO",
+            "PROVIMENTO_INTEGRAL",
+            "PROVIMENTO_PARCIAL",
+            "NAO_CONHECIDO",
+            "CONVERSAO_DILIGENCIA",
+            "EXTINCAO_PUNIBILIDADE_DE_OFICIO"
+        ],
+
+        "_nota_compatibilidade": "Valores compatíveis com classificarParecerComIA() do eProbe."
+    },
+
+    "acordao": {
+        "votacao": ["unanime", "maioria", "voto_minerva", null],
+
+        "resultadoPorRecurso_decisao": [
+            "provido_integralmente",
+            "provido_parcialmente",
+            "desprovido",
+            "nao_conhecido",
+            "prejudicado",
+            "convertido_em_diligencia"
+        ],
+
+        "novoRegimeInicial": ["fechado", "semiaberto", "aberto", null],
+
+        "_nota_sumulasETemasCitados": "Exemplos: 'sumula_231_stj', 'sumula_440_stj', 'sumula_545_stj', 'sumula_636_stj', 'sumula_718_stf', 'sumula_719_stf', 'tema_1139_stf', 'tema_rep_{numero}'. Usar string padronizada quando o julgado for identificável."
+    },
+
+    "metadados": {
+        "preenchidoPor": ["ia", "manual", "misto", "importado"],
+
+        "_nota_confianca": "Número decimal 0.0-1.0. Calculado pela IA como autoavaliação agregada dos campos preenchidos. Não é por campo individual.",
+
+        "acordoNaoPersecucaoPenal": [
+            "oferecido_homologado",
+            "oferecido_descumprido",
+            "oferecido_recusado",
+            "nao_aplicavel",
+            null
+        ],
+
+        "suspensaoCondicionalProcesso": [
+            "oferecida_aceita",
+            "revogada",
+            "cumprida_extincao",
+            "nao_aplicavel",
+            null
+        ]
+    },
+
+    "meiosDeProva": {
+        "_nota_visaoGeral": "Meios pelos quais o fato criminoso é demonstrado em juízo. Cada item representa uma fonte de prova específica utilizada na fundamentação da sentença.",
+
+        "tipo": [
+            "pericia_corpo_delito",
+            "pericia_outra",
+            "interrogatorio_acusado",
+            "confissao",
+            "declaracao_ofendido",
+            "prova_testemunhal",
+            "reconhecimento_pessoas",
+            "reconhecimento_coisas",
+            "acareacao",
+            "prova_documental_fisica",
+            "prova_documental_eletronica",
+            "indicio"
+        ],
+
+        "usadoPara": ["materialidade", "autoria", "dosimetria", "outros"],
+
+        "resultado": [
+            "confirmou_materialidade",
+            "confirmou_autoria",
+            "confirmou_materialidade_e_autoria",
+            "contradiz_versao_defesa",
+            "neutro",
+            "prejudicado"
+        ],
+
+        "pericia_tipoExame": ["direto", "indireto"],
+        "pericia_naturezaPerito": ["oficial", "ad_hoc_dois_peritos"],
+        "pericia_conclusao": [
+            "conclusivo_materialidade",
+            "inconclusivo",
+            "parcialmente_conclusivo"
+        ],
+
+        "interrogatorio_direito_silencio": [
+            "exercido_totalmente",
+            "exercido_parcialmente",
+            "nao_exercido"
+        ],
+
+        "confissao_tipo": ["simples", "qualificada", "parcial", "retratada"],
+        "confissao_momento": ["extrajudicial", "judicial", "ambos"],
+
+        "testemunha_qualificacao": ["compromissada", "informante"],
+        "testemunha_tipoPercepcao": ["direta_visual", "indireta_hearsay"],
+        "testemunha_fase": ["apenas_inquerito", "apenas_juizo", "ambas"],
+
+        "reconhecimento_modalidade": [
+            "presencial",
+            "fotografico",
+            "videoconferencia"
+        ],
+        "reconhecimento_procedimentoLegal_Art226": [
+            "respeitado",
+            "desrespeitado_showup",
+            "desrespeitado_outro",
+            "nao_informado"
+        ],
+
+        "documento_tipo": [
+            "fisico",
+            "eletronico_print_chat",
+            "eletronico_video",
+            "eletronico_metadados",
+            "eletronico_outro"
+        ],
+        "documento_cadeiaDigitalAdequada": [true, false, null]
+    },
+
+    "meiosDeObtencaoDeProva": {
+        "_nota_visaoGeral": "Técnicas especiais ou diligências para coleta de fontes de prova. Sujeitos a reserva de jurisdição ou requisitos legais específicos.",
+
+        "tipo": [
+            "busca_apreensao_domiciliar",
+            "busca_apreensao_pessoal",
+            "busca_apreensao_veicular",
+            "interceptacao_telefonica_telematica",
+            "captacao_ambiental",
+            "quebra_sigilo_financeiro_bancario",
+            "quebra_sigilo_fiscal",
+            "quebra_sigilo_dados_telefonico",
+            "acao_controlada_flagrante_diferido",
+            "infiltracao_agentes",
+            "colaboracao_premiada",
+            "acesso_registros_dados_cadastrais"
+        ],
+
+        "autorizacaoJudicial": [
+            "com_mandado",
+            "sem_mandado_consentimento",
+            "sem_mandado_flagrante",
+            "sem_mandado_fundada_suspeita",
+            "requisicao_direta_mp_delegado",
+            "nao_necessaria",
+            "nao_informado"
+        ],
+
+        "resultado": [
+            "validado",
+            "nulidade_rejeitada",
+            "nulidade_reconhecida",
+            "contestado_mantido",
+            "nao_contestado"
+        ],
+
+        "busca_serendipidade": [true, false, null],
+
+        "colaboracao_homologada": [true, false, null],
+        "colaboracao_corroboradaFonteAutonoma": [true, false, null]
+    },
+
+    "teses": {
+        "_nota_visaoGeral": "Estrutura unificada para teses/argumentos das partes em qualquer fase. Usada em alegacoesGrau1[] e em grau2.recursos[].tesesEstruturadas[]. O campo 'tese' é a chave de ligação ao banco de modelos de fundamentação.",
+
+        "suscitadaPor": [
+            "ministerio_publico",
+            "defesa",
+            "defesa_especifica_reu",
+            "juiz_de_oficio",
+            "assistente_acusacao",
+            "querelante"
+        ],
+
+        "_nota_suscitadaPor": "Para defesa de réu específico: usar 'defesa_especifica_reu' e preencher reuRelacionado com o nome. 'defesa' quando todos os réus compartilham a mesma tese.",
+
+        "fase": ["preliminar", "merito", "dosimetria", "destinacao_bens"],
+
+        "resultado": [
+            "acolhida",
+            "acolhida_parcialmente",
+            "rejeitada",
+            "prejudicada",
+            "pendente_julgamento"
+        ],
+
+        "teses_padronizadas": [
+            "absolvicao_insuficiencia_provas",
+            "absolvicao_atipicidade",
+            "absolvicao_negativa_autoria",
+            "absolvicao_excludente_ilicitude",
+            "absolvicao_excludente_culpabilidade",
+            "desclassificacao",
+            "desclassificacao_art28_uso_proprio",
+            "in_dubio_pro_reo",
+            "nulidade_processual",
+            "nulidade_prisao_flagrante",
+            "nulidade_cadeia_custodia",
+            "nulidade_acesso_dispositivo_eletronico",
+            "nulidade_ausencia_aviso_miranda",
+            "nulidade_desvio_rota_delegacia",
+            "reducao_pena_base_fase1",
+            "afastamento_vetor_negativo",
+            "reconhecimento_atenuante",
+            "afastamento_agravante",
+            "reducao_fracao_aumento",
+            "aplicacao_minorante",
+            "afastamento_majorante",
+            "trafico_privilegiado_art33_par4",
+            "abrandamento_regime",
+            "substituicao_pena_prd",
+            "concessao_sursis",
+            "reconhecimento_prescricao",
+            "reformatio_in_pejus",
+            "violacao_sumula",
+            "violacao_tema_repetitivo",
+            "confissao_direito_silencio",
+            "consentimento_busca_viciado_coacao",
+            "livre"
+        ],
+
+        "_nota_teses_padronizadas": "Usar valor padronizado quando possível. Complementar com teseTextoLivre quando a tese tiver especificidade não coberta pelos valores acima. Múltiplas teses de um mesmo lado e fase = múltiplos objetos no array.",
+
+        "_nota_valorDiaMulta": "Registrar como fração do salário mínimo quando a sentença assim determinar (ex: '1/30', '1/20', '1/10', '1', '5'). Registrar como string com valor em reais quando explicitamente fixado (ex: 'R$ 100,00'). Nunca converter fração para decimal."
+    },
+
+    "_regrasGerais": {
+        "valoresNulos": "Sempre null. Nunca string vazia '', nunca 0, nunca 'N/A', nunca 'não informado'.",
+        "datas": "Formato DD/MM/AAAA para exibição. Sistema converte internamente para ISO 8601.",
+        "penas": "IA preenche anos, meses, dias como inteiros. totalDias é computado pelo sistema (ano=365, mês=30).",
+        "trechosFundamento": "Extrair texto literal da sentença, 80-500 caracteres. Nunca parafrasear.",
+        "camposNaoIApreencherem": [
+            "calculoPrescricao.*",
+            "sumulaViolada",
+            "idEvento*",
+            "tokensConsumidos",
+            "ultimaExtracaoIA"
+        ],
+        "alertasAutomaticos": [
+            "antecedentes.subcategoria = processos_em_curso_indevido_sumula_444",
+            "antecedentes.subcategoria = condenacao_apos_5_anos_sumula_636",
+            "antecedentes.subcategoria = atos_infracionais_indevidos",
+            "fase2: confissao_espontanea + reincidencia_* + compensacaoIntegral = false",
+            "reparacaoDanos.houvePedidoExpresso = false",
+            "calculoPrescricao.risco IN [alto, iminente, configurada]"
+        ]
+    }
+}

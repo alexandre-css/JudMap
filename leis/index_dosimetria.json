@@ -1,0 +1,787 @@
+{
+    "_meta": {
+        "versao": 1,
+        "descricao": "Mapeamento de todos os modificadores de pena do enum para seus dispositivos legais, frações e regras de aplicação.",
+        "geradoEm": "2026-05-06",
+        "observacao": "fracaoFixa = valor único obrigatório; fracaoMin/Max = intervalo discricionário; null = sem fração legal definida (livre apreciação judicial)"
+    },
+
+    "causasDiminuicao": {
+        "art14_II_tentativa": {
+            "dispositivo": "art. 14, II, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": true,
+            "observacao": "Quanto menor a proximidade da consumação, maior a redução (STJ). Não se aplica a crimes formais e omissivos próprios."
+        },
+        "art16_arrependimento_posterior": {
+            "dispositivo": "art. 16, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": true,
+            "observacao": "Somente para crimes sem violência ou grave ameaça. Reparação até o recebimento da denúncia."
+        },
+        "art21_erro_proibicao_evitavel": {
+            "dispositivo": "art. 21, parágrafo único, CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "1/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": true,
+            "observacao": "Erro evitável reduz a pena; erro inevitável isenta (sem diminuição — inimputabilidade)."
+        },
+        "art24_par2_estado_necessidade_excessivo": {
+            "dispositivo": "art. 24, §2º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "observacao": "Excesso doloso não garante redução. Excesso culposo admite redução facultativa."
+        },
+        "art26_par_unico_semi_imputabilidade": {
+            "dispositivo": "art. 26, parágrafo único, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "observacao": "Facultativa — o juiz pode optar pela substituição por medida de segurança (art. 98 CP)."
+        },
+        "art29_par1_participacao_menor_importancia": {
+            "dispositivo": "art. 29, §1º, CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "1/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "observacao": "Participação de menor importância. Cumulável com outras causas."
+        },
+        "art29_par2_cooperacao_dolosamente_distinta": {
+            "dispositivo": "art. 29, §2º, CP",
+            "fracaoMin": null,
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "sentido": "aumento_sobre_pena_menor",
+            "observacao": "Aplica-se a pena do crime menos grave + aumento de até metade se o resultado mais grave era previsível. Não é diminuição — é aplicação de pena menor com possível agravamento."
+        },
+        "art121_par1_homicidio_privilegiado": {
+            "dispositivo": "art. 121, §1º, CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "1/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelAArts": ["art_121"],
+            "observacao": "Motivo de relevante valor social/moral ou domínio de violenta emoção logo após injusta provocação."
+        },
+        "art155_par2_furto_privilegiado": {
+            "dispositivo": "art. 155, §2º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelAArts": ["art_155"],
+            "observacao": "Primário + coisa de pequeno valor. Juiz pode substituir reclusão por detenção, diminuir de 1/3 a 2/3, ou só aplicar multa."
+        },
+        "art171_par1_estelionato_privilegiado": {
+            "dispositivo": "art. 171, §1º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelAArts": ["art_171"],
+            "observacao": "Primário + pequeno prejuízo. Mesma lógica do furto privilegiado."
+        },
+        "art180_par5_receptacao_privilegiada": {
+            "dispositivo": "art. 180, §5º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelAArts": ["art_180"],
+            "observacao": "Primário + coisa de pequeno valor. Mesma lógica do furto privilegiado."
+        },
+        "art33_par4_trafico_privilegiado": {
+            "dispositivo": "art. 33, §4º, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33"],
+            "observacao": "Primário + bons antecedentes + não dedicado a atividade criminosa + não integrante de org. criminosa. STF: é inconstitucional vedar a substituição por PRD (HC 118533)."
+        },
+        "art41_colaboracao_leiDrogas": {
+            "dispositivo": "art. 41, Lei 11.343/2006",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelALeis": ["lei_drogas"],
+            "observacao": "Colaboração voluntária para identificar demais autores. Distinto da colaboração premiada da Lei 12.850."
+        },
+        "art1_par5_colaboracao_lavagem": {
+            "dispositivo": "art. 1º, §5º, Lei 9.613/1998",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelALeis": ["lei_lavagem_dinheiro"],
+            "observacao": "Colaboração espontânea. Juiz pode substituir por PRD ou deixar de aplicar a pena."
+        },
+        "art4_lei12850_colaboracao_premiada": {
+            "dispositivo": "art. 4º, Lei 12.850/2013",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicacaoObrigatoria": false,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "observacao": "Colaboração premiada homologada. Juiz pode conceder perdão judicial, substituir por PRD ou não aplicar a pena."
+        }
+    },
+
+    "causasAumento": {
+        "art70_concurso_formal_proprio": {
+            "dispositivo": "art. 70, caput (1ª parte), CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "observacao": "Concurso formal próprio (culposo ou desígnios únicos). Aplica-se a pena mais grave aumentada. A fração varia conforme o número de crimes.",
+            "regra": "pena_mais_grave_aumentada"
+        },
+        "art71_continuidade_delitiva": {
+            "dispositivo": "art. 71, caput, CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "observacao": "Crime continuado simples. Aplica-se a pena do crime mais grave aumentada. A fração deve refletir o número de infrações (STJ: 2 crimes→1/6; 3→1/5; 4→1/4; 5→1/3; 6→1/2; 7+→2/3).",
+            "regra": "pena_mais_grave_aumentada"
+        },
+        "art71_par_unico_continuidade_especifica": {
+            "dispositivo": "art. 71, parágrafo único, CP",
+            "fracaoMin": "1/6",
+            "fracaoMax": "triplo",
+            "fracaoFixa": null,
+            "observacao": "Crimes dolosos, vítimas diferentes, com violência ou grave ameaça. O juiz pode aplicar a pena de um crime, se idênticos, ou a mais grave, se distintos — mas pode aumentar até o triplo (jurisprudência). A fração 'triplo' não está no enum padrão; registrar como observação.",
+            "regra": "pena_mais_grave_aumentada"
+        },
+        "art121_par4_culposo_inobservancia_regra": {
+            "dispositivo": "art. 121, §4º, 1ª parte, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_121"],
+            "observacao": "Homicídio culposo: inobservância de regra técnica de profissão, arte ou ofício, ou omissão de socorro."
+        },
+        "art121_par6_milicia": {
+            "dispositivo": "art. 121, §6º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121"],
+            "observacao": "Crime por milícia privada ou grupo de extermínio."
+        },
+        "art121_par7_feminicidio_majorantes": {
+            "dispositivo": "art. 121-A, §2º, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "ATENÇÃO: o art. 121 §7 foi REVOGADO pela Lei 14.994/2024. O feminicídio passou a ser tipo autônomo (art. 121-A). As majorantes estão agora no art. 121-A §2º."
+        },
+        "art129_par7_violencia_domestica": {
+            "dispositivo": "art. 129, §9º, CP c/c art. 44 Lei 11.340/2006",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "fracaoTexto": "pena aumentada de 1/3 (art. 129 §11 CP)",
+            "aplicavelAArts": ["art_129"],
+            "observacao": "Lesão corporal em contexto de violência doméstica. O §11 prevê aumento de 1/3 se a vítima é pessoa com deficiência."
+        },
+        "art129_par11_deficiente": {
+            "dispositivo": "art. 129, §11, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_129"],
+            "observacao": "Vítima portadora de deficiência."
+        },
+        "art155_par1_repouso_noturno": {
+            "dispositivo": "art. 155, §1º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_155"],
+            "observacao": "Furto durante repouso noturno. STJ: aplica-se ao furto qualificado (Súmula 511 — mas foi cancelada; atualmente há divergência)."
+        },
+        "art157_par2_I_concurso_pessoas": {
+            "dispositivo": "art. 157, §2º, II, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_157"],
+            "observacao": "Roubo com concurso de duas ou mais pessoas. Fração de 1/3 até metade conforme o número de agentes e circunstâncias."
+        },
+        "art157_par2_II_restricao_liberdade": {
+            "dispositivo": "art. 157, §2º, V, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_157"],
+            "observacao": "Restrição da liberdade da vítima. Atenção: não confundir com §2-B (privação de liberdade por mais de 24h → pena autônoma de 6-12 anos)."
+        },
+        "art157_par2A_arma_fogo": {
+            "dispositivo": "art. 157, §2º-A, I, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "2/3",
+            "aplicavelAArts": ["art_157"],
+            "observacao": "Roubo com emprego de arma de fogo. Fração FIXA de 2/3 (Lei 13.654/2018). Distinto do inciso anterior que previa 1/3-1/2 para arma branca."
+        },
+        "art157_par2B_arma_uso_restrito": {
+            "dispositivo": "art. 157, §2º-A, II, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "2/3",
+            "aplicavelAArts": ["art_157"],
+            "observacao": "Destruição ou rompimento de obstáculo com explosivo. Mesma fração do inciso I."
+        },
+        "art157_par3_lesao_grave_morte": {
+            "dispositivo": "art. 157, §3º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_157"],
+            "observacao": "Latrocínio — pena autônoma (lesão grave: 7-18 anos; morte: 20-30 anos). Não é causa de aumento sobre o caput — é tipo qualificado com pena própria.",
+            "tipo": "qualificadora_pena_propria"
+        },
+        "art158_par1": {
+            "dispositivo": "art. 158, §1º, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_158"],
+            "observacao": "Extorsão com concurso de pessoas ou com emprego de arma."
+        },
+        "art158_par3_extorsao_mediante_sequestro": {
+            "dispositivo": "art. 158, §3º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_158"],
+            "observacao": "Restrição da liberdade da vítima necessária para obtenção da vantagem — pena autônoma de 6-12 anos. Tipo qualificado, não causa de aumento.",
+            "tipo": "qualificadora_pena_propria"
+        },
+        "art159_par1": {
+            "dispositivo": "art. 159, §1º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_159"],
+            "observacao": "Sequestro relâmpago: vítima mantida por mais de 24h, cometido por quadrilha/bando, ou vítima menor ou com deficiência — penas autônomas. Tipo qualificado.",
+            "tipo": "qualificadora_pena_propria"
+        },
+        "art159_par2": {
+            "dispositivo": "art. 159, §2º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_159"],
+            "observacao": "Resultado lesão grave — pena autônoma de 16-24 anos.",
+            "tipo": "qualificadora_pena_propria"
+        },
+        "art159_par3": {
+            "dispositivo": "art. 159, §3º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_159"],
+            "observacao": "Resultado morte — pena autônoma de 24-30 anos.",
+            "tipo": "qualificadora_pena_propria"
+        },
+        "art171_par4_idoso_vulneravel": {
+            "dispositivo": "art. 171, §4º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_171"],
+            "observacao": "Vítima idosa ou vulnerável."
+        },
+        "art226_concurso_relacao_familiar": {
+            "dispositivo": "art. 226, I e II, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": null,
+            "fracao_inciso_I": "1/4",
+            "fracao_inciso_II": "1/2",
+            "aplicavelAArts": ["art_213", "art_215", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"],
+            "observacao": "Inciso I (concurso de 2+ pessoas): +1/4. Inciso II (ascendente, padrasto, madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor, empregador ou quem tenha autoridade sobre a vítima): +1/2. Aplica-se a TODOS os crimes contra a liberdade sexual do Cap. I do Tít. VI CP."
+        },
+        "art234A_majorantes": {
+            "dispositivo": "art. 234-A, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "fracao_inciso_III": "1/2",
+            "fracao_inciso_IV": "2/3",
+            "observacao": "Majorantes gerais para crimes contra a dignidade sexual: resultado gravidez (+1/2), vítima menor de 18 ou com deficiência (+2/3).",
+            "aplicavelAArts": ["art_213", "art_215", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"]
+        },
+        "art327_par2": {
+            "dispositivo": "art. 327, §2º, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_312", "art_313", "art_316", "art_317", "art_319", "art_320", "art_321", "art_323", "art_324", "art_325"],
+            "observacao": "Funcionário público com cargo em comissão ou de direção/chefia/assessoramento — aumento de 1/3 em todos os crimes funcionais."
+        },
+        "art333_par_unico": {
+            "dispositivo": "art. 333, parágrafo único, CP",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "fracaoFixa": "1/3",
+            "aplicavelAArts": ["art_333"],
+            "observacao": "Corrupção ativa: finalidade de obter decisão judicial. Aumento de 1/3."
+        },
+        "art40_I_transnacionalidade": {
+            "dispositivo": "art. 40, I, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Transnacionalidade do delito. Aplica-se a TODOS os crimes dos arts. 33-37 Lei de Drogas."
+        },
+        "art40_II_interestadualidade": {
+            "dispositivo": "art. 40, II, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Interestadualidade — prevalência de função pública ou missão de educação, poder familiar, guarda ou vigilância."
+        },
+        "art40_III_local_proximidades": {
+            "dispositivo": "art. 40, III, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Dependências ou imediações de estabelecimentos prisionais, de ensino, hospitalares, entidades estudantis, sociais, culturais, recreativas, esportivas ou beneficentes."
+        },
+        "art40_IV_violencia_grave_ameaca": {
+            "dispositivo": "art. 40, IV, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Crime cometido com violência, grave ameaça, emprego de arma de fogo, ou qualquer processo de intimidação difusa ou coletiva."
+        },
+        "art40_V_transporte_publico": {
+            "dispositivo": "art. 40, V, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Conduta no interior de navios, aeronaves, transporte público, rodoviário, ferroviário, marítimo, fluvial ou aéreo."
+        },
+        "art40_VI_envolvimento_crianca_adolescente": {
+            "dispositivo": "art. 40, VI, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Envolvimento de criança ou adolescente ou de pessoa com deficiência."
+        },
+        "art40_VII_financiamento_custeio": {
+            "dispositivo": "art. 40, VII, Lei 11.343/2006",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_drogas"],
+            "aplicavelAArts": ["art_33", "art_34", "art_35", "art_36", "art_37"],
+            "observacao": "Financiamento ou custeio da prática do crime."
+        },
+
+        "art226_I_concurso_pessoas": {
+            "dispositivo": "art. 226, I, CP",
+            "fracaoFixa": "1/4",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "aplicavelAArts": ["art_213", "art_215", "art_215_a", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"],
+            "observacao": "Concurso de 2 ou mais pessoas. Fração FIXA de 1/4. Aplica-se a todos os crimes contra a liberdade sexual (Cap. I, Tít. VI CP)."
+        },
+
+        "art226_II_relacao_familiar_autoridade": {
+            "dispositivo": "art. 226, II, CP",
+            "fracaoFixa": "1/2",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "aplicavelAArts": ["art_213", "art_215", "art_215_a", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"],
+            "observacao": "Agente é ascendente, padrasto, madrasta, tio, irmão, cônjuge, companheiro, tutor, curador, preceptor, empregador ou qualquer autoridade sobre a vítima. Fração FIXA de 1/2."
+        },
+
+        "art234A_III_resultado_gravidez": {
+            "dispositivo": "art. 234-A, III, CP",
+            "fracaoMin": "1/2",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_213", "art_215", "art_215_a", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"],
+            "observacao": "Do crime resulta gravidez. Aplica-se a todos os crimes do Título VI (crimes contra a dignidade sexual)."
+        },
+
+        "art234A_IV_dst_vitima_idosa_deficiente": {
+            "dispositivo": "art. 234-A, IV, CP",
+            "fracaoMin": "1/3",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_213", "art_215", "art_215_a", "art_216_a", "art_217_a", "art_218", "art_218_a", "art_218_b"],
+            "observacao": "Agente transmite DST de que sabe ou deveria saber ser portador, ou vítima é idosa ou com deficiência."
+        },
+
+        "art121A_par2_I_gestacao_postparto_crianca_deficiente": {
+            "dispositivo": "art. 121-A, §2º, I, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "Crime praticado durante a gestação, nos 3 meses posteriores ao parto, ou se a vítima é mãe ou responsável por criança, adolescente ou pessoa com deficiência. Aplica-se somente ao feminicídio (art. 121-A), não ao art. 121."
+        },
+
+        "art121A_par2_II_vitima_menor14_idosa_deficiente": {
+            "dispositivo": "art. 121-A, §2º, II, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "Vítima menor de 14 anos, maior de 60 anos, com deficiência ou portadora de doenças degenerativas."
+        },
+
+        "art121A_par2_III_presenca_descendente_ascendente": {
+            "dispositivo": "art. 121-A, §2º, III, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "Crime praticado na presença física ou virtual de descendente ou ascendente da vítima."
+        },
+
+        "art121A_par2_IV_descumprimento_medida_protetiva": {
+            "dispositivo": "art. 121-A, §2º, IV, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "Descumprimento das medidas protetivas de urgência dos incisos I, II e III do art. 22 da Lei Maria da Penha."
+        },
+
+        "art121A_par2_V_qualificadoras_especificas": {
+            "dispositivo": "art. 121-A, §2º, V, CP (Lei 14.994/2024)",
+            "fracaoMin": "1/3",
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelAArts": ["art_121_a"],
+            "observacao": "Qualificadoras específicas previstas nos incisos III, IV e VIII do §2º do art. 121-A (traiçao, emboscada, dissimulação; modo cruel; recurso dificultou defesa da vítima)."
+        },
+
+        "art19_arma_uso_proibido_restrito": {
+            "dispositivo": "art. 19, Lei 10.826/2003",
+            "fracaoFixa": "1/2",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "aplicavelALeis": ["estatuto_desarmamento"],
+            "aplicavelAArts": ["art_17", "art_18"],
+            "observacao": "Aumento da METADE nos crimes dos arts. 17 e 18 se a arma de fogo, acessório ou munição forem de uso proibido ou restrito. NÃO se aplica ao art. 16 (que já trata de uso restrito)."
+        },
+
+        "art20_I_integrante_orgao_habilitado": {
+            "dispositivo": "art. 20, I, Lei 10.826/2003",
+            "fracaoFixa": "1/2",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "aplicavelALeis": ["estatuto_desarmamento"],
+            "aplicavelAArts": ["art_14", "art_15", "art_16", "art_17", "art_18"],
+            "observacao": "Aumento da METADE se o crime é praticado por integrante dos órgãos e empresas referidos nos arts. 6°, 7° e 8° do Estatuto (forças armadas, policiais, vigilantes)."
+        },
+
+        "art20_II_reincidente_especifico": {
+            "dispositivo": "art. 20, II, Lei 10.826/2003",
+            "fracaoFixa": "1/2",
+            "fracaoMin": null,
+            "fracaoMax": null,
+            "aplicavelALeis": ["estatuto_desarmamento"],
+            "aplicavelAArts": ["art_14", "art_15", "art_16", "art_17", "art_18"],
+            "observacao": "Aumento da METADE se o agente for reincidente específico em crimes dessa natureza (crimes do Estatuto do Desarmamento)."
+        },
+
+        "art2_par2_emprego_arma_fogo": {
+            "dispositivo": "art. 2º, §2º, Lei 12.850/2013",
+            "fracaoMin": null,
+            "fracaoMax": "1/2",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Penas aumentam-se ATÉ A METADE se na atuação da organização criminosa houver emprego de arma de fogo."
+        },
+
+        "art2_par4_I_crianca_adolescente": {
+            "dispositivo": "art. 2º, §4º, I, Lei 12.850/2013",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Participação de criança ou adolescente na organização criminosa."
+        },
+
+        "art2_par4_II_funcionario_publico": {
+            "dispositivo": "art. 2º, §4º, II, Lei 12.850/2013",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Concurso de funcionário público valendo-se da condição para a prática da infração."
+        },
+
+        "art2_par4_III_destino_exterior": {
+            "dispositivo": "art. 2º, §4º, III, Lei 12.850/2013",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Produto ou proveito da infração penal com destinação ao exterior."
+        },
+
+        "art2_par4_IV_conexao_outras_organizacoes": {
+            "dispositivo": "art. 2º, §4º, IV, Lei 12.850/2013",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Organização criminosa mantém conexão com outras organizações criminosas independentes."
+        },
+
+        "art2_par4_V_transnacionalidade": {
+            "dispositivo": "art. 2º, §4º, V, Lei 12.850/2013",
+            "fracaoMin": "1/6",
+            "fracaoMax": "2/3",
+            "fracaoFixa": null,
+            "aplicavelALeis": ["lei_crime_organizado"],
+            "aplicavelAArts": ["art_2"],
+            "observacao": "Circunstâncias do fato evidenciarem a transnacionalidade da organização."
+        }
+    },
+
+    "agravantes": {
+        "reincidencia_comum": {
+            "dispositivo": "art. 61, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Sem fração legal fixada. Preponderante sobre atenuantes conforme art. 67 CP (STJ Súmula 241). Período depurador: 5 anos após extinção da pena (art. 64, I CP)."
+        },
+        "reincidencia_especifica": {
+            "dispositivo": "art. 61, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Reincidência no mesmo crime. Mesma disciplina da reincidência comum, porém mais grave na dosimetria por força do art. 67 CP."
+        },
+        "multireincidencia": {
+            "dispositivo": "art. 61, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Mais de uma condenação anterior transitada em julgado. O STJ admite o reconhecimento como circunstância judicial negativa (maus antecedentes) das que não ensejaram reincidência."
+        },
+        "motivo_futil": {
+            "dispositivo": "art. 61, II, a, CP",
+            "fracaoLegal": null
+        },
+        "motivo_torpe": {
+            "dispositivo": "art. 61, II, a, CP",
+            "fracaoLegal": null
+        },
+        "facilitar_assegurar_outro_crime": {
+            "dispositivo": "art. 61, II, b, CP",
+            "fracaoLegal": null
+        },
+        "facilitar_assegurar_ocultacao_impunidade": {
+            "dispositivo": "art. 61, II, b, CP",
+            "fracaoLegal": null
+        },
+        "traicao_emboscada_dissimulacao": {
+            "dispositivo": "art. 61, II, c, CP",
+            "fracaoLegal": null
+        },
+        "meio_cruel_fogo_explosivo_veneno": {
+            "dispositivo": "art. 61, II, d, CP",
+            "fracaoLegal": null
+        },
+        "recurso_dificultou_defesa": {
+            "dispositivo": "art. 61, II, e, CP",
+            "fracaoLegal": null,
+            "observacao": "Recurso que dificultou ou tornou impossível a defesa do ofendido."
+        },
+        "contra_ascendente_descendente_irmao_conjuge": {
+            "dispositivo": "art. 61, II, e, CP",
+            "fracaoLegal": null,
+            "observacao": "Crime contra ascendente, descendente, irmão ou cônjuge."
+        },
+        "abuso_autoridade_relacoes_domesticas_coabitacao_hospitalidade": {
+            "dispositivo": "art. 61, II, f, CP",
+            "fracaoLegal": null,
+            "observacao": "Abuso de autoridade, relações domésticas, coabitação ou hospitalidade — também alterado pela Lei Maria da Penha."
+        },
+        "violacao_dever_oficio_profissao": {
+            "dispositivo": "art. 61, II, g, CP",
+            "fracaoLegal": null
+        },
+        "contra_crianca_idoso_enfermo_gestante": {
+            "dispositivo": "art. 61, II, h, CP",
+            "fracaoLegal": null
+        },
+        "sob_protecao_autoridade": {
+            "dispositivo": "art. 61, II, i, CP",
+            "fracaoLegal": null,
+            "observacao": "Ofendido sob imediata proteção da autoridade."
+        },
+        "calamidade_publica_ou_desgraca_particular": {
+            "dispositivo": "art. 61, II, j, CP",
+            "fracaoLegal": null
+        },
+        "embriaguez_preordenada": {
+            "dispositivo": "art. 61, II, l, CP",
+            "fracaoLegal": null
+        },
+        "promove_organiza_crime_dirige_atividade": {
+            "dispositivo": "art. 62, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Agravante no concurso de pessoas — promove, organiza ou dirige."
+        },
+        "coage_induz_outrem_execucao": {
+            "dispositivo": "art. 62, II, CP",
+            "fracaoLegal": null,
+            "observacao": "Coage ou induz outrem à execução material do crime."
+        },
+        "instiga_determina_subordinacao_autoridade": {
+            "dispositivo": "art. 62, III, CP",
+            "fracaoLegal": null,
+            "observacao": "Instiga ou determina a cometer o crime alguém sujeito à sua autoridade ou cujo consentimento tenha conseguido mediante fraude."
+        },
+        "executa_mediante_paga_promessa_recompensa": {
+            "dispositivo": "art. 62, IV, CP",
+            "fracaoLegal": null,
+            "observacao": "Executa o crime ou nele participa mediante paga ou promessa de recompensa."
+        }
+    },
+
+    "atenuantes": {
+        "menoridade_relativa": {
+            "dispositivo": "art. 65, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Menor de 21 anos na data do fato. Preponderante sobre agravantes (STJ Súmula 74)."
+        },
+        "senilidade_maior_70_data_sentenca": {
+            "dispositivo": "art. 65, I, CP",
+            "fracaoLegal": null,
+            "observacao": "Maior de 70 anos na data da SENTENÇA (não do fato). Também reduz à metade os prazos prescricionais (art. 115 CP)."
+        },
+        "desconhecimento_lei": {
+            "dispositivo": "art. 65, II, CP",
+            "fracaoLegal": null
+        },
+        "motivo_relevante_valor_social": {
+            "dispositivo": "art. 65, III, a, CP",
+            "fracaoLegal": null
+        },
+        "motivo_relevante_valor_moral": {
+            "dispositivo": "art. 65, III, a, CP",
+            "fracaoLegal": null
+        },
+        "arrependimento_posterior_reparacao_dano": {
+            "dispositivo": "art. 65, III, b, CP",
+            "fracaoLegal": null,
+            "observacao": "Atenuante genérica — distinta da causa de diminuição do art. 16 CP (que exige reparação até o recebimento da denúncia). Esta aplica-se quando a reparação ocorre após a denúncia."
+        },
+        "diminuir_consequencias_evitar_atenuar": {
+            "dispositivo": "art. 65, III, b, CP",
+            "fracaoLegal": null,
+            "observacao": "Procurado, por sua espontânea vontade e com eficiência, logo após o crime, evitar-lhe ou minorar-lhe as consequências."
+        },
+        "coacao_resistivel": {
+            "dispositivo": "art. 65, III, c, CP",
+            "fracaoLegal": null
+        },
+        "cumprimento_ordem_autoridade_superior": {
+            "dispositivo": "art. 65, III, c, CP",
+            "fracaoLegal": null
+        },
+        "violenta_emocao_logo_apos_provocacao_injusta": {
+            "dispositivo": "art. 65, III, c, CP",
+            "fracaoLegal": null
+        },
+        "confissao_espontanea": {
+            "dispositivo": "art. 65, III, d, CP",
+            "fracaoLegal": null,
+            "observacao": "Confissão perante a autoridade da autoria do crime. STJ Súmula 545: confissão + reincidência → compensação integral. Deve ser considerada mesmo que a confissão seja parcial (desde que utilizada para a condenação)."
+        },
+        "confissao_qualificada_sumula_545_stj": {
+            "dispositivo": "art. 65, III, d, CP c/c Súmula 545 STJ",
+            "fracaoLegal": null,
+            "observacao": "Confissão qualificada usada como elemento de prova da condenação. Aplica-se a Súmula 545 para fins de compensação com a reincidência."
+        },
+        "influencia_multidao_tumulto_nao_provocado": {
+            "dispositivo": "art. 65, III, e, CP",
+            "fracaoLegal": null
+        },
+        "atenuante_inominada_art66": {
+            "dispositivo": "art. 66, CP",
+            "fracaoLegal": null,
+            "observacao": "Circunstância relevante anterior ou posterior ao crime, não prevista no art. 65. Discricionária."
+        },
+        "colaboracao_premiada_como_atenuante": {
+            "dispositivo": "art. 66, CP c/c art. 4º, Lei 12.850/2013",
+            "fracaoLegal": null,
+            "observacao": "Quando a colaboração premiada não atingiu os requisitos para redução de pena (art. 4º §1º), pode ser valorada como atenuante inominada."
+        },
+        "reparacao_no_jecrim": {
+            "dispositivo": "art. 74, Lei 9.099/1995",
+            "fracaoLegal": null,
+            "observacao": "Composição civil dos danos aprovada no JECRIM antes da sentença penal."
+        }
+    },
+
+    "regrasEspeciais": {
+        "prescricao_reduzida_menoridade": {
+            "dispositivo": "art. 115, CP",
+            "regra": "Prazos prescricionais reduzidos à metade quando o agente era menor de 21 anos na data do fato.",
+            "efeitoNoCalculo": "multiplicar_prazo_por_0.5"
+        },
+        "prescricao_reduzida_idoso_sentenca": {
+            "dispositivo": "art. 115, CP",
+            "regra": "Prazos prescricionais reduzidos à metade quando o agente tinha mais de 70 anos na data da sentença.",
+            "efeitoNoCalculo": "multiplicar_prazo_por_0.5"
+        },
+        "prescricao_reincidente_aumentada": {
+            "dispositivo": "art. 110, caput, CP",
+            "regra": "PPE: prazos prescricionais aumentados de 1/3 quando o condenado é reincidente.",
+            "efeitoNoCalculo": "multiplicar_prazo_por_1.333",
+            "observacao": "Aplica-se SOMENTE à prescrição da pretensão executória (após trânsito em julgado para ambas as partes)."
+        },
+        "concurso_crimes_prescricao_isolada": {
+            "dispositivo": "art. 119, CP",
+            "regra": "No concurso de crimes, a extinção da punibilidade incide sobre a pena de cada crime isoladamente.",
+            "observacao": "A prescrição não se calcula sobre a pena total do concurso, mas sobre cada crime separadamente."
+        },
+        "pena_maxima_cumprimento_40anos": {
+            "dispositivo": "art. 75, CP (com redação dada pelo Pacote Anticrime — Lei 13.964/2019)",
+            "regra": "Limite máximo de cumprimento de pena privativa de liberdade: 40 anos.",
+            "observacao": "Antes do Pacote Anticrime o limite era 30 anos. Fatos anteriores a 2019 seguem o limite de 30 anos."
+        },
+        "limite_pena_crime_continuado_40anos": {
+            "dispositivo": "art. 75, §1º, CP",
+            "regra": "O limite de 40 anos se aplica inclusive ao concurso material, crime continuado e concurso formal.",
+            "observacao": "A unificação para fins de cumprimento não afeta a contagem individual para fins de prescrição (art. 119 CP)."
+        }
+    }
+}

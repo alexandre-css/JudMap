@@ -1,0 +1,403 @@
+{
+    "numProcesso": null,
+    "versaoSchema": 6,
+    "atualizadoEm": null,
+    "statusProcesso": null,
+    "competencia": null,
+
+    "grau1": {
+        "dataFato": null,
+        "dataRecebimentoDenuncia": null,
+        "dataSentenca": null,
+        "juizSentenciante": null,
+        "varaOrigem": null,
+        "idEventoSentenca": null,
+
+        "vitimas": [],
+
+        "reus": [
+            {
+                "nome": null,
+                "cpfMascarado": null,
+                "dataNascimento": null,
+                "tipoDefesa": null,
+
+                "situacaoPrisional": {
+                    "estadoAtual": null,
+                    "tipoCustodia": null,
+                    "dataInicioCustodia": null
+                },
+
+                "antecedentesCriminais": {
+                    "possui": null,
+                    "tipo": null,
+                    "processosCitados": []
+                },
+
+                "crimesImputados": [
+                    {
+                        "dispositivoLegal": null,
+                        "tipoCrime": null,
+                        "modalidadeConsumacao": null,
+                        "modalidadeSubjetiva": null
+                    }
+                ],
+
+                "resultado": null,
+
+                "crimesCondenado": [
+                    {
+                        "tipoCrime": null,
+                        "dispositivoLegal": null,
+                        "modalidadeConsumacao": null,
+                        "idEventoDosimetria": null,
+
+                        "fase1_PenaBase": {
+                            "vetores": {
+                                "culpabilidade": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "antecedentes": {
+                                    "valoracao": null,
+                                    "fundamento": null,
+                                    "subcategoria": null
+                                },
+                                "condutaSocial": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "personalidade": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "motivos": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "circunstancias": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "consequencias": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "comportamentoVitima": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                },
+                                "naturezaQuantidadeDrogaArt42": {
+                                    "valoracao": null,
+                                    "fundamento": null
+                                }
+                            },
+                            "quantidadeVetoresNegativos": null,
+                            "fracaoAumentoPorVetorial": null,
+                            "penaAbstrataMinima": {
+                                "anos": null,
+                                "meses": null,
+                                "dias": null,
+                                "totalDias": null
+                            },
+                            "penaAbstrataMaxima": {
+                                "anos": null,
+                                "meses": null,
+                                "dias": null,
+                                "totalDias": null
+                            },
+                            "penaPrivativaAplicada": {
+                                "anos": null,
+                                "meses": null,
+                                "dias": null,
+                                "totalDias": null
+                            },
+                            "penaMultaAplicada": {
+                                "diasMulta": null,
+                                "valorDiaMulta": null,
+                                "valorTotal": null,
+                                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                            }
+                        },
+
+                        "fase2_PenaIntermediaria": {
+                            "agravantesReconhecidas": [],
+                            "atenuantesReconhecidas": [],
+                            "compensacaoIntegral": null,
+                            "agravantePreponderante": null,
+                            "fracaoAgravamento": null,
+                            "fracaoAtenuamento": null,
+                            "penaPrivativaAplicada": {
+                                "anos": null,
+                                "meses": null,
+                                "dias": null,
+                                "totalDias": null
+                            },
+                            "penaMultaAplicada": {
+                                "diasMulta": null,
+                                "valorDiaMulta": null,
+                                "valorTotal": null,
+                                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                            }
+                        },
+
+                        "fase3_PenaDefinitiva": {
+                            "causasAumentoReconhecidas": [],
+                            "fracaoAumento": null,
+                            "causasDiminuicaoReconhecidas": [],
+                            "fracaoDiminuicao": null,
+                            "tentativaReconhecida": null,
+                            "fracaoTentativa": null,
+                            "penaPrivativaAplicada": {
+                                "anos": null,
+                                "meses": null,
+                                "dias": null,
+                                "totalDias": null
+                            },
+                            "penaMultaAplicada": {
+                                "diasMulta": null,
+                                "valorDiaMulta": null,
+                                "valorTotal": null,
+                                "_nota_valorDiaMulta": "String: fração do SM (ex: '1/30') ou valor em reais ('R$ 100,00'). Nunca decimal."
+                            }
+                        }
+                    }
+                ],
+
+                "concursoDeCrimes": {
+                    "regraAplicada": null,
+                    "quantidadeCrimesConcorrentes": null,
+                    "fracaoExasperacao": null,
+                    "penaTotalPrivativa": {
+                        "anos": null,
+                        "meses": null,
+                        "dias": null,
+                        "totalDias": null
+                    },
+                    "penaTotalMulta": {
+                        "diasMulta": null,
+                        "valorDiaMulta": null,
+                        "valorTotal": null
+                    }
+                },
+
+                "execucaoDaPena": {
+                    "detracao": {
+                        "periodos": [],
+                        "totalDiasDetraidos": null,
+                        "consideradaParaRegime": null
+                    },
+                    "regimeInicial": null,
+                    "fundamentoRegimeMaisGravoso": null,
+                    "sumulaViolada": null,
+
+                    "substituicaoPRD": {
+                        "concedida": null,
+                        "quantidadePenas": null,
+                        "especiesAplicadas": [],
+                        "fundamentoNegativa": null
+                    },
+
+                    "sursisPenal": {
+                        "concedido": null,
+                        "especieAplicada": null,
+                        "prazoAnos": null,
+                        "fundamentoNegativa": null
+                    },
+
+                    "reparacaoDanosArt387IV": {
+                        "fixada": null,
+                        "valorMinimo": null,
+                        "destinatario": null,
+                        "houvePedidoExpresso": null
+                    },
+
+                    "custasProcessuais": {
+                        "condenado": null,
+                        "isencaoPorMiserabilidade": null
+                    },
+
+                    "prescricaoReconhecida": null,
+                    "fundamentoPrescricao": null,
+
+                    "penasAcessoriasCtb": {
+                        "suspensaoOuProibicaoHabilitacao": {
+                            "aplicada": null,
+                            "meses": null,
+                            "fundamentoLegal": null,
+                            "detracaoSuspensaoCautelar": {
+                                "mesesJaCumpridos": null,
+                                "dataInicio": null,
+                                "dataFim": null
+                            }
+                        }
+                    }
+                },
+
+                "calculoPrescricao": {
+                    "pppAbstrataDataLimite": null,
+                    "pppAbstrataConfigurada": null,
+                    "pppRetroativaDataLimite": null,
+                    "pppIntercorrenteDataLimite": null,
+                    "ppeDataLimite": null,
+                    "risco": null
+                }
+            }
+        ],
+
+        "recursosMP": {
+            "interposto": null,
+            "dataInterposicao": null,
+            "tempestivo": null,
+            "objeto": []
+        },
+
+        "recursosDefesa": [],
+        "transitoAcusacao1G": null,
+        "embargosDeclaratorios1G": [],
+
+        "alegacoesGrau1": [
+            {
+                "tese": null,
+                "teseTextoLivre": null,
+                "suscitadaPor": null,
+                "reuRelacionado": null,
+                "fase": null,
+                "resultado": null,
+                "fundamentoDecisao": null
+            }
+        ],
+
+        "fundamentacaoCondenatoria": {
+            "materialidade": {
+                "demonstrada": null,
+                "elementosTextuais": []
+            },
+            "autoriaPorReu": [
+                {
+                    "reuNome": null,
+                    "demonstrada": null,
+                    "elementosTextuais": []
+                }
+            ],
+            "meiosDeProva": [
+                {
+                    "tipo": null,
+                    "descricao": null,
+                    "usadoPara": [],
+                    "reuRelacionado": null,
+                    "questionadoPelaDefesa": null,
+                    "resultado": null,
+                    "pericia_tipoExame": null,
+                    "pericia_cadeiaPreservada": null,
+                    "pericia_conclusao": null,
+                    "interrogatorio_direito_silencio": null,
+                    "confissao_tipo": null,
+                    "confissao_momento": null,
+                    "testemunha_nome": null,
+                    "testemunha_qualificacao": null,
+                    "testemunha_tipoPercepcao": null,
+                    "testemunha_fase": null,
+                    "reconhecimento_modalidade": null,
+                    "reconhecimento_procedimentoLegal_Art226": null,
+                    "documento_tipo": null,
+                    "documento_cadeiaDigitalAdequada": null,
+                    "indicio_fatoBase": null,
+                    "indicio_fatoInferido": null,
+                    "observacoes": null
+                }
+            ],
+            "meiosDeObtencaoDeProva": [
+                {
+                    "tipo": null,
+                    "descricao": null,
+                    "autorizacaoJudicial": null,
+                    "serendipidade": null,
+                    "questionadoPelaDefesa": null,
+                    "resultado": null,
+                    "colaboracao_homologada": null,
+                    "colaboracao_corroboradaFonteAutonoma": null,
+                    "observacoes": null
+                }
+            ]
+        }
+    },
+
+    "grau2": {
+        "recursos": [
+            {
+                "tipo": null,
+                "recorrente": null,
+                "dataInterposicao": null,
+                "tempestivo": null,
+                "efeitos": [],
+                "adesivo": null,
+                "tesesEstruturadas": [
+                    {
+                        "tese": null,
+                        "teseTextoLivre": null,
+                        "suscitadaPor": null,
+                        "reuRelacionado": null,
+                        "resultado": null,
+                        "fundamentoAcordao": null
+                    }
+                ],
+                "contrarrazoes": {
+                    "apresentadas": null,
+                    "data": null,
+                    "argumentosPrincipais": []
+                },
+                "resultado": null
+            }
+        ],
+
+        "parecerPGJ": {
+            "teor": null,
+            "data": null,
+            "idEventoParecer": null,
+            "argumentosPrincipais": []
+        },
+
+        "embargosDeclaratorios2G": [],
+
+        "acordao": {
+            "data": null,
+            "relator": null,
+            "redatorAcordao": null,
+            "orgaoJulgador": null,
+            "votacao": null,
+            "ementa": null,
+            "resultadoPorRecurso": [],
+            "dosimetriaModificada": null,
+            "novaPenaTotal": {
+                "anos": null,
+                "meses": null,
+                "dias": null,
+                "totalDias": null
+            },
+            "novoRegimeInicial": null,
+            "sumulasETemasCitados": [],
+            "transitoEmJulgadoFinal": null
+        },
+
+        "transitoAcusacao2G": null,
+
+        "prescricaoAReconhecer": {
+            "configurada": null,
+            "especie": null,
+            "fundamento": null,
+            "dataLimitePrescricional": null
+        }
+    },
+
+    "metadados": {
+        "preenchidoPor": null,
+        "confianca": null,
+        "observacoes": null,
+        "acordoNaoPersecucaoPenal": null,
+        "suspensaoCondicionalProcesso": null,
+        "modeloIA": null,
+        "tokensConsumidos": null,
+        "ultimaExtracaoIA": null
+    }
+}

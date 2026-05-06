@@ -1,0 +1,4933 @@
+{
+    "codigo_penal": {
+        "nome": "Decreto-Lei nº 2.848/1940",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/Decreto-Lei/Del2848compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_121": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 20,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    },
+                    "§2º-D": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_121_a": {
+                "tipo": "reclusao",
+                "minAnos": 20,
+                "minMeses": 0,
+                "maxAnos": 40,
+                "maxMeses": 0
+            },
+            "art_121_b": {
+                "tipo": "reclusao",
+                "minAnos": 20,
+                "minMeses": 0,
+                "maxAnos": 40,
+                "maxMeses": 0
+            },
+            "art_122": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_123": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_124": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_125": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_126": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_129": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 20,
+                        "minMeses": 0,
+                        "maxAnos": 40,
+                        "maxMeses": 0
+                    },
+                    "§6º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 2,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    },
+                    "§9º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_130": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_131": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_132": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_133": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_134": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_135_a": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_136": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_138": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_139": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_140": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_146": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_146_a": {
+                "tipo": "multa"
+            },
+            "art_147": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_147_b": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_147_c": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_148": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 20,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_149": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_149_a": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_151": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_152": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_153": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º-A": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_154": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_154_a": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_155": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_156": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_157": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 20,
+                        "minMeses": 0,
+                        "maxAnos": 40,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_158": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_159": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 20,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 24,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_160": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_162": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_163": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_165": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_168": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_168_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_171": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_171_a": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_172": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_173": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_174": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_175": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_177": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_178": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_179": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_180": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_180_a": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_184": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_197": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_201": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_202": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_205": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_210": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_211": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_212": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_213": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_215": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_215_a": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_216_a": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_216_b": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_217_a": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 18,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 24,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_218": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 14,
+                "maxMeses": 0
+            },
+            "art_218_a": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_218_b": {
+                "tipo": "reclusao",
+                "minAnos": 7,
+                "minMeses": 0,
+                "maxAnos": 16,
+                "maxMeses": 0
+            },
+            "art_218_c": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_227": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_228": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_229": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_230": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_232_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_233": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_234": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_235": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_236": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_237": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_238": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_239": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_241": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_242": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_243": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_245": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_249": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_250": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_251": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_252": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_253": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_254": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_255": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_256": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_257": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_259": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_260": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_261": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_262": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_264": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_265": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_266": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_269": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_271": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_272": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_273": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_275": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_277": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_278": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_280": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_282": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_283": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_284": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_288_a": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_289": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_290": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_291": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_293": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_294": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_296": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_297": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_298": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_300": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_301": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_303": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_305": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_306": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_307": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_308": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 4,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_309": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_310": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_311_a": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_312": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_313": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_313_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_313_b": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_314": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_316": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_317": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_319": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_321": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_322": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_323": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_325": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_326": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_328": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_331": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_332": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_333": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_334": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_334_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_335": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_337": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_337_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§5º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_337_c": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_337_d": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_338": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_339": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_341": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_344": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_346": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_347": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_351": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_352": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_353": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_354": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_355": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_356": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_357": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_358": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_359": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_359_a": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_359_b": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_359_c": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_359_d": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_359_e": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_359_f": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_359_g": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_359_h": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_359_i": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_359_j": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_359_k": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 6,
+                        "minMeses": 0,
+                        "maxAnos": 15,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_359_l": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_359_m": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_359_n": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_359_p": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_359_r": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            }
+        }
+    },
+    "codigo_penal_militar": {
+        "nome": "Decreto-Lei nº 1.001/1969",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/Del1001Compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_136": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_137": {
+                "tipo": "reclusao",
+                "minAnos": 12,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_138": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_139": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_140": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_141": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_142": {
+                "tipo": "reclusao",
+                "minAnos": 15,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_143": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_144": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_145": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_146": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_149": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_150": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_151": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_152": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_154": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_155": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_156": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_157": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§4º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_158": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_160": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_161": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_162": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_163": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_164": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_165": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_166": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_167": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_168": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_169": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_170": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_171": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_173": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_174": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_175": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_176": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_177": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_178": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_179": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_180": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_182": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_184": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_185": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_186": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_187": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_190": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    },
+                    "§2º-A": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_191": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_192": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_193": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 4,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_194": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_195": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_196": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_197": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_198": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_199": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_200": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_201": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_202": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_203": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_204": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_205": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 20,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_206": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_207": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_208": {
+                "tipo": "reclusao",
+                "minAnos": 15,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_209": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    },
+                    "§3º-A": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_210": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_211": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_212": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_213": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_214": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_215": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_216": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_217": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_219": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_222": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_225": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_227": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_230": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_232": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 12,
+                        "minMeses": 0,
+                        "maxAnos": 30,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "minMeses": 0,
+                        "maxAnos": 15,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_234": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_235": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_238": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_239": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_240": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§5º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    },
+                    "§6º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_242": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_243": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_244": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_245": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_251": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 7,
+                "maxMeses": 0
+            },
+            "art_252": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_254": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_258": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_259": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_263": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_264": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_267": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_268": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_269": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_270": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_271": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_272": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_273": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_274": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_275": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_276": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_279": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_281": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_282": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_283": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_284": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_286": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_288": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_290": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_291": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_292": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_293": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_294": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_295": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_296": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_297": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_299": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_300": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_302": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_303": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_304": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 7,
+                "maxMeses": 0
+            },
+            "art_305": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_306": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_307": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_308": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_310": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_311": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_316": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_318": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_319": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_320": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_321": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_324": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_326": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_327": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_328": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_330": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_332": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_333": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_334": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_335": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_336": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_337": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_339": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_340": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_343": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_345": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_346": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_347": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_349": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_351": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_352": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_354": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_363": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_366": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_367": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 20,
+                "maxMeses": 0
+            },
+            "art_368": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_369": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_370": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_373": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_375": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_376": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_377": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_379": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_383": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_385": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_388": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_393": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_397": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_398": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_400": {
+                "tipo": "reclusao",
+                "minAnos": 12,
+                "minMeses": 0,
+                "maxAnos": 30,
+                "maxMeses": 0
+            },
+            "art_402": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 24,
+                "maxMeses": 0
+            },
+            "art_403": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "minMeses": 0,
+                        "maxAnos": 20,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_407": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_408": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            }
+        }
+    },
+    "codigo_processo_penal": {
+        "nome": "Decreto-Lei nº 3.689/1941",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/decreto-lei/Del3689Compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "codigo_processo_penal_militar": {
+        "nome": "Decreto-Lei nº 1.002/1969",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/Del1002Compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "codigo_transito_brasileiro": {
+        "nome": "Lei nº 9.503/1997 (CTB)",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_302": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_303": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_304": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_305": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_306": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_307": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_308": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 5,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_309": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_310": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_311": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_312": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            }
+        }
+    },
+    "eca": {
+        "nome": "Lei nº 8.069/1990 (ECA)",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L8069Compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_228": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_229": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_230": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_231": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_232": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_234": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_235": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_236": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_237": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_238": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_239": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_240": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_241": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_241_a": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_241_b": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_241_c": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_242": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_243": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_244": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_244_a": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0
+            },
+            "art_244_b": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_244_c": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_245": {
+                "tipo": "multa"
+            },
+            "art_246": {
+                "tipo": "multa"
+            },
+            "art_247": {
+                "tipo": "multa"
+            },
+            "art_249": {
+                "tipo": "multa"
+            },
+            "art_250": {
+                "tipo": "multa"
+            },
+            "art_251": {
+                "tipo": "multa"
+            },
+            "art_252": {
+                "tipo": "multa"
+            },
+            "art_253": {
+                "tipo": "multa"
+            },
+            "art_254": {
+                "tipo": "multa"
+            },
+            "art_255": {
+                "tipo": "multa"
+            },
+            "art_256": {
+                "tipo": "multa"
+            },
+            "art_257": {
+                "tipo": "multa"
+            },
+            "art_258": {
+                "tipo": "multa"
+            },
+            "art_258_a": {
+                "tipo": "multa",
+                "paragrafos": {
+                    "§11": {
+                        "tipo": "multa"
+                    }
+                }
+            },
+            "art_258_b": {
+                "tipo": "multa"
+            },
+            "art_258_c": {
+                "tipo": "multa"
+            },
+            "art_263": {
+                "tipo": "reclusao",
+                "minAnos": 4,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    }
+                }
+            }
+        }
+    },
+    "estatuto_desarmamento": {
+        "nome": "Lei nº 10.826/2003",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/2003/L10.826compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_12": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_13": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_14": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_15": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_16": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_17": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_18": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 16,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lcp_sigilo_financeiro": {
+        "nome": "Lei Complementar nº 105/2001",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp105.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_abuso_autoridade": {
+        "nome": "Lei nº 13.869/2019",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13869.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_3": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_9": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_10": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_12": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_13": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_15": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_15_a": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_18": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_19": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_21": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_22": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_23": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_24": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_25": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_27": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_28": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_29": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_31": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_33": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_36": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_37": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_41": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_42": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_43": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_contravencoes_penais": {
+        "nome": "Decreto-Lei nº 3.688/1941",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/decreto-lei/Del3688.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_18": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_20": {
+                "tipo": "multa"
+            },
+            "art_22": {
+                "tipo": "multa"
+            },
+            "art_24": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_25": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_29": {
+                "tipo": "multa"
+            },
+            "art_30": {
+                "tipo": "multa"
+            },
+            "art_32": {
+                "tipo": "multa"
+            },
+            "art_37": {
+                "tipo": "multa"
+            },
+            "art_38": {
+                "tipo": "multa"
+            },
+            "art_43": {
+                "tipo": "multa"
+            },
+            "art_44": {
+                "tipo": "multa"
+            },
+            "art_45": {
+                "tipo": "multa"
+            },
+            "art_49": {
+                "tipo": "multa"
+            },
+            "art_50": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_51": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_52": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 4,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_57": {
+                "tipo": "multa"
+            },
+            "art_58": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 4,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_63": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 2,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_66": {
+                "tipo": "multa"
+            },
+            "art_70": {
+                "tipo": "prisao_simples",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_crime_organizado": {
+        "nome": "Lei nº 12.850/2013",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/lei/l12850.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_2": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_18": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_19": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_20": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_21": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§4º": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_288": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_25": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_crimes_ambientais": {
+        "nome": "Lei nº 9.605/1998",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L9605.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_29": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_30": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_31": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_32": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_33": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_34": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_35": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_38": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_38_a": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_39": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_40": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_41": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_42": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_44": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_45": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_46": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_48": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_49": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_50": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_50_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_51": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_52": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_54": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 5,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_55": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_56": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 1,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_60": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_61": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_62": {
+                "tipo": "reclusao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_63": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_64": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_65": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_66": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_67": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_68": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 1,
+                "maxMeses": 0
+            },
+            "art_69": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 3,
+                "maxMeses": 0
+            },
+            "art_69_a": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_crimes_hediondos": {
+        "nome": "Lei nº 8.072/1990",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/l8072.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_6": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§3º": {
+                        "tipo": "reclusao",
+                        "minAnos": 6,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 16,
+                        "minMeses": 0,
+                        "maxAnos": 24,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_223": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_267": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            },
+            "art_270": {
+                "tipo": "reclusao",
+                "minAnos": 10,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_crimes_ordem_tributaria": {
+        "nome": "Lei nº 8.137/1990",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L8137.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_3": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_7": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_17": {
+                "tipo": "detencao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 8,
+                        "maxMeses": 0
+                    }
+                }
+            }
+        }
+    },
+    "lei_crimes_prefeitos": {
+        "nome": "Decreto-Lei nº 201/1967",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del0201.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_crimes_sistema_financeiro": {
+        "nome": "Lei nº 7.492/1986",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l7492.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_2": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_3": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_4": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0
+            },
+            "art_5": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_6": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_7": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_8": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_9": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_10": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_11": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 5,
+                "maxMeses": 0
+            },
+            "art_12": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_13": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_14": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_15": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 8,
+                "maxMeses": 0
+            },
+            "art_16": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_17": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_18": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_19": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_20": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_21": {
+                "tipo": "detencao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_22": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0
+            },
+            "art_23": {
+                "tipo": "reclusao",
+                "minAnos": 1,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_drogas": {
+        "nome": "Lei nº 11.343/2006",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11343.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_33": {
+                "tipo": "reclusao",
+                "minAnos": 5,
+                "minMeses": 0,
+                "maxAnos": 15,
+                "maxMeses": 0,
+                "multaMin": 500,
+                "multaMax": 1500,
+                "paragrafos": {
+                    "§2º": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    },
+                    "§3º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 1,
+                        "maxMeses": 0,
+                        "multaMin": 700,
+                        "multaMax": 1500
+                    }
+                }
+            },
+            "art_34": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "multaMin": 1200,
+                "multaMax": 2000
+            },
+            "art_35": {
+                "tipo": "reclusao",
+                "minAnos": 3,
+                "minMeses": 0,
+                "maxAnos": 10,
+                "maxMeses": 0,
+                "multaMin": 700,
+                "multaMax": 1200,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "minMeses": 0,
+                        "maxAnos": 10,
+                        "maxMeses": 0,
+                        "multaMin": 700,
+                        "multaMax": 1200
+                    }
+                }
+            },
+            "art_36": {
+                "tipo": "reclusao",
+                "minAnos": 8,
+                "minMeses": 0,
+                "maxAnos": 20,
+                "maxMeses": 0,
+                "multaMin": 1500,
+                "multaMax": 4000,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "minMeses": 0,
+                        "maxAnos": 20,
+                        "maxMeses": 0,
+                        "multaMin": 1500,
+                        "multaMax": 4000
+                    }
+                }
+            },
+            "art_37": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 6,
+                "maxMeses": 0,
+                "multaMin": 300,
+                "multaMax": 700,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 6,
+                        "maxMeses": 0,
+                        "multaMin": 300,
+                        "multaMax": 700
+                    }
+                }
+            },
+            "art_38": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "multaMin": 50,
+                "multaMax": 200
+            },
+            "art_39": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_execucao_penal": {
+        "nome": "Lei nº 7.210/1984",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L7210.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_henry_borel": {
+        "nome": "Lei nº 14.344/2022",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/_Ato2019-2022/2022/Lei/L14344.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_25": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 2,
+                "maxMeses": 0
+            },
+            "art_26": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 3,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_identificacao_criminal": {
+        "nome": "Lei nº 12.037/2009",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12037.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_interceptacao_telefonica": {
+        "nome": "Lei nº 9.296/1996",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/Leis/L9296.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_9": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            },
+            "art_10_a": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0
+            }
+        }
+    },
+    "lei_julgamento_colegiado": {
+        "nome": "Lei nº 12.694/2012",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12694.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_lavagem_dinheiro": {
+        "nome": "Lei nº 9.613/1998",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L9613compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_maria_da_penha": {
+        "nome": "Lei nº 11.340/2006",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/lei/l11340.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_44": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 3,
+                "maxAnos": 3,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§9º": {
+                        "tipo": "detencao",
+                        "minAnos": 0,
+                        "minMeses": 3,
+                        "maxAnos": 3,
+                        "maxMeses": 0
+                    }
+                }
+            }
+        }
+    },
+    "lei_normas_processuais_stj_stf": {
+        "nome": "Lei nº 8.038/1990",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/leis/l8038.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_parcelamento_solo_urbano": {
+        "nome": "Lei nº 6.766/1979",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/L6766compilado.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_prisao_temporaria": {
+        "nome": "Lei nº 7.960/1989",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/l7960.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {}
+    },
+    "lei_software": {
+        "nome": "Lei nº 9.609/1998",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_12": {
+                "tipo": "detencao",
+                "minAnos": 0,
+                "minMeses": 6,
+                "maxAnos": 2,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            }
+        }
+    },
+    "pacote_anticrime": {
+        "nome": "Lei nº 13.964/2019",
+        "fonte": "http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2019/lei/L13964.htm",
+        "dataExtracao": "2026-05-06",
+        "artigos": {
+            "art_2": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§5º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_7": {
+                "tipo": "reclusao",
+                "minAnos": 2,
+                "minMeses": 0,
+                "maxAnos": 4,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§5º": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "minMeses": 0,
+                        "maxAnos": 4,
+                        "maxMeses": 0
+                    }
+                }
+            },
+            "art_9": {
+                "tipo": "reclusao",
+                "minAnos": 6,
+                "minMeses": 0,
+                "maxAnos": 12,
+                "maxMeses": 0,
+                "paragrafos": {
+                    "§1º": {
+                        "tipo": "reclusao",
+                        "minAnos": 6,
+                        "minMeses": 0,
+                        "maxAnos": 12,
+                        "maxMeses": 0
+                    },
+                    "§2º": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "minMeses": 0,
+                        "maxAnos": 16,
+                        "maxMeses": 0
+                    }
+                }
+            }
+        }
+    }
+}

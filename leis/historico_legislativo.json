@@ -1,0 +1,639 @@
+{
+    "_meta": {
+        "versao": 1,
+        "descricao": "Registro histórico de alterações legislativas relevantes para dosimetria penal. Cada alteração documenta a lei, a data de vigor, o tipo de modificação e o impacto no direito intertemporal (art. 2° CP).",
+        "geradoEm": "2026-05-06",
+        "convencoes": {
+            "dataVigor": "AAAA-MM-DD — data em que a lei entrou em vigor (geralmente publicação ou vacatio legis explícita)",
+            "tipo": {
+                "novatio_legis_in_pejus": "Nova lei mais gravosa — NÃO retroage. Aplica-se somente a fatos após dataVigor.",
+                "novatio_legis_in_mellius": "Nova lei mais favorável — RETROAGE, inclusive para sentenças transitadas em julgado (art. 2°, PU, CP).",
+                "abolitio_criminis": "Nova lei descriminaliza a conduta — cessa execução e efeitos penais da condenação.",
+                "criacao": "Dispositivo criado por lei nova — aplica-se somente a fatos após dataVigor.",
+                "revogacao": "Dispositivo revogado — conduta pode ter sido descriminalizada ou migrado para outro dispositivo.",
+                "bifacial": "A mesma lei alterou o mesmo dispositivo de modo mais gravoso em alguns aspectos e mais favorável em outros. Proibida a combinação de leis. O juiz deve aplicar a lei mais favorável EM CONJUNTO."
+            },
+            "lexMitiorAplicavel": "true = retroage obrigatoriamente; false = não retroage; 'parcial' = depende da análise do caso concreto (bifacial)"
+        }
+    },
+
+    "codigo_penal": {
+        "art_75": {
+            "descricao": "Limite máximo de cumprimento de pena privativa de liberdade",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Limite máximo aumentado de 30 para 40 anos.",
+                    "penaAnterior": { "limiteMaximoAnos": 30 },
+                    "penaNova": { "limiteMaximoAnos": 40 },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Lei mais gravosa. Para fatos ocorridos até 22/01/2020, o limite de cumprimento é de 30 anos, ainda que a sentença seja prolatada após a vigência da lei nova."
+                }
+            ]
+        },
+
+        "art_121": {
+            "descricao": "Homicídio doloso — qualificadoras (feminicídio migrou para art. 121-A em 2024)",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.104/2015",
+                    "dataVigor": "2015-03-10",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Criou o feminicídio como qualificadora (§2°, VI) e as majorantes do §7°. Não havia previsão antes.",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Qualificadora criada por lei posterior — aplica-se somente a fatos a partir de 10/03/2015."
+                },
+                {
+                    "lei": "Lei 14.994/2024",
+                    "dataVigor": "2024-10-28",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Revogou o §7° do art. 121 (majorantes do feminicídio). O feminicídio passou a ser tipo autônomo (art. 121-A, pena 20–40 anos, antes era qualificadora com pena 12–30 anos). A nova pena é mais grave.",
+                    "lexMitiorAplicavel": false,
+                    "remetenPara": "art_121_a",
+                    "fundamentoLeiTempo": "Para fatos anteriores a 28/10/2024: aplica-se art. 121 §2°-VI CP (pena 12–30 anos). Para fatos a partir de 28/10/2024: aplica-se art. 121-A (pena 20–40 anos). A lei nova é mais gravosa e não retroage.",
+                    "impactoNoEnum": "O valor 'art121_par7_feminicidio_majorantes' do enum refere-se às majorantes do revogado §7°. Para fatos a partir de 28/10/2024, usar o novo art. 121-A §2° (a ser adicionado ao enum)."
+                }
+            ]
+        },
+
+        "art_121_a": {
+            "descricao": "Feminicídio — tipo autônomo criado pela Lei 14.994/2024",
+            "alteracoes": [
+                {
+                    "lei": "Lei 14.994/2024",
+                    "dataVigor": "2024-10-28",
+                    "tipo": "criacao",
+                    "descricao": "Novo tipo penal autônomo. Pena: reclusão de 20 a 40 anos. Majorantes no §2° (1/3 a 1/2): gestação, vítima menor de 14 anos ou deficiente, assistência às filhas/filhos da vítima. Não existia antes desta data.",
+                    "lexMitiorAplicavel": false,
+                    "penaAnterior": null,
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 20,
+                        "maxAnos": 40
+                    },
+                    "fundamentoLeiTempo": "Tipo penal criado em 28/10/2024. Para fatos anteriores, a conduta era tipificada como homicídio qualificado (art. 121 §2°-VI) com pena 12–30 anos."
+                }
+            ]
+        },
+
+        "art_122": {
+            "descricao": "Induzimento, instigação ou auxílio ao suicídio ou à automutilação",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.968/2019",
+                    "dataVigor": "2019-12-27",
+                    "tipo": "bifacial",
+                    "descricao": "A pena foi reduzida drasticamente: a redação anterior previa reclusão de 2 a 6 anos. A nova redação prevê reclusão de 6 meses a 2 anos (além de ampliar o tipo para incluir automutilação). Lei mais favorável na pena mínima e máxima — lex mitior para fatos anteriores.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 6
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 0,
+                        "minMeses": 6,
+                        "maxAnos": 2
+                    },
+                    "lexMitiorAplicavel": true,
+                    "fundamentoLeiTempo": "Pena reduzida — lex mitior. Para fatos anteriores a 27/12/2019, aplica-se a nova lei (reclusão 6m–2 anos), por ser mais favorável ao acusado.",
+                    "observacao": "O tipo também foi ampliado (automutilação), mas a diminuição da pena máxima (6→2 anos) é inequivocamente mais favorável."
+                }
+            ]
+        },
+
+        "art_155": {
+            "descricao": "Furto",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.330/2016",
+                    "dataVigor": "2016-08-03",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Acrescentou §1°-A (furto de semoventes domesticáveis de produção). Não afeta os §§ de dosimetria comum.",
+                    "lexMitiorAplicavel": false
+                },
+                {
+                    "lei": "Lei 13.654/2018",
+                    "dataVigor": "2018-04-24",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Acrescentou §4°-A (explosivo para roubo e extorsão) e §4°-B (furto qualificado com destruição/rompimento de obstáculo). Não altera a estrutura básica do caput ou §§1°–4°.",
+                    "lexMitiorAplicavel": false
+                },
+                {
+                    "lei": "Lei 14.155/2021",
+                    "dataVigor": "2021-05-28",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Criou o §4°-B: furto mediante fraude eletrônica (dispositivo eletrônico/informático). Pena: reclusão 4–8 anos. Antes desta lei, a conduta era enquadrada no §4°, II (pena 2–8 anos). A nova pena mínima (4 anos) é mais gravosa.",
+                    "penaAnterior": {
+                        "para_conduta_fraudeEletronica": {
+                            "tipo": "reclusao",
+                            "minAnos": 2,
+                            "maxAnos": 8,
+                            "base": "art_155_par4_II"
+                        }
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "maxAnos": 8,
+                        "base": "art_155_par4B"
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Tipo mais específico e mais grave. Para fatos de fraude eletrônica ocorridos antes de 28/05/2021, aplica-se o §4°, II (pena 2–8 anos)."
+                }
+            ]
+        },
+
+        "art_157": {
+            "descricao": "Roubo — qualificadoras do §2°",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.654/2018",
+                    "dataVigor": "2018-04-24",
+                    "tipo": "bifacial",
+                    "descricao": "Reformulou o §2° e criou o §2°-A. Efeitos: (a) Arma de fogo: era §2°, I (fração 1/3–1/2) → passou a §2°-A, I (fração FIXA 2/3). MAIS GRAVOSA. (b) Arma branca (faca, etc.): era §2°, I (fração 1/3–1/2) → foi REMOVIDA do rol de causas de aumento. MAIS FAVORÁVEL. (c) Destruição de obstáculo com explosivo: novo §2°-A, II (fração fixa 2/3). Criado. (d) §2°-B: privação de liberdade por mais de 24h → pena autônoma 6–12 anos. Criado.",
+                    "penaAnterior": {
+                        "par2_arma_de_fogo": {
+                            "fracaoMin": "1/3",
+                            "fracaoMax": "1/2"
+                        },
+                        "par2_arma_branca": {
+                            "fracaoMin": "1/3",
+                            "fracaoMax": "1/2"
+                        },
+                        "par2_concurso_pessoas": {
+                            "fracaoMin": "1/3",
+                            "fracaoMax": "1/2"
+                        }
+                    },
+                    "penaNova": {
+                        "par2_concurso_pessoas": {
+                            "fracaoMin": "1/3",
+                            "fracaoMax": "1/2"
+                        },
+                        "par2A_arma_de_fogo": { "fracaoFixa": "2/3" },
+                        "par2A_explosivo": { "fracaoFixa": "2/3" }
+                    },
+                    "lexMitiorAplicavel": "parcial",
+                    "fundamentoLeiTempo": "Lei bifacial. Para roubo com arma DE FOGO em fatos anteriores a 24/04/2018: aplica-se a lei anterior (fração 1/3–1/2). Para roubo com arma BRANCA em fatos anteriores a 24/04/2018: aplica-se a lei nova (supressão da majorante — lex mitior). O juiz deve aplicar a lei inteira mais favorável ao conjunto do caso."
+                }
+            ]
+        },
+
+        "art_171": {
+            "descricao": "Estelionato",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Ação penal passou de pública condicionada à representação para pública incondicionada (§5°, com exceções para vítima maior de 70 anos ou com deficiência). Criou §2°-A (estelionato bancário/financeiro, pena 4–8 anos). O §2°-A é tipo qualificado mais grave.",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Qualificadora nova (§2°-A) e mudança na ação penal — não retroagem. Para fatos anteriores a 23/01/2020, a ação penal condicionada permanece e o §2°-A não se aplica."
+                },
+                {
+                    "lei": "Lei 14.155/2021",
+                    "dataVigor": "2021-05-28",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Criou §2°-B (estelionato informático, pena 4–8 anos) e §3° (estelionato contra idoso ou vulnerável em contexto digital). Mais gravoso.",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Qualificadoras novas — aplicam-se somente a fatos a partir de 28/05/2021."
+                }
+            ]
+        },
+
+        "art_129": {
+            "descricao": "Lesão corporal — §9° (violência doméstica e familiar)",
+            "alteracoes": [
+                {
+                    "lei": "Lei 11.340/2006 (Lei Maria da Penha)",
+                    "dataVigor": "2006-08-07",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "O §9° foi reescrito: pena passou de detenção 15 dias a 6 meses para detenção 3 meses a 3 anos. Aumento substancial de pena máxima (6m → 3 anos).",
+                    "penaAnterior": {
+                        "tipo": "detencao",
+                        "minDias": 15,
+                        "maxMeses": 6
+                    },
+                    "penaNova": {
+                        "tipo": "detencao",
+                        "minMeses": 3,
+                        "maxAnos": 3
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada — lei mais gravosa. Para fatos de violência doméstica anteriores a 07/08/2006, aplica-se a pena anterior (detenção 15d–6m)."
+                },
+                {
+                    "lei": "Lei 14.994/2024",
+                    "dataVigor": "2024-10-28",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "O §9° foi reescrito novamente: a pena passou de detenção 3 meses a 3 anos para RECLUSÃO 2 a 5 anos. Mudança de detenção para reclusão e aumento substancial do máximo.",
+                    "penaAnterior": {
+                        "tipo": "detencao",
+                        "minMeses": 3,
+                        "maxAnos": 3
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 5
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada e espécie alterada de detenção para reclusão — lei mais gravosa. Para fatos anteriores a 28/10/2024, aplica-se detenção 3m–3 anos. A mesma Lei 14.994/2024 também criou o §13° (lesão feminicida) com pena reclusão 2–5 anos, e reformulou as majorantes do §7° do feminicídio."
+                }
+            ]
+        },
+
+        "art_155": {
+            "descricao": "Furto — caput e qualificadoras",
+            "alteracoes": [
+                {
+                    "lei": "Lei 14.155/2021",
+                    "dataVigor": "2021-05-28",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Criou §4°-B (furto mediante fraude eletrônica com dispositivo eletrônico ou informático): reclusão 4–8 anos, e multa. Para fatos de fraude eletrônica ocorridos antes, a conduta era enquadrada no §4°, II (pena 2–8 anos, mínimo menor).",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 8,
+                        "base": "art_155_par4_II"
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "maxAnos": 8,
+                        "base": "art_155_par4B"
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "O novo §4°-B tem pena mínima (4 anos) mais alta que o §4°, II (2 anos) — in pejus. Para fatos de fraude eletrônica anteriores a 28/05/2021, aplica-se o §4°, II."
+                },
+                {
+                    "lei": "Lei 15.397/2026",
+                    "dataVigor": "2026-01-01",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Aumentou a pena do caput do furto simples: de reclusão 1–4 anos, e multa para reclusão 1–6 anos, e multa. A pena máxima foi elevada em 2 anos.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "maxAnos": 4
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "maxAnos": 6
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena máxima aumentada — lei mais gravosa. Para fatos anteriores à Lei 15.397/2026, o furto simples tem pena máxima de 4 anos (reclusão 1–4 anos)."
+                }
+            ]
+        },
+
+        "art_180": {
+            "descricao": "Receptação",
+            "alteracoes": [
+                {
+                    "lei": "Lei 15.397/2026",
+                    "dataVigor": "2026-01-01",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "A pena da receptação simples (caput) foi aumentada de reclusão 1–4 anos, e multa para reclusão 3–8 anos, e multa — triplicando a pena mínima.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "maxAnos": 4
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "maxAnos": 8
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Aumento drástico de pena mínima (1 → 3 anos) — in pejus. Para fatos de receptação simples anteriores à Lei 15.397/2026, aplica-se reclusão 1–4 anos."
+                }
+            ]
+        },
+
+        "art_213": {
+            "descricao": "Estupro — unificação com atentado violento ao pudor",
+            "alteracoes": [
+                {
+                    "lei": "Lei 12.015/2009",
+                    "dataVigor": "2009-08-10",
+                    "tipo": "bifacial",
+                    "descricao": "Revogou o art. 214 (atentado violento ao pudor, pena 6–10 anos) e incorporou a conduta ao art. 213. Efeito bifacial: (a) Para réus condenados em concurso material de art. 213 + art. 214 por um único contexto fático — a lei nova criou crime único, eliminando o concurso: lex mitior. (b) Criou §1° (resultado lesão grave: 8–12 anos) e §2° (resultado morte: 12–30 anos), que são mais gravosos. (c) A ação penal, para vítima maior e capaz, passou a ser pública condicionada (antes havia hipóteses privadas).",
+                    "penaAnterior": {
+                        "art_213_caput": {
+                            "tipo": "reclusao",
+                            "minAnos": 6,
+                            "maxAnos": 10
+                        },
+                        "art_214_caput": {
+                            "tipo": "reclusao",
+                            "minAnos": 6,
+                            "maxAnos": 10
+                        }
+                    },
+                    "penaNova": {
+                        "art_213_caput": {
+                            "tipo": "reclusao",
+                            "minAnos": 6,
+                            "maxAnos": 10
+                        },
+                        "art_213_par1": {
+                            "tipo": "reclusao",
+                            "minAnos": 8,
+                            "maxAnos": 12
+                        },
+                        "art_213_par2": {
+                            "tipo": "reclusao",
+                            "minAnos": 12,
+                            "maxAnos": 30
+                        }
+                    },
+                    "lexMitiorAplicavel": "parcial",
+                    "fundamentoLeiTempo": "Lei bifacial. Para fatos anteriores a 10/08/2009 em que o agente foi condenado em concurso material (arts. 213 + 214) por ato único: a lei nova é lex mitior (crime único, soma menor). Para fatos com resultado lesão grave ou morte: as novas qualificadoras NÃO retroagem. O juiz aplica a lei mais favorável em sua integralidade (STJ HC 251.807)."
+                }
+            ]
+        },
+
+        "art_217_a": {
+            "descricao": "Estupro de vulnerável",
+            "alteracoes": [
+                {
+                    "lei": "Lei 12.015/2009",
+                    "dataVigor": "2009-08-10",
+                    "tipo": "criacao",
+                    "descricao": "Criou o tipo penal autônomo de estupro de vulnerável, revogando a presunção de violência do art. 224. Penas originais: caput reclusão 8–15 anos; §3° (resultado lesão grave) reclusão 10–20 anos; §4° (resultado morte) reclusão 12–30 anos.",
+                    "penaAnterior": null,
+                    "penaNova": {
+                        "caput": {
+                            "tipo": "reclusao",
+                            "minAnos": 8,
+                            "maxAnos": 15
+                        },
+                        "par3_lesaoGrave": {
+                            "tipo": "reclusao",
+                            "minAnos": 10,
+                            "maxAnos": 20
+                        },
+                        "par4_morte": {
+                            "tipo": "reclusao",
+                            "minAnos": 12,
+                            "maxAnos": 30
+                        }
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Para fatos anteriores a 10/08/2009: conduta era art. 213 c/c art. 224, pena base 6–10 anos. O novo tipo é mais gravoso — não retroage."
+                },
+                {
+                    "lei": "Lei 15.280/2025",
+                    "dataVigor": "2025-01-01",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Aumentou as penas das qualificadoras: §3° (resultado lesão grave) de reclusão 10–20 anos para reclusão 12–24 anos + multa; §4° (resultado morte) de reclusão 12–30 anos para reclusão 20–40 anos + multa. Acrescentou o §4°-A tornando absoluta a presunção de vulnerabilidade.",
+                    "penaAnterior": {
+                        "par3_lesaoGrave": {
+                            "tipo": "reclusao",
+                            "minAnos": 10,
+                            "maxAnos": 20
+                        },
+                        "par4_morte": {
+                            "tipo": "reclusao",
+                            "minAnos": 12,
+                            "maxAnos": 30
+                        }
+                    },
+                    "penaNova": {
+                        "par3_lesaoGrave": {
+                            "tipo": "reclusao",
+                            "minAnos": 12,
+                            "maxAnos": 24
+                        },
+                        "par4_morte": {
+                            "tipo": "reclusao",
+                            "minAnos": 20,
+                            "maxAnos": 40
+                        }
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Penas das qualificadoras aumentadas — in pejus. Para fatos anteriores à Lei 15.280/2025: §3° aplica-se reclusão 10–20 anos; §4° aplica-se reclusão 12–30 anos."
+                }
+            ]
+        },
+
+        "art_317": {
+            "descricao": "Corrupção passiva",
+            "alteracoes": [
+                {
+                    "lei": "Lei 10.763/2003",
+                    "dataVigor": "2003-11-13",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "A pena foi aumentada de reclusão 1–8 anos, e multa para reclusão 2–12 anos, e multa. O mínimo dobrou e o máximo cresceu 50%.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "maxAnos": 8
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 12
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena substancialmente aumentada — in pejus. Para fatos de corrupção passiva anteriores a 13/11/2003, aplica-se reclusão 1–8 anos."
+                }
+            ]
+        },
+
+        "art_333": {
+            "descricao": "Corrupção ativa",
+            "alteracoes": [
+                {
+                    "lei": "Lei 10.763/2003",
+                    "dataVigor": "2003-11-13",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "A pena foi aumentada de reclusão 1–8 anos, e multa para reclusão 2–12 anos, e multa. Mesma reforma que alterou o art. 317.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 1,
+                        "maxAnos": 8
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 12
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena substancialmente aumentada — in pejus. Para fatos de corrupção ativa anteriores a 13/11/2003, aplica-se reclusão 1–8 anos."
+                }
+            ]
+        },
+
+        "art_225": {
+            "descricao": "Ação penal nos crimes contra a dignidade sexual",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.718/2018",
+                    "dataVigor": "2018-09-24",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Ação penal passou de pública condicionada (ou privada, quando vítima maior e capaz) para pública INCONDICIONADA para todos os crimes contra a dignidade sexual. Também criou importunação sexual (art. 215-A) e crime de divulgação de cena de sexo ou nudez sem consentimento (art. 216-B).",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "A mudança na ação penal não é mais favorável ao acusado. Para fatos anteriores a 24/09/2018, pode persistir a questão da legitimidade ativa."
+                }
+            ]
+        }
+    },
+
+    "estatuto_desarmamento": {
+        "art_14": {
+            "descricao": "Porte ilegal de arma de fogo de uso permitido",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "A pena foi aumentada e a espécie alterada: de detenção 1–3 anos para reclusão 2–4 anos.",
+                    "penaAnterior": {
+                        "tipo": "detencao",
+                        "minAnos": 1,
+                        "maxAnos": 3
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 4
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada e espécie alterada de detenção para reclusão — lei mais gravosa. Para fatos anteriores a 23/01/2020, aplica-se detenção 1–3 anos."
+                }
+            ]
+        },
+
+        "art_16": {
+            "descricao": "Posse ou porte ilegal de arma de fogo de uso restrito",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Pena aumentada de reclusão 2–4 anos para reclusão 3–6 anos. Nova redação também reestruturou o caput e §1°.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 2,
+                        "maxAnos": 4
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 3,
+                        "maxAnos": 6
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada — lei mais gravosa. Para fatos anteriores a 23/01/2020, aplica-se a pena de reclusão 2–4 anos."
+                }
+            ]
+        },
+
+        "art_17": {
+            "descricao": "Comércio ilegal de arma de fogo",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Pena aumentada de reclusão 4–8 anos para reclusão 6–12 anos.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "maxAnos": 8
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 6,
+                        "maxAnos": 12
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada — lei mais gravosa. Para fatos anteriores a 23/01/2020, aplica-se a pena de reclusão 4–8 anos."
+                }
+            ]
+        },
+
+        "art_18": {
+            "descricao": "Tráfico internacional de arma de fogo",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Pena aumentada de reclusão 4–8 anos para reclusão 8–16 anos.",
+                    "penaAnterior": {
+                        "tipo": "reclusao",
+                        "minAnos": 4,
+                        "maxAnos": 8
+                    },
+                    "penaNova": {
+                        "tipo": "reclusao",
+                        "minAnos": 8,
+                        "maxAnos": 16
+                    },
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Pena aumentada — lei mais gravosa. Para fatos anteriores a 23/01/2020, aplica-se a pena de reclusão 4–8 anos."
+                }
+            ]
+        }
+    },
+
+    "lei_crimes_hediondos": {
+        "art_1": {
+            "descricao": "Rol de crimes hediondos",
+            "alteracoes": [
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Ampliou o rol de crimes hediondos para incluir: (a) roubo com resultado lesão grave ou morte (art. 157 §3°, I e II CP); (b) lesão corporal dolosa gravíssima ou com resultado morte contra idoso/deficiente (art. 129 §12° CP); (c) extorsão com resultado morte (art. 158 §3° CP). Esses crimes passaram a exigir os percentuais mais altos de progressão de regime a partir de 23/01/2020.",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Para fatos anteriores a 23/01/2020 que se enquadrem nos crimes recém-incluídos no rol, esses NÃO são considerados hediondos — aplicam-se os percentuais de progressão da Lei 11.464/2007 (2/5 primário, 3/5 reincidente), não os do Pacote Anticrime (40%/60%/70%)."
+                }
+            ]
+        },
+
+        "art_2": {
+            "descricao": "Regime de cumprimento e progressão nos crimes hediondos",
+            "alteracoes": [
+                {
+                    "lei": "Lei 11.464/2007",
+                    "dataVigor": "2007-03-29",
+                    "tipo": "novatio_legis_in_mellius",
+                    "descricao": "Eliminou o regime integralmente fechado previsto no §1° original do art. 2°. Permitiu progressão de regime, exigindo cumprimento de 2/5 (primário) ou 3/5 (reincidente) da pena. Antes desta lei, o texto do art. 2° §1° determinava o cumprimento integral em regime fechado.",
+                    "lexMitiorAplicavel": true,
+                    "fundamentoLeiTempo": "A lei expressamente passou a permitir a progressão de regime. Para condenados anteriores à lei, aplica-se o novo regime (mais favorável)."
+                },
+                {
+                    "lei": "Lei 13.964/2019 (Pacote Anticrime)",
+                    "dataVigor": "2020-01-23",
+                    "tipo": "novatio_legis_in_pejus",
+                    "descricao": "Aumentou os requisitos de progressão para crimes hediondos e equiparados: 40% (primário sem resultado morte), 60% (reincidente ou resultado morte), 70% (reincidente específico ou cargo de liderança em organização criminosa). Substituiu os percentuais da Lei 11.464/2007.",
+                    "lexMitiorAplicavel": false,
+                    "fundamentoLeiTempo": "Percentuais de progressão mais altos — lei mais gravosa. Para fatos anteriores a 23/01/2020, aplicam-se os percentuais da Lei 11.464/2007 (2/5 primário, 3/5 reincidente)."
+                }
+            ]
+        }
+    },
+
+    "lei_drogas": {
+        "art_28": {
+            "descricao": "Posse de drogas para consumo pessoal — descriminalização do porte de maconha",
+            "alteracoes": [
+                {
+                    "lei": "STF — RE 635.659 (Tema 506)",
+                    "dataVigor": "2024-06-26",
+                    "tipo": "abolitio_criminis",
+                    "descricao": "O Plenário do STF declarou, por maioria, a inconstitucionalidade da criminalização do porte de cannabis (maconha) para consumo pessoal. Fixou presunção de uso pessoal para quantidade de até 40g ou cultivo de até 6 plantas fêmeas. A decisão tem eficácia erga omnes e efeito ex nunc quanto à execução penal, mas retroage para encerrar execuções em curso (abolitio criminis). ATENÇÃO: a descriminalização abrange SOMENTE maconha (Cannabis sativa). Para todas as demais drogas (cocaína, crack, etc.), o art. 28 permanece plenamente vigente.",
+                    "lexMitiorAplicavel": true,
+                    "fundamentoLeiTempo": "Para réus condenados pelo art. 28 por porte de maconha até 40g (ou cultivo até 6 plantas fêmeas) com sentença ainda em execução: verificar extinção da punibilidade por abolitio criminis (art. 2°, caput, CP c/c art. 107, III, CP). Para condenações por porte de outras drogas: não há abolitio criminis — o crime permanece típico.",
+                    "observacao": "A presunção de 40g/6 plantas é relativa — o juiz pode afastar com base em outras circunstâncias (quantidade compatível com comércio, embalagem em porções, etc.)."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,470 @@
+{
+  "numProcesso": "5001399-88.2025.8.24.0541",
+  "versaoSchema": 5,
+  "atualizadoEm": null,
+  "statusProcesso": "sentenciado_aguardando_recursos",
+  "competencia": "criminal_drogas",
+  "grau1": {
+    "dataFato": "11/07/2025",
+    "dataRecebimentoDenuncia": null,
+    "dataSentenca": "18/02/2026",
+    "dataPublicacaoSentenca": null,
+    "juizSentenciante": "RODRIGO CLIMACO JOSE",
+    "varaOrigem": "2ª Vara da Comarca de Rio Negrinho",
+    "idEventoSentenca": null,
+    "vitimas": [
+      "Coletividade"
+    ],
+    "reus": [
+      {
+        "nome": "KELLY FLORIANO VITENCOUR",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "nao_informado",
+        "situacaoPrisional": {
+          "estadoAtual": "medida_cautelar_diversa",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": false,
+          "tipo": "primario_sem_antecedentes",
+          "processosCitados": []
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "art. 33, caput, da Lei n. 11.343/2006",
+            "tipoCrime": "Tráfico de Drogas",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_integralmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "Tráfico de Drogas",
+            "dispositivoLegal": "art. 33, caput e § 4º, da Lei n. 11.343/2006",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "a culpabilidade, fundada em um juízo de reprovabilidade, não se afasta da normalidade à espécie"
+                },
+                "antecedentes": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "não há antecedentes, assim entendidos como sentença condenatória que não surta efeitos de reincidência",
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "não há elementos para aferir a conduta social"
+                },
+                "personalidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "inexistem dados sobre a personalidade do agente"
+                },
+                "motivos": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "o motivo do crime foi o lucro por meio do tráfico de drogas, mas deixo de considerar por ser inerente ao tipo"
+                },
+                "circunstancias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "as circunstâncias não fugiram do padrão"
+                },
+                "consequencias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "as consequências do crime são normais ao tipo"
+                },
+                "comportamentoVitima": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "por se tratar de delito praticado contra a coletividade, resta prejudicado o exame do comportamento da vítima"
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
+              "penaAbstrataMinima": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaAbstrataMaxima": {
+                "anos": 15,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 5475
+              },
+              "penaPrivativaAplicada": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 500,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 500,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [
+                "art33_par4_trafico_privilegiado"
+              ],
+              "fracaoDiminuicao": "1/6",
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 4,
+                "meses": 2,
+                "dias": 0,
+                "totalDias": 1520
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 417,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            }
+          }
+        ],
+        "concursoDeCrimes": {
+          "regraAplicada": "crime_unico",
+          "quantidadeCrimesConcorrentes": 1,
+          "fracaoExasperacao": null,
+          "penaTotalPrivativa": {
+            "anos": 4,
+            "meses": 2,
+            "dias": 0,
+            "totalDias": 1520
+          },
+          "penaTotalMulta": {
+            "diasMulta": 417,
+            "valorDiaMulta": 0.0333,
+            "valorTotal": null
+          }
+        },
+        "execucaoDaPena": {
+          "detracao": {
+            "periodos": [],
+            "totalDiasDetraidos": null,
+            "consideradaParaRegime": null
+          },
+          "regimeInicial": "semiaberto",
+          "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
+          "substituicaoPRD": {
+            "concedida": false,
+            "quantidadePenas": null,
+            "especiesAplicadas": [],
+            "fundamentoNegativa": "Em se tratando de crime doloso com pena privativa de liberdade superior a 4 anos (CP, art. 44, I), inviável a substituição"
+          },
+          "sursisPenal": {
+            "concedido": false,
+            "especieAplicada": null,
+            "prazoAnos": null,
+            "fundamentoNegativa": "Como a reprimenda privativa de liberdade ultrapassa os 2 anos, não se cogita da suspensão condicional da pena"
+          },
+          "reparacaoDanosArt387IV": {
+            "fixada": null,
+            "valorMinimo": null,
+            "destinatario": null,
+            "houvePedidoExpresso": null
+          },
+          "custasProcessuais": {
+            "condenado": true,
+            "isencaoPorMiserabilidade": null
+          },
+          "prescricaoReconhecida": null,
+          "fundamentoPrescricao": null
+        },
+        "calculoPrescricao": {
+          "pppAbstrataDataLimite": "11/07/2045",
+          "pppAbstrataConfigurada": false,
+          "pppRetroativaDataLimite": null,
+          "pppIntercorrenteDataLimite": "18/02/2038",
+          "ppeDataLimite": null,
+          "risco": "sem_risco"
+        }
+      },
+      {
+        "nome": "VABILI DARIANE DE MORAES",
+        "cpfMascarado": null,
+        "dataNascimento": null,
+        "tipoDefesa": "nao_informado",
+        "situacaoPrisional": {
+          "estadoAtual": "liberdade",
+          "tipoCustodia": null,
+          "dataInicioCustodia": null
+        },
+        "antecedentesCriminais": {
+          "possui": false,
+          "tipo": "primario_sem_antecedentes",
+          "processosCitados": []
+        },
+        "crimesImputados": [
+          {
+            "dispositivoLegal": "art. 33, caput, da Lei n. 11.343/2006",
+            "tipoCrime": "Tráfico de Drogas",
+            "modalidadeConsumacao": "consumado",
+            "modalidadeSubjetiva": "doloso"
+          }
+        ],
+        "resultado": "condenado_integralmente",
+        "crimesCondenado": [
+          {
+            "tipoCrime": "Tráfico de Drogas",
+            "dispositivoLegal": "art. 33, caput e § 4º, da Lei n. 11.343/2006",
+            "modalidadeConsumacao": "consumado",
+            "idEventoDosimetria": null,
+            "fase1_PenaBase": {
+              "vetores": {
+                "culpabilidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "a culpabilidade, fundada em um juízo de reprovabilidade, não se afasta da normalidade à espécie"
+                },
+                "antecedentes": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "não há antecedentes, assim entendidos como sentença condenatória que não surta efeitos de reincidência",
+                  "subcategoria": null
+                },
+                "condutaSocial": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "não há elementos para aferir a conduta social"
+                },
+                "personalidade": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "inexistem dados sobre a personalidade do agente"
+                },
+                "motivos": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "o motivo do crime foi o lucro por meio do tráfico de drogas, mas deixo de considerar por ser inerente ao tipo"
+                },
+                "circunstancias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "as circunstâncias não fugiram do padrão"
+                },
+                "consequencias": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "as consequências do crime são normais ao tipo"
+                },
+                "comportamentoVitima": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": "por se tratar de delito praticado contra a coletividade, resta prejudicado o exame do comportamento da vítima"
+                },
+                "naturezaQuantidadeDrogaArt42": {
+                  "valoracao": "nao_mencionada",
+                  "fundamento": null
+                }
+              },
+              "quantidadeVetoresNegativos": 0,
+              "fracaoAumentoPorVetorial": null,
+              "penaAbstrataMinima": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaAbstrataMaxima": {
+                "anos": 15,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 5475
+              },
+              "penaPrivativaAplicada": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 500,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            },
+            "fase2_PenaIntermediaria": {
+              "agravantesReconhecidas": [],
+              "atenuantesReconhecidas": [],
+              "compensacaoIntegral": null,
+              "agravantePreponderante": null,
+              "fracaoAgravamento": null,
+              "fracaoAtenuamento": null,
+              "penaPrivativaAplicada": {
+                "anos": 5,
+                "meses": 0,
+                "dias": 0,
+                "totalDias": 1825
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 500,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            },
+            "fase3_PenaDefinitiva": {
+              "causasAumentoReconhecidas": [],
+              "fracaoAumento": null,
+              "causasDiminuicaoReconhecidas": [
+                "art33_par4_trafico_privilegiado"
+              ],
+              "fracaoDiminuicao": "1/6",
+              "tentativaReconhecida": false,
+              "fracaoTentativa": null,
+              "penaPrivativaAplicada": {
+                "anos": 4,
+                "meses": 2,
+                "dias": 0,
+                "totalDias": 1520
+              },
+              "penaMultaAplicada": {
+                "diasMulta": 417,
+                "valorDiaMulta": 0.0333,
+                "valorTotal": null
+              }
+            }
+          }
+        ],
+        "concursoDeCrimes": {
+          "regraAplicada": "crime_unico",
+          "quantidadeCrimesConcorrentes": 1,
+          "fracaoExasperacao": null,
+          "penaTotalPrivativa": {
+            "anos": 4,
+            "meses": 2,
+            "dias": 0,
+            "totalDias": 1520
+          },
+          "penaTotalMulta": {
+            "diasMulta": 417,
+            "valorDiaMulta": 0.0333,
+            "valorTotal": null
+          }
+        },
+        "execucaoDaPena": {
+          "detracao": {
+            "periodos": [],
+            "totalDiasDetraidos": null,
+            "consideradaParaRegime": null
+          },
+          "regimeInicial": "semiaberto",
+          "fundamentoRegimeMaisGravoso": null,
+          "sumulaViolada": null,
+          "substituicaoPRD": {
+            "concedida": false,
+            "quantidadePenas": null,
+            "especiesAplicadas": [],
+            "fundamentoNegativa": "Em se tratando de crime doloso com pena privativa de liberdade superior a 4 anos (CP, art. 44, I), inviável a substituição"
+          },
+          "sursisPenal": {
+            "concedido": false,
+            "especieAplicada": null,
+            "prazoAnos": null,
+            "fundamentoNegativa": "Como a reprimenda privativa de liberdade ultrapassa os 2 anos, não se cogita da suspensão condicional da pena"
+          },
+          "reparacaoDanosArt387IV": {
+            "fixada": null,
+            "valorMinimo": null,
+            "destinatario": null,
+            "houvePedidoExpresso": null
+          },
+          "custasProcessuais": {
+            "condenado": true,
+            "isencaoPorMiserabilidade": null
+          },
+          "prescricaoReconhecida": null,
+          "fundamentoPrescricao": null
+        },
+        "calculoPrescricao": {
+          "pppAbstrataDataLimite": "11/07/2045",
+          "pppAbstrataConfigurada": false,
+          "pppRetroativaDataLimite": null,
+          "pppIntercorrenteDataLimite": "18/02/2038",
+          "ppeDataLimite": null,
+          "risco": "sem_risco"
+        }
+      }
+    ],
+    "recursosMP": {
+      "interposto": null,
+      "dataInterposicao": null,
+      "tempestivo": null,
+      "objeto": []
+    },
+    "recursosDefesa": [],
+    "transitoAcusacao1G": null,
+    "embargosDeclaratorios1G": []
+  },
+  "grau2": {
+    "recursos": [],
+    "parecerPGJ": {
+      "teor": null,
+      "data": null,
+      "idEventoParecer": null,
+      "argumentosPrincipais": []
+    },
+    "embargosDeclaratorios2G": [],
+    "acordao": {
+      "data": null,
+      "relator": null,
+      "redatorAcordao": null,
+      "orgaoJulgador": null,
+      "votacao": null,
+      "ementa": null,
+      "resultadoPorRecurso": [],
+      "dosimetriaModificada": null,
+      "novaPenaTotal": {
+        "anos": null,
+        "meses": null,
+        "dias": null,
+        "totalDias": null
+      },
+      "novoRegimeInicial": null,
+      "sumulasETemasCitados": [],
+      "transitoEmJulgadoFinal": null
+    },
+    "transitoAcusacao2G": null,
+    "prescricaoAReconhecer": {
+      "configurada": null,
+      "especie": null,
+      "fundamento": null,
+      "dataLimitePrescricional": null
+    }
+  },
+  "metadados": {
+    "preenchidoPor": "ia",
+    "confianca": 0.95,
+    "observacoes": "Extração realizada a partir de sentença condenatória de primeiro grau. Ambas as rés foram condenadas por tráfico privilegiado.",
+    "acordoNaoPersecucaoPenal": "nao_aplicavel",
+    "suspensaoCondicionalProcesso": "nao_aplicavel",
+    "modeloIA": "google/gemini-3-flash-preview",
+    "tokensConsumidos": null,
+    "ultimaExtracaoIA": "2026-05-05T21:53:34.011Z"
+  }
+}
