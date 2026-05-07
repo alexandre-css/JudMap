@@ -49,9 +49,11 @@ function escreverMd(rel, conteudo) {
 
 const rawSTF = ler("sumulas/sumulas_stf.json");
 const rawSTJ = ler("sumulas/sumulas_stj.json");
-const rawECA = ler("sumulas/sumulas_eca.json");
 const rawTSTF = ler("temas/temas_stf.json");
 const rawTSTJ = ler("temas/temas_stj.json");
+
+// Detectar se os JSONs já estão no schema novo (array) ou legado (objeto com .sumulas/.temas)
+// Isso torna o build idempotente — pode rodar múltiplas vezes sem problema.
 
 // ---------------------------------------------------------------------------
 // Transformação: Súmulas
@@ -81,15 +83,31 @@ function transformarSumula(s, tribunal, area = null) {
     };
 }
 
-const sumulasSTF = rawSTF.sumulas
-    .map((s) => transformarSumula(s, "STF"))
-    .sort((a, b) => a.numero - b.numero);
+// Se já está no schema novo (array plano), re-serializa direto; senão, transforma do legado.
+// Isso torna o build idempotente — pode rodar múltiplas vezes sem problema.
 
-// Merge STJ + ECA (ECA marcadas com area="ECA")
-const sumulasSTJ = [
-    ...rawSTJ.sumulas.map((s) => transformarSumula(s, "STJ")),
-    ...rawECA.sumulas.map((s) => transformarSumula(s, "STJ", "ECA")),
-].sort((a, b) => a.numero - b.numero);
+function normalizarSumulas(raw, tribunal) {
+    if (Array.isArray(raw)) {
+        // Schema novo: apenas garantir ordenação
+        return raw.sort((a, b) => a.numero - b.numero);
+    }
+    // Schema legado: transformar
+    return raw.sumulas
+        .map((s) => transformarSumula(s, tribunal))
+        .sort((a, b) => a.numero - b.numero);
+}
+
+function normalizarTemas(raw, tribunal) {
+    if (Array.isArray(raw)) {
+        return raw.sort((a, b) => a.numero - b.numero);
+    }
+    return raw.temas
+        .map((t) => transformarTema(t, tribunal))
+        .sort((a, b) => a.numero - b.numero);
+}
+
+const sumulasSTF = normalizarSumulas(rawSTF, "STF");
+const sumulasSTJ = normalizarSumulas(rawSTJ, "STJ");
 
 // ---------------------------------------------------------------------------
 // Transformação: Temas
@@ -117,13 +135,8 @@ function transformarTema(t, tribunal) {
     };
 }
 
-const temasSTF = rawTSTF.temas
-    .map((t) => transformarTema(t, "STF"))
-    .sort((a, b) => a.numero - b.numero);
-
-const temasSTJ = rawTSTJ.temas
-    .map((t) => transformarTema(t, "STJ"))
-    .sort((a, b) => a.numero - b.numero);
+const temasSTF = normalizarTemas(rawTSTF, "STF");
+const temasSTJ = normalizarTemas(rawTSTJ, "STJ");
 
 // ---------------------------------------------------------------------------
 // Geração de Markdown
@@ -132,14 +145,20 @@ const temasSTJ = rawTSTJ.temas
 function mdSumulas(sumulas, titulo) {
     const linhas = [`# ${titulo}`, ""];
     for (const s of sumulas) {
+        // Heading: SV não leva tribunal (só existe no STF); demais levam /{tribunal}
+        if (s.vinculante) {
+            linhas.push(`## Súmula Vinculante ${s.numero}`);
+        } else {
+            linhas.push(`## Súmula ${s.numero}/${s.tribunal}`);
+        }
+
+        // Flags não-oficiais como blockquote
         const flags = [];
-        if (s.vinculante) flags.push("VINCULANTE");
         if (s.superadaEmParte) flags.push("SUPERADA EM PARTE");
         if (s.alterada) flags.push("ALTERADA");
         if (s.area) flags.push(s.area);
-
-        linhas.push(`## Súmula ${s.tribunal} nº ${s.numero}`);
         if (flags.length) linhas.push(`> ${flags.join(" · ")}`);
+
         linhas.push("");
         linhas.push(s.texto);
         linhas.push("");
@@ -152,7 +171,12 @@ function mdSumulas(sumulas, titulo) {
 function mdTemas(temas, titulo) {
     const linhas = [`# ${titulo}`, ""];
     for (const t of temas) {
-        linhas.push(`## Tema ${t.tribunal} nº ${t.numero} — ${t.titulo}`);
+        // Heading: apenas número e tribunal — título é informal
+        linhas.push(`## Tema ${t.numero}/${t.tribunal}`);
+
+        // Título como nota italic — claramente não-oficial
+        if (t.titulo) linhas.push(`*${t.titulo}*`);
+
         linhas.push("");
         linhas.push(t.tese);
         linhas.push("");
@@ -195,7 +219,7 @@ escreverMd(
 console.log("\n[build] Concluído.");
 console.log(`  Súmulas STF: ${sumulasSTF.length}`);
 console.log(
-    `  Súmulas STJ: ${sumulasSTJ.length} (inclui ${rawECA.sumulas.length} súmulas ECA)`,
+    `  Súmulas STJ: ${sumulasSTJ.length} (inclui ${sumulasSTJ.filter((s) => s.area === "ECA").length} súmulas ECA)`,
 );
 console.log(`  Temas STF: ${temasSTF.length}`);
 console.log(`  Temas STJ: ${temasSTJ.length}`);
