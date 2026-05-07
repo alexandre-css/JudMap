@@ -1,0 +1,120 @@
+{
+    "_nota_schema": "Schema de acórdãos extraídos do eProc (TJSC). Separado do sentenca_schema.json — processo de grau2 tem ciclo de vida próprio. Versão 1.",
+    "versaoSchema": 1,
+    "numProcesso": null,
+    "extraidoEm": null,
+
+    "identificacao": {
+        "classeProcessual": null,
+        "codigoClasse": null,
+        "tribunal": "TJSC",
+        "orgaoJulgador": null,
+        "idDocumento": null,
+        "versaoDocumento": null
+    },
+
+    "relator": {
+        "nome": null,
+        "codMagistrado": null
+    },
+
+    "assessorRedator": null,
+    "_nota_assessorRedator": "Preenchido quando footer.usuarioEditor !== footer.usuarioCriador — indica que o assessor jurídico redigiu ou finalizou a minuta.",
+
+    "dataAssinatura": null,
+    "_nota_dataAssinatura": "ISO 8601. Extraído de p.tarja_assinatura.",
+
+    "partes": [
+        {
+            "polo": null,
+            "_nota_polo": "Enum: 'autor' | 'reu'",
+            "tipo": null,
+            "_nota_tipo": "Ex: 'APELANTE', 'APELADO', 'RÉU', 'MINISTÉRIO PÚBLICO'",
+            "nome": null,
+            "ehEntidade": null,
+            "_nota_ehEntidade": "true = pessoa jurídica (MP, Estado); false = pessoa física. Mapeado de data-sin_parte_entidade.",
+            "principal": null,
+            "_nota_principal": "true = parte principal; false = 'OS MESMOS'. Mapeado de data-sin_parte_principal='S'."
+        }
+    ],
+
+    "relatorio": {
+        "_nota": "Conteúdo da <section data-nome='relatorio'>. Voz do relator separada de transcrições/citações.",
+
+        "paragrafosRelator": [
+            {
+                "ordem": null,
+                "_nota_ordem": "Posição sequencial 0-based dentro da seção relatorio.",
+                "html": null,
+                "_nota_html": "HTML bruto do parágrafo conforme saiu do eProc (p.paragrafoPadrao ou p.paragrafoComRecuo).",
+                "texto": null,
+                "_nota_texto": "Texto limpo, sem tags HTML, &nbsp; resolvido, espaços normalizados.",
+                "codTipoConteudo": null,
+                "_nota_codTipoConteudo": "Enum: 'original' (data-codtipoconteudo=4, autoria do relator neste processo) | 'template' (data-codtipoconteudo=1, texto de biblioteca reutilizável).",
+                "ehRecuo": false,
+                "_nota_ehRecuo": "true = p.paragrafoComRecuo (sub-item enumerado [a], [b]…). false = p.paragrafoPadrao."
+            }
+        ],
+
+        "transcricoes": [
+            {
+                "tipo": null,
+                "_nota_tipo": "Enum: 'sentenca1g' | 'razoes_recursais' | 'denuncia' | 'contrarrazoes' | 'parecer_pgj' | 'outro'. Inferido por contexto (posição relativa no relatorio).",
+                "html": null,
+                "_nota_html": "HTML bruto do conteúdo dentro da tabela cinza (table[style*='f9f9f9']) — geralmente p.cartaSemRecuo.",
+                "texto": null
+            }
+        ]
+    },
+
+    "voto": {
+        "_nota": "Conteúdo da <section data-nome='voto'>. Núcleo decisório — ratio decidendi, teses acolhidas/rejeitadas, dispositivo.",
+
+        "paragrafosRelator": [
+            {
+                "ordem": null,
+                "html": null,
+                "texto": null,
+                "codTipoConteudo": null,
+                "_nota_codTipoConteudo": "Enum: 'original' | 'template'. Priorizar 'original' para análise de teses específicas do caso.",
+                "ehRecuo": false,
+                "ehDispositivo": false,
+                "_nota_ehDispositivo": "true quando o parágrafo contém o dispositivo final ('Por tais razões', 'Ante o exposto', 'Voto por', 'voto no sentido de'). Há exatamente um por acórdão."
+            }
+        ],
+
+        "citacoes": [
+            {
+                "ordem": null,
+                "origemInferida": null,
+                "_nota_origemInferida": "Enum: 'stf' | 'stj' | 'tjsc' | 'tj_outro' | 'doutrina' | 'depoimento' | 'outro'. Inferido por palavras-chave no texto (ex: 'STJ', 'Rel.', 'RSTJ', 'RT').",
+                "aninhada": false,
+                "_nota_aninhada": "true = p.citacao2 (citação dentro de citação, ex: STF citando Protocolo CNJ).",
+                "html": null,
+                "texto": null
+            }
+        ],
+
+        "dispositivo": {
+            "_nota": "Extração/espelho do parágrafo marcado como ehDispositivo=true. Nulo se não detectado.",
+            "html": null,
+            "texto": null
+        }
+    },
+
+    "tesesRecursais": null,
+    "_nota_tesesRecursais": "Reservado para etapa de análise por IA (acordao_extractor.js). Estrutura esperada: [{ suscitadaPor: string, tese: string, resultado: 'acolhida'|'rejeitada'|'parcial', fundamento: string }]",
+
+    "fundamentacoes": null,
+    "_nota_fundamentacoes": "Reservado para etapa de análise por IA. Estrutura esperada: [{ tema: string, fundamento: string, artigos: [], sumulas: [], temas: [] }]",
+
+    "metadados": {
+        "usuarioCriador": null,
+        "_nota_usuarioCriador": "Login do Desembargador relator no eProc (data-usuario_criador_documento_rodape).",
+        "usuarioEditor": null,
+        "_nota_usuarioEditor": "Login do último editor — pode ser assessor jurídico (data-usuario_editor_documento_rodape).",
+        "idEventoEproc": null,
+        "_nota_idEventoEproc": "ID interno do documento no eProc (data-codigo_documento_rodape).",
+        "crcVerificador": null
+    }
+}

@@ -1,2 +1,17 @@
 .env
 node_modules/
+package-lock.json
+
+# Minutas brutas (JSON volumoso baixado do eProc)
+eproc/julgados/minutas-*.json
+
+# Acórdãos processados — gerados localmente, não versionar
+eproc/julgados/processados/*.json
+eproc/julgados/processados/*.md
+eproc/julgados/processados/_index.json
+
+# RAG — índices gerados pelo build_index.js
+leis/rag/*.json
+
+# Pasta criada por engano (node eproc/)
+node eproc/
