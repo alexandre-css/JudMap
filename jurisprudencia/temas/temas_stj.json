@@ -1,672 +1,730 @@
-{
-  "tribunal": "STJ",
-  "total": 91,
-  "temas": [
-    {
-      "numero": 20,
-      "titulo": "Pena Substitutiva e Regime Aberto",
-      "tese": "É inadmissível a fixação de pena substitutiva (art. 44 do CP) como condição especial ao regime aberto.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Originada: 493"
-    },
-    {
-      "numero": 157,
-      "titulo": "Crimes Tributários - Insignificância",
-      "tese": "Incide o princípio da insignificância aos crimes tributários federais e de descaminho quando o débito tributário verificado não ultrapassar o limite de R$ 20.000,00 (vinte mil reais), a teor do disposto no art. 20 da Lei n. 10.522/2002, com as atualizações efetivadas pelas Portarias 75 e 130, ambas do Ministério da Fazenda.",
-      "cor": "stone",
-      "chips": []
-    },
-    {
-      "numero": 177,
-      "titulo": "Viol. Doméstica - Ação Penal",
-      "tese": "A ação penal nos crimes de lesão corporal leve cometidos em detrimento da mulher, no âmbito doméstico e familiar, é pública incondicionada.",
-      "cor": "coral",
-      "chips": [],
-      "comentario": "Tese anterior: \"A ação penal nos crimes de lesão corporal leve cometidos em detrimento da mulher, no âmbito doméstico e familiar, é pública condicionada à representação da vítima\"."
-    },
-    {
-      "numero": 190,
-      "titulo": "Pena Abaixo do Mínimo",
-      "tese": "O critério trifásico de individualização da pena, trazido pelo art. 68 do Código Penal, não permite ao Magistrado extrapolar os marcos mínimo e máximo abstratamente cominados para a aplicação da sanção penal.",
-      "cor": "pink",
-      "chips": [],
-      "comentario": "Ver Súmula 231/STJ"
-    },
-    {
-      "numero": 191,
-      "titulo": "Lei de Drogas - Aplicação Retroativa",
-      "tese": "É cabível a aplicação retroativa da Lei n. 11.343/2006, desde que o resultado da incidência das suas disposições, na íntegra, seja mais favorável ao réu do que o advindo da utilização da Lei 6.368/76, sendo vedada a combinação de leis.",
-      "cor": "lime",
-      "chips": [],
-      "comentario": "Súmula Originada: 501"
-    },
-    {
-      "numero": 221,
-      "titulo": "ECA - Art. 244-B",
-      "tese": "A configuração do crime do art. 244-B do ECA independe da prova da efetiva corrupção do menor, por se tratar de delito formal.",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula Originada: 500"
-    },
-    {
-      "numero": 445,
-      "titulo": "Saída Temporária",
-      "tese": "Primeira tese: É recomendável que cada autorização de saída temporária do preso seja precedida de decisão judicial motivada. Entretanto, se a apreciação individual do pedido estiver, por deficiência exclusiva do aparato estatal, a interferir no direito subjetivo do apenado e no escopo ressocializador da pena, deve ser reconhecida, excepcionalmente, a possibilidade de fixação de calendário anual de saídas temporárias por ato judicial único, observadas as hipóteses de revogação automática do art. 125 da LEP.\nSegunda tese: O calendário prévio das saídas temporárias deverá ser fixado, obrigatoriamente, pelo Juízo das Execuções, não se lhe permitindo delegar à autoridade prisional a escolha das datas específicas nas quais o apenado irá usufruir os benefícios. Inteligência da Súmula n. 520 do STJ.\nTerceira tese: Respeitado o limite anual de 35 dias, estabelecido pelo art. 124 da LEP, é cabível a concessão de maior número de autorizações de curta duração.\nQuarta tese: As autorizações de saída temporária para visita à família e para participação em atividades que concorram para o retorno ao convívio social, se limitadas a cinco vezes durante o ano, deverão observar o prazo mínimo de 45 dias de intervalo entre uma e outra. Na hipótese de maior número de saídas temporárias de curta duração, já intercaladas durante os doze meses do ano e muitas vezes sem pernoite, não se exige o intervalo previsto no art. 124, § 3°, da LEP.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Tese anterior: \"A autorização das saídas temporárias é ato jurisdicional da competência do Juízo das Execuções Penais. Não é possível delegar ao administrador do presídio a fiscalização sobre diversas saídas temporárias, por se tratar de atribuição exclusiva do magistrado das execuções penais, sujeita à ação fiscalizadora do Ministério Público\"."
-    },
-    {
-      "numero": 446,
-      "titulo": "Recusa ao Bafômetro",
-      "tese": "O indivíduo não pode ser compelido a colaborar com os referidos testes do 'bafômetro' ou do exame de sangue, em respeito ao princípio segundo o qual ninguém é obrigado a se autoincriminar (nemo tenetur se detegere).",
-      "cor": "emerald",
-      "chips": []
-    },
-    {
-      "numero": 447,
-      "titulo": "Art. 306 do CTB - Critério Objetivo",
-      "tese": "O tipo penal do art. 306 do Código de Trânsito Brasileiro é formado, entre outros, por um elemento objetivo, de natureza exata, que não permite a aplicação de critérios subjetivos de interpretação, qual seja, o índice de 6 decigramas de álcool por litro de sangue. O grau de embriaguez é elementar objetiva do tipo, não configurando a conduta típica o exercício da atividade em qualquer outra concentração inferior àquela determinada pela lei, emanada do Congresso Nacional. O decreto regulamentador, podendo elencar quaisquer meios de prova que considerasse hábeis à tipicidade da conduta, tratou especificamente de 2 (dois) exames por métodos técnicos e científicos que poderiam ser realizados em aparelhos homologados pelo CONTRAN, quais sejam, o exame de sangue e o etilômetro.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 561,
-      "titulo": "Furto Privilegiado",
-      "tese": "Afigura-se absolutamente 'possível o reconhecimento do privilégio previsto no § 2º do art. 155 do Código Penal nos casos de furto qualificado (CP, art. 155, § 4º)', máxime se presente qualificadora de ordem objetiva, a primariedade do réu e, também, o pequeno valor da res furtiva.",
-      "cor": "yellow",
-      "chips": [],
-      "comentario": "Súmula Originada: 511"
-    },
-    {
-      "numero": 581,
-      "titulo": "Estupro e Atentado - Hediondez",
-      "tese": "Os crimes de estupro e atentado violento ao pudor praticados antes da edição da Lei nº 12.015/2009, ainda que em sua forma simples, configuram modalidades de crime hediondo.",
-      "cor": "magenta",
-      "chips": []
-    },
-    {
-      "numero": 585,
-      "titulo": "Confissão e Reincidência",
-      "tese": "É possível, na segunda fase da dosimetria da pena, a compensação integral da atenuante da confissão espontânea com a agravante da reincidência, seja ela específica ou não. Todavia, nos casos de multirreincidência, deve ser reconhecida a preponderância da agravante prevista no art. 61, I, do Código Penal, sendo admissível a sua compensação proporcional com a atenuante da confissão espontânea, em estrito atendimento aos princípios da individualização da pena e da proporcionalidade.",
-      "cor": "pink",
-      "chips": [],
-      "comentario": "Ver Súmulas 545/STJ e 630/STJ e Tema 1194/STJ."
-    },
-    {
-      "numero": 593,
-      "titulo": "Direito Autoral",
-      "tese": "Considera-se \"típica, formal e materialmente, a conduta prevista no artigo 184, § 2º, do Código Penal, afastando, assim, a aplicação do princípio da adequação social, de quem expõe à venda CD's E DVD's 'piratas'.\"",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula Originada: 502"
-    },
-    {
-      "numero": 596,
-      "titulo": "Abolitio Criminis",
-      "tese": "É típica a conduta de possuir arma de fogo de uso permitido com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado, praticada após 23/10/2005, pois, em relação a esse delito, a abolitio criminis temporária cessou nessa data, termo final da prorrogação dos prazos previstos na redação original dos arts. 30 e 32 da Lei n. 10.826/2003.",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula Originada: 513"
-    },
-    {
-      "numero": 600,
-      "titulo": "Tráfico Privilegiado - Hediondez",
-      "tese": "O tráfico ilícito de drogas na sua forma privilegiada (art. 33, § 4º, da Lei n. 11.343/2006) não é crime equiparado a hediondo.",
-      "cor": "lime",
-      "chips": [],
-      "comentario": "Vide Súmula Vinculante 63."
-    },
-    {
-      "numero": 646,
-      "titulo": "Falsa Identidade e Autodefesa",
-      "tese": "É típica a conduta de atribuir-se falsa identidade perante autoridade policial, ainda que em situação de alegada autodefesa (art. 307 do CP).",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula 522/STJ."
-    },
-    {
-      "numero": 652,
-      "titulo": "Falta Disciplinar",
-      "tese": "Para o reconhecimento da prática de falta disciplinar, no âmbito da execução penal, é imprescindível a instauração de procedimento administrativo pelo diretor do estabelecimento prisional, assegurado o direito de defesa, a ser realizado por advogado constituído ou defensor público nomeado.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Originada: 533"
-    },
-    {
-      "numero": 655,
-      "titulo": "Falta Grave",
-      "tese": "O reconhecimento de falta grave decorrente do cometimento de fato definido como crime doloso no cumprimento da pena prescinde do trânsito em julgado de sentença penal condenatória no processo penal instaurado para apuração do fato.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Originada: 526"
-    },
-    {
-      "numero": 709,
-      "titulo": "Interrupção da Contagem",
-      "tese": "1. A prática de falta grave interrompe o prazo para a progressão de regime, acarretando a modificação da data-base e o início de nova contagem do lapso necessário para o preenchimento do requisito objetivo.\n2. Em se tratando de livramento condicional, não ocorre a interrupção do prazo pela prática de falta grave. Aplicação da Súmula 441/STJ.\n3. Também não é interrompido automaticamente o prazo pela falta grave no que diz respeito à comutação de pena ou indulto, mas a sua concessão deverá observar o cumprimento dos requisitos previstos no decreto presidencial pelo qual foram instituídos.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Originada: 534"
-    },
-    {
-      "numero": 901,
-      "titulo": "Direção de Veículo",
-      "tese": "É de perigo abstrato o crime previsto no art. 310 do Código de Trânsito Brasileiro. Assim, não é exigível, para o aperfeiçoamento do crime, a ocorrência de lesão ou de perigo de dano concreto na conduta de quem permite, confia ou entrega a direção de veículo automotor a pessoa não habilitada, com habilitação cassada ou com o direito de dirigir suspenso, ou ainda a quem, por seu estado de saúde, física ou mental, ou por embriaguez, não esteja em condições de conduzi-lo com segurança.",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula Originada: 575"
-    },
-    {
-      "numero": 916,
-      "titulo": "Roubo - Consumação",
-      "tese": "Consuma-se o crime de roubo com a inversão da posse do bem, mediante emprego de violência ou grave ameaça, ainda que por breve tempo e em seguida a perseguição imediata ao agente e recuperação da coisa roubada, sendo prescindível a posse mansa e pacífica ou desvigiada.",
-      "cor": "yellow",
-      "chips": [],
-      "comentario": "Súmula Originada: 582"
-    },
-    {
-      "numero": 917,
-      "titulo": "Remição - Atividades",
-      "tese": "É possível a remição de parte do tempo de execução da pena quando o condenado, em regime fechado ou semiaberto, desempenha atividade laborativa extramuros.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Originada: 562"
-    },
-    {
-      "numero": 918,
-      "titulo": "Estupro de Vulnerável",
-      "tese": "Para a caracterização do crime de estupro de vulnerável previsto no art. 217-A, caput, do Código Penal, basta que o agente tenha conjunção carnal ou pratique qualquer ato libidinoso com pessoa menor de 14 anos. O consentimento da vítima, sua eventual experiência sexual anterior ou a existência de relacionamento amoroso entre o agente e a vítima não afastam a ocorrência do crime.",
-      "cor": "magenta",
-      "chips": [],
-      "comentario": "Súmula Originada: 593"
-    },
-    {
-      "numero": 920,
-      "titulo": "Suspensão Condicional - Revogação",
-      "tese": "Se descumpridas as condições impostas durante o período de prova da suspensão condicional do processo, o benefício poderá ser revogado, mesmo se já ultrapassado o prazo legal, desde que referente a fato ocorrido durante sua vigência.",
-      "cor": "fuchsia",
-      "chips": []
-    },
-    {
-      "numero": 924,
-      "titulo": "Furto - Vigilância e Crime Impossível",
-      "tese": "A existência de sistema de segurança ou de vigilância eletrônica não torna impossível, por si só, o crime de furto cometido no interior de estabelecimento comercial.",
-      "cor": "yellow",
-      "chips": [],
-      "comentario": "Súmula Originada: 567"
-    },
-    {
-      "numero": 926,
-      "titulo": "Direito Autoral",
-      "tese": "É suficiente, para a comprovação da materialidade do delito previsto no art. 184, § 2º, do Código Penal, a perícia realizada, por amostragem, sobre os aspectos externos do material apreendido, sendo desnecessária a identificação dos titulares dos direitos autorais violados ou de quem os represente.",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Súmula Originada: 574"
-    },
-    {
-      "numero": 930,
-      "titulo": "Sursis - Condições",
-      "tese": "Não há óbice a que se estabeleçam, no prudente uso da faculdade judicial disposta no art. 89, § 2º, da Lei n. 9.099/1995, obrigações equivalentes, do ponto de vista prático, a sanções penais (tais como a prestação de serviços comunitários ou a prestação pecuniária), mas que, para os fins do sursis processual, se apresentam tão somente como condições para sua incidência.",
-      "cor": "fuchsia",
-      "chips": []
-    },
-    {
-      "numero": 931,
-      "titulo": "Inadimplemento Pena de Multa",
-      "tese": "O inadimplemento da pena de multa, após cumprida a pena privativa de liberdade ou restritiva de direitos, não obsta a extinção da punibilidade, ante a alegada hipossuficiência do condenado, salvo se diversamente entender o juiz competente, em decisão suficientemente motivada, que indique concretamente a possibilidade de pagamento da sanção pecuniária.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 933,
-      "titulo": "Falso e Descaminho - Absorção",
-      "tese": "Quando o falso se exaure no descaminho, sem mais potencialidade lesiva, é por este absorvido, como crime-fim, condição que não se altera por ser menor a pena a este cominada.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 934,
-      "titulo": "Furto - Consumação",
-      "tese": "Consuma-se o crime de furto com a posse de fato da res furtiva, ainda que por breve espaço de tempo e seguida de perseguição ao agente, sendo prescindível a posse mansa e pacífica ou desvigiada.",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 959,
-      "titulo": "Termo Inicial Prazo MP",
-      "tese": "O termo inicial da contagem do prazo para impugnar decisão judicial é, para o Ministério Público, a data da entrega dos autos na repartição administrativa do órgão, sendo irrelevante que a intimação pessoal tenha se dado em audiência, em cartório ou por mandado.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 983,
-      "titulo": "Violência Doméstica - Indenização",
-      "tese": "Nos casos de violência contra a mulher praticados no âmbito doméstico e familiar, é possível a fixação de valor mínimo indenizatório a título de dano moral, desde que haja pedido expresso da acusação ou da parte ofendida, ainda que não especificada a quantia, e independentemente de instrução probatória.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 984,
-      "titulo": "Honorários Dativo",
-      "tese": "1ª) As tabelas de honorários elaboradas unilateralmente pelos Conselhos Seccionais da OAB não vinculam o magistrado no momento de arbitrar o valor da remuneração a que faz jus o defensor dativo que atua no processo penal; servem como referência para o estabelecimento de valor que seja justo e que reflita o labor despendido pelo advogado;\n2ª) Nas hipóteses em que o juiz da causa considerar desproporcional a quantia indicada na tabela da OAB em relação aos esforços despendidos pelo defensor dativo para os atos processuais praticados, poderá, motivadamente, arbitrar outro valor;\n3ª) São, porém, vinculativas, quanto aos valores estabelecidos para os atos praticados por defensor dativo, as tabelas produzidas mediante acordo entre o Poder Público, a Defensoria Pública e a seccional da OAB.\n4ª) Dado o disposto no art. 105, parágrafo único, II, da Constituição da República, possui caráter vinculante a Tabela de Honorários da Justiça Federal, assim como tabelas similares instituídas, eventualmente, pelos órgãos competentes das Justiças dos Estados e do Distrito Federal, na forma dos arts 96, I, e 125, § 1º, parte final, da Constituição da República.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 992,
-      "titulo": "Maioridade Penal",
-      "tese": "A superveniência da maioridade penal não interfere na apuração de ato infracional nem na aplicabilidade de medida socioeducativa em curso, inclusive na liberdade assistida, enquanto não atingida a idade de 21 anos.",
-      "cor": "emerald",
-      "chips": [],
-      "comentario": "Súmula Originada: 605."
-    },
-    {
-      "numero": 993,
-      "titulo": "Regime Prisional",
-      "tese": "A inexistência de estabelecimento penal adequado ao regime prisional determinado para o cumprimento da pena não autoriza a concessão imediata do benefício da prisão domiciliar, porquanto, nos termos da Súmula Vinculante n° 56, é imprescindível que a adoção de tal medida seja precedida das providências estabelecidas no julgamento do RE n° 641.320/RS, quais sejam: <br>(i) saída antecipada de outro sentenciado no regime com falta de vagas, abrindo-se, assim, vagas para os reeducandos que acabaram de progredir; <br>(ii) a liberdade eletronicamente monitorada ao sentenciado que sai antecipadamente ou é posto em prisão domiciliar por falta de vagas; e <br>(iii) cumprimento de penas restritivas de direitos e/ou estudo aos sentenciados em regime aberto.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Súmula Vinculante 56."
-    },
-    {
-      "numero": 1006,
-      "titulo": "Unificação das Penas e Data-Base",
-      "tese": "A unificação de penas não enseja a alteração da data-base para concessão de novos benefícios executórios.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1052,
-      "titulo": "Envolvimento de Menor - Prova",
-      "tese": "Para ensejar a aplicação de causa de aumento de pena prevista no art. 40, VI, da Lei n. 11.343/2006 ou a condenação pela prática do crime previsto no art. 244-B da Lei n. 8.069/1990, a qualificação do menor, constante do boletim de ocorrência, deve trazer dados indicativos de consulta a documento hábil - como o número do documento de identidade, do CPF ou de outro registro formal, tal como a certidão de nascimento.",
-      "cor": "lime",
-      "chips": []
-    },
-    {
-      "numero": 1060,
-      "titulo": "Desobediência",
-      "tese": "A desobediência à ordem legal de parada, emanada por agentes públicos em contexto de policiamento ostensivo, para a prevenção e repressão de crimes, constitui conduta penalmente típica, prevista no art. 330 do Código Penal Brasileiro.",
-      "cor": "green",
-      "chips": [],
-      "comentario": "Ver Tema 1242/STF (pendente de julgamento)."
-    },
-    {
-      "numero": 1077,
-      "titulo": "Reincidência e Antecedentes",
-      "tese": "Condenações criminais transitadas em julgado, não consideradas para caracterizar a reincidência, somente podem ser valoradas, na primeira fase da dosimetria, a título de antecedentes criminais, não se admitindo sua utilização para desabonar a personalidade ou a conduta social do agente.",
-      "cor": "pink",
-      "chips": []
-    },
-    {
-      "numero": 1084,
-      "titulo": "Progressão - Retroatividade",
-      "tese": "É reconhecida a retroatividade do patamar estabelecido no art. 112, V, da Lei n. 13.964/2019, àqueles apenados que, embora tenham cometido crime hediondo ou equiparado sem resultado morte, não sejam reincidentes em delito de natureza semelhante.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1087,
-      "titulo": "Furto Qualificado x Noturno",
-      "tese": "A causa de aumento prevista no § 1° do art. 155 do Código Penal (prática do crime de furto no período noturno) não incide no crime de furto na sua forma qualificada (§ 4°).",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1098,
-      "titulo": "ANPP",
-      "tese": "1 - O Acordo de Não Persecução Penal constitui um negócio jurídico processual penal instituído por norma que possui natureza processual, no que diz respeito à possibilidade de composição entre as partes com o fim de evitar a instauração da ação penal, e, de outro lado, natureza material em razão da previsão de extinção da punibilidade de quem cumpre os deveres estabelecidos no acordo (art. 28-A, § 13, do Código de Processo Penal (CPP). 2 - Diante da natureza híbrida da norma, a ela deve se aplicar o princípio da retroatividade da norma pena benéfica (art. 5º, XL, da CF), pelo que é cabível a celebração de Acordo de Não Persecução Penal em casos de processos em andamento quando da entrada em vigor da Lei n. 13.964/2019, mesmo se ausente confissão do réu até aquele momento, desde que o pedido tenha sido feito antes do trânsito em julgado da condenação. 3 - Nos processos penais em andamento em 18/09/2024 (data do julgamento do HC n. 185.913/DF, pelo Plenário do Supremo Tribunal Federal), nos quais seria cabível em tese o ANPP, mas ele não chegou a ser oferecido pelo Ministério Público ou não houve justificativa idônea para o seu não oferecimento, o Ministério Público, agindo de ofício, a pedido da defesa ou mediante provocação do magistrado da causa, deverá, na primeira oportunidade em que falar nos autos, manifestar-se motivadamente acerca do cabimento ou não do acordo no caso concreto. 4 - Nas investigações ou ações penais iniciadas a partir de 18/09/2024, será admissível a celebração de ANPP antes do recebimento da denúncia, ressalvada a possibilidade de propositura do acordo, no curso da ação penal, se for o caso.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 1100,
-      "titulo": "Prescrição - Acórdão Condenatório",
-      "tese": "O acórdão condenatório de que trata o inciso IV do art. 117 do Código Penal interrompe a prescrição, inclusive quando confirmatório de sentença condenatória, seja mantendo, reduzindo ou aumentando a pena anteriormente imposta.",
-      "cor": "indigo",
-      "chips": []
-    },
-    {
-      "numero": 1106,
-      "titulo": "Unificação de Penas",
-      "tese": "Sobrevindo condenação por pena privativa de liberdade no curso da execução de pena restritiva de direitos, as penas serão objeto de unificação, com a reconversão da pena alternativa em privativa de liberdade, ressalvada a possibilidade de cumprimento simultâneo aos apenados em regime aberto e vedada a unificação automática nos casos em que a condenação substituída por pena alternativa é superveniente.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1110,
-      "titulo": "Roubo - Arma Branca",
-      "tese": "1. Em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base, quando as circunstâncias do caso concreto assim justificarem. 2. O julgador deve fundamentar o novo apenamento ou justificar a não realização do incremento na basilar, nos termos do que dispõe o art. 387, II e III, do CPP. 3. Não cabe a esta Corte Superior a transposição valorativa da circunstância para a primeira fase da dosimetria ou mesmo compelir que o Tribunal de origem assim o faça, em razão da discricionariedade do julgador ao aplicar a novatio legis in mellius.",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1114,
-      "titulo": "Inversão Interrogatório",
-      "tese": "O interrogatório do réu é o último ato da instrução criminal. A inversão da ordem prevista no art. 400 do CPP tangencia somente à oitiva das testemunhas e não ao interrogatório. O eventual reconhecimento da nulidade se sujeita à preclusão, na forma do art. 571, I e II, do CPP, e à demonstração do prejuízo para o réu.",
-      "cor": "violet",
-      "chips": []
-    },
-    {
-      "numero": 1120,
-      "titulo": "Execução da Pena - COVID",
-      "tese": "Nada obstante a interpretação restritiva que deve ser conferida ao art. 126, §4º, da LEP, os princípios da individualização da pena, da dignidade da pessoa humana, da isonomia e da fraternidade, ao lado da teoria da derrotabilidade da norma e da situação excepcionalíssima da pandemia de covid-19, impõem o cômputo do período de restrições sanitárias como de efetivo estudo ou trabalho em favor dos presos que já estavam trabalhando ou estudando e se viram impossibilitados de continuar seus afazeres unicamente em razão do estado pandêmico.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1121,
-      "titulo": "Estupro de Vulnerável e Importunação",
-      "tese": "Presente o dolo específico de satisfazer à lascívia, própria ou de terceiro, a prática de ato libidinoso com menor de 14 anos configura o crime de estupro de vulnerável (art. 217-A do CP), independentemente da ligeireza ou da superficialidade da conduta, não sendo possível a desclassificação para o delito de importunação sexual (art. 215-A do CP).",
-      "cor": "magenta",
-      "chips": []
-    },
-    {
-      "numero": 1139,
-      "titulo": "Tráfico - Inquéritos em Curso",
-      "tese": "É vedada a utilização de inquéritos e/ou ações penais em curso para impedir a aplicação do art. 33, § 4.º, da Lei n. 11.343/06.",
-      "cor": "lime",
-      "chips": [],
-      "comentario": "Ver Súmula 444/STJ."
-    },
-    {
-      "numero": 1143,
-      "titulo": "Contrabando Cigarros",
-      "tese": "O princípio da insignificância é aplicável ao crime de contrabando de cigarros quando a quantidade apreendida não ultrapassar 1.000 (mil) maços, seja pela diminuta reprovabilidade da conduta, seja pela necessidade de se dar efetividade à repressão ao contrabando de vulto, excetuada a hipótese de reiteração da conduta, circunstância apta a indicar maior reprovabilidade e periculosidade social da ação.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 1144,
-      "titulo": "Furto - Repouso Noturno",
-      "tese": "1. Nos termos do § 1º do art. 155 do Código Penal, se o crime de furto é praticado durante o repouso noturno, a pena será aumentada de um terço. 2. O repouso noturno compreende o período em que a população se recolhe para descansar, devendo o julgador atentar-se às características do caso concreto. 3. A situação de repouso está configurada quando presente a condição de sossego/tranquilidade do período da noite, caso em que, em razão da diminuição ou precariedade de vigilância dos bens, ou, ainda, da menor capacidade de resistência da vítima, facilita-se a concretização do crime. 4. São irrelevantes os fatos das vítimas estarem ou não dormindo no momento do crime, ou o local de sua ocorrência, em estabelecimento comercial, via pública, residência desabitada ou em veículos, bastando que o furto ocorra, obrigatoriamente, à noite e em situação de repouso.",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1155,
-      "titulo": "Detração",
-      "tese": "1) O período de recolhimento obrigatório noturno e nos dias de folga, por comprometer o status libertatis do acusado, deve ser reconhecido como período a ser detraído da pena privativa de liberdade e da medida de segurança, em homenagem aos princípios da proporcionalidade e do non bis in idem. 2) O monitoramento eletrônico associado, atribuição do Estado, não é condição indeclinável para a detração dos períodos de submissão a essas medidas cautelares, não se justificando distinção de tratamento ao investigado ao qual não é determinado e disponibilizado o aparelhamento. 3) As horas de recolhimento domiciliar noturno e nos dias de folga devem ser convertidas em dias para contagem da detração da pena. Se no cômputo total remanescer período menor que vinte e quatro horas, essa fração de dia deverá ser desprezada.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1161,
-      "titulo": "Livramento Condicional",
-      "tese": "A valoração do requisito subjetivo para concessão do livramento condicional - bom comportamento durante da execução da pena (art. 83, inciso III, alínea \"a\", do Código Penal) - deve considerar todo o histórico prisional, não se limitando ao período de 12 meses referido na alínea \"b\" do mesmo inciso III do art. 83 do Código Penal.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1165,
-      "titulo": "Progressão de Regime",
-      "tese": "A decisão que defere a progressão de regime não tem natureza constitutiva, senão declaratória. O termo inicial para a progressão de regime deverá ser a data em que preenchidos os requisitos objetivo e subjetivo descritos no art. 112 da Lei 7.210, de 11/07/1984 (Lei de Execução Penal), e não a data em que efetivamente foi deferida a progressão. Essa data deverá ser definida de forma casuística, fixando-se como termo inicial o momento em que preenchido o último requisito pendente, seja ele o objetivo ou o subjetivo. Se por último for preenchido o requisito subjetivo, independentemente da anterior implementação do requisito objetivo, será aquele (o subjetivo) o marco para fixação da data-base para efeito de nova progressão de regime.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1166,
-      "titulo": "Apropriação Indébita Previdenciária",
-      "tese": "O crime de apropriação indébita previdenciária, previsto no art. 168-A, § 1.º, inciso I, do Código Penal, possui natureza de delito material, que só se consuma com a constituição definitiva, na via administrativa, do crédito tributário, consoante o disposto na Súmula Vinculante n. 24 do Supremo Tribunal Federal.",
-      "cor": "stone",
-      "chips": []
-    },
-    {
-      "numero": 1167,
-      "titulo": "Viol. Doméstica - Retratação",
-      "tese": "A audiência prevista no art. 16 da Lei 11.340/2006 tem por objetivo confirmar a retratação, não a representação, e não pode ser designada de ofício pelo juiz. Sua realização somente é necessária caso haja manifestação do desejo da vítima de se retratar trazida aos autos antes do recebimento da denúncia.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 1168,
-      "titulo": "241-A e 241-B ECA - Concurso",
-      "tese": "Os tipos penais trazidos nos arts. 241-A e 241-B do Estatuto da Criança e do Adolescente são autônomos, com verbos e condutas distintas, sendo que o crime do art. 241-B não configura fase normal, tampouco meio de execução para o crime do art. 241-A, o que possibilita o reconhecimento de concurso material de crimes.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 1171,
-      "titulo": "Roubo - Simulacro",
-      "tese": "A utilização de simulacro de arma configura a elementar grave ameaça do tipo penal do roubo, subsumindo à hipótese legal que veda a substituição da pena.",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1172,
-      "titulo": "Reincidência Específica",
-      "tese": "A reincidência específica como único fundamento só justifica o agravamento da pena em fração mais gravosa que 1/6 em casos excepcionais e mediante detalhada fundamentação baseada em dados concretos do caso.",
-      "cor": "pink",
-      "chips": []
-    },
-    {
-      "numero": 1186,
-      "titulo": "Lei Maria da Penha - Aplicação",
-      "tese": "1. A condição de gênero feminino é suficiente para atrair a aplicabilidade da Lei Maria da Penha em casos de violência doméstica e familiar, prevalecendo sobre a questão etária. 2. A Lei Maria da Penha prevalece quando suas disposições conflitarem com as de estatutos específicos, como o da Criança e do Adolescente.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 1189,
-      "titulo": "Viol. Doméstica - Multa",
-      "tese": "A vedação constante do art. 17 da Lei n. 11.340/2006 (Lei Maria da Penha) obsta a imposição, nos casos de violência doméstica e familiar contra a mulher, de pena de multa isoladamente, ainda que prevista de forma autônoma no preceito secundário do tipo penal imputado.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 1192,
-      "titulo": "Roubo - Concurso Formal",
-      "tese": "O cometimento de crimes de roubo mediante uma única conduta e sem desígnios autônomos contra o patrimônio de diferentes vítimas, ainda que da mesma família, configura concurso formal de crimes (art. 70 do CP).",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1194,
-      "titulo": "Atenuante da Confissão",
-      "tese": "1. A atenuante genérica da confissão espontânea, prevista no art. 65, III, d, do Código Penal, é apta a abrandar a pena independentemente de ter sido utilizada na formação do convencimento do julgador e mesmo que existam outros elementos suficientes de prova, desde que não tenha havido retratação, exceto, neste último caso, que a confissão tenha servido à apuração dos fatos.  2. A atenuação deve ser aplicada em menor proporção e não poderá ser considerada preponderante no concurso com agravantes quando o fato confessado for tipificado com menor pena ou caracterizar circunstância excludente da tipicidade, da ilicitude ou da culpabilidade.",
-      "cor": "pink",
-      "chips": [],
-      "modulacao_efeitos": "\"Os efeitos prejudiciais aos réus decorrentes da tese fixada neste julgamento alcançam apenas os fatos ocorridos após a publicação deste acórdão\".\n\nO acórdão foi publicado em 16/09/2025.",
-      "comentario": "Ver Súmulas 545/STJ e 630/STJ e Tema 585/STJ."
-    },
-    {
-      "numero": 1195,
-      "titulo": "Comutação da Pena e Falta Grave",
-      "tese": "O período de doze meses a que se refere o art. 4º, I, do Decreto n. 9.246/2017 caracteriza-se pela não ocorrência de falta grave, não se relacionando à data de sua apuração, desde que já instaurado o processo administrativo disciplinar correspondente.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1196,
-      "titulo": "Progressão e Pacote Anticrime",
-      "tese": "É válida a aplicação retroativa do percentual de 50% (cinquenta por cento), para fins de progressão de regime, a condenado por crime hediondo, com resultado morte, que seja reincidente genérico, nos moldes da alteração legal promovida pela Lei n. 13.964/2019 no art. 112, inc. VI, alínea a, da Lei n. 7.210/84 (Lei de Execução Penal), bem como a posterior concessão do livramento condicional, podendo ser formulado posteriormente com base no art. 83, inc. V, do Código Penal, o que não configura combinação de leis na aplicação retroativa de norma penal material mais benéfica.",
-      "cor": "orange",
-      "chips": [],
-      "comentario": "Em decisão do Vice-Presidente, Min. Luis Felipe Salomão, no REsp 2.012.101/MG, e-STJ fls. 655-657, publicada no DJEN de 3/7/2025, foi determinado \"o sobrestamento do recurso extraordinário até o julgamento do TEMA 1.319 do STF\". "
-    },
-    {
-      "numero": 1197,
-      "titulo": "Violência Doméstica e Agravante",
-      "tese": "A aplicação da agravante do art. 61, inc. II, alínea f, do Código Penal (CP), em conjunto com as disposições da Lei Maria da Penha (Lei n. 11.340/2006), não configura bis in idem.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 1202,
-      "titulo": "Estupro de Vulnerável e Continuidade",
-      "tese": "No crime de estupro de vulnerável, é possível a aplicação da fração máxima de majoração prevista no art. 71, caput, do Código Penal, ainda que não haja a delimitação precisa do número de atos sexuais praticados, desde que o longo período de tempo e a recorrência das condutas permita concluir que houve 7 (sete) ou mais repetições.",
-      "cor": "magenta",
-      "chips": []
-    },
-    {
-      "numero": 1205,
-      "titulo": "Furto - Devolução do Bem",
-      "tese": "A restituição imediata e integral do bem furtado não constitui, por si só, motivo suficiente para a incidência do princípio da insignificância.",
-      "cor": "yellow",
-      "chips": []
-    },
-    {
-      "numero": 1206,
-      "titulo": "Laudo Toxicológico - Assinatura",
-      "tese": "A simples falta de assinatura do perito encarregado pela lavratura do laudo toxicológico definitivo constitui mera irregularidade e não tem o condão de anular a prova pericial na hipótese de existirem outros elementos que comprovem a sua autenticidade, notadamente quando o expert estiver devidamente identificado e for constatada a existência de substância ilícita.",
-      "cor": "violet",
-      "chips": []
-    },
-    {
-      "numero": 1208,
-      "titulo": "Reincidência e Benefícios",
-      "tese": "A reincidência pode ser admitida pelo juízo das execuções penais para análise da concessão de benefícios, ainda que não reconhecida pelo juízo que prolatou a sentença condenatória.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1214,
-      "titulo": "Reenquadramento Circunst. Judicial",
-      "tese": "É  obrigatória  a  redução  proporcional  da  pena-base  quando  o tribunal de segunda instância, em recurso exclusivo da defesa, afastar circunstância judicial negativa reconhecida na sentença. Todavia, não implicam reformatio in pejus a mera correção da classificação de um fato já valorado negativamente pela sentença para enquadrá-lo como outra circunstância judicial, nem o simples reforço de fundamentação para  manter  a  valoração  negativa  de  circunstância  já  reputada desfavorável na sentença.",
-      "cor": "pink",
-      "chips": []
-    },
-    {
-      "numero": 1215,
-      "titulo": "Dignidade Sexual - Cumulação de Agravantes",
-      "tese": "Nos crimes contra a dignidade sexual, não configura bis in idem a aplicação simultânea da agravante genérica do art. 61, II, \"f\", e da majorante específica do art. 226, II, ambos do Código Penal, salvo quando presente apenas a relação de autoridade do agente sobre a vítima, hipótese na qual deve ser aplicada tão somente a causa de aumento.",
-      "cor": "magenta",
-      "chips": []
-    },
-    {
-      "numero": 1218,
-      "titulo": "Descaminho - Reiteração e Insignificância",
-      "tese": "A reiteração da conduta delitiva obsta a aplicação do princípio da insignificância ao crime de descaminho - independentemente do valor do tributo não recolhido -, ressalvada a possibilidade de, no caso concreto, se concluir que a medida é socialmente recomendável. A contumácia pode ser aferida a partir de procedimentos penais e fiscais pendentes de definitividade, sendo inaplicável o prazo previsto no art. 64, I, do CP, incumbindo ao julgador avaliar o lapso temporal transcorrido desde o último evento delituoso à luz dos princípios da proporcionalidade e razoabilidade.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 1219,
-      "titulo": "Fungibilidade Recursal",
-      "tese": "É adequada a aplicação do princípio da fungibilidade recursal aos casos em que, embora cabível recurso em sentido estrito, a parte impugna a decisão mediante apelação ou vice-versa, desde que observados a tempestividade e os demais pressupostos de admissibilidade do recurso cabível, na forma do art. 579, caput e parágrafo único, do Código de Processo Penal.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 1236,
-      "titulo": "Remição de Pena e EAD",
-      "tese": "A remição de pena em razão do estudo a distância - EAD demanda a prévia integração do curso ao Projeto Político-Pedagógico - PPP da unidade ou do sistema prisional, não bastando o necessário credenciamento da instituição junto ao MEC, observando-se a comprovação de frequência e realização das atividades determinadas.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1249,
-      "titulo": "Medidas Protetivas de Urgência",
-      "tese": "I - As medidas protetivas de urgência (MPUs) têm natureza jurídica de tutela inibitória e sua vigência não se subordina à existência (atual ou vindoura) de boletim de ocorrência, inquérito policial, processo cível ou criminal. II - A duração das MPUs vincula-se à persistência da situação de risco à mulher, razão pela qual devem ser fixadas por prazo temporalmente indeterminado; III - Eventual reconhecimento de causa de extinção de punibilidade, arquivamento do inquérito policial ou absolvição do acusado não origina, necessariamente, a extinção da medida protetiva de urgência, máxime pela possibilidade de persistência da situação de risco ensejadora da concessão da medida. IV - Não se submetem a prazo obrigatório de revisão periódica, mas devem ser reavaliadas pelo magistrado, de ofício ou a pedido do interessado, quando constatado concretamente o esvaziamento da situação de risco. A revogação deve sempre ser precedida de contraditório, com as oitivas da vítima e do suposto agressor. Em caso de extinção da medida, a ofendida deve ser comunicada, nos termos do art. 21 da Lei n. 11.340/2006.",
-      "cor": "coral",
-      "chips": []
-    },
-    {
-      "numero": 1255,
-      "titulo": "Falsa Identidade - Consumação",
-      "tese": "O delito de falsa identidade é crime formal, que se consuma quando o agente fornece, consciente e voluntariamente, dados inexatos sobre sua real identidade, e, portanto, independe da ocorrência de resultado naturalístico.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 1258,
-      "titulo": "Reconhecimento de Pessoas",
-      "tese": "1 - As regras postas no art. 226 do CPP são de observância obrigatória tanto em sede inquisitorial quanto em juízo, sob pena de invalidade da prova destinada a demonstrar a autoria delitiva, em alinhamento com as normas do Conselho Nacional de Justiça sobre o tema. O reconhecimento fotográfico e/ou pessoal inválido não poderá servir de lastro nem a condenação nem a decisões que exijam menor rigor quanto ao standard probatório, tais como a decretação de prisão preventiva, o recebimento de denúncia ou a pronúncia. 2 - Deverão ser alinhadas pessoas semelhantes ao lado do suspeito para a realização do reconhecimento pessoal. Ainda que a regra do inciso II do art. 226 do CPP admita a mitigação da semelhança entre os suspeitos alinhados quando, justificadamente, não puderem ser encontradas pessoas com o mesmo fenótipo, eventual discrepância acentuada entre as pessoas comparadas poderá esvaziar a confiabilidade probatória do reconhecimento feito nessas condições. 3 - O reconhecimento de pessoas é prova irrepetível, na medida em que um reconhecimento inicialmente falho ou viciado tem o potencial de contaminar a memória do reconhecedor, esvaziando de certeza o procedimento realizado posteriormente com o intuito de demonstrar a autoria delitiva, ainda que o novo procedimento atenda os ditames do art. 226 do CPP. 4 - Poderá o magistrado se convencer da autoria delitiva a partir do exame de provas ou evidências independentes que não guardem relação de causa e efeito com o ato viciado de reconhecimento. 5 - Mesmo o reconhecimento pessoal válido deve guardar congruência com as demais provas existentes nos autos. 6 - Desnecessário realizar o procedimento formal de reconhecimento de pessoas, previsto no art. 226 do CPP, quando não se tratar de apontamento de indivíduo desconhecido com base na memória visual de suas características físicas percebidas no momento do crime, mas, sim, de mera identificação de pessoa que o depoente já conhecia anteriormente.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 1259,
-      "titulo": "Tráfico - Majorante Arma",
-      "tese": "A majorante do art. 40, inciso IV, da Lei n. 11.343/2006 aplica-se quando há nexo finalístico entre o uso da arma e o tráfico de drogas, sendo a arma usada para garantir o sucesso da atividade criminosa, hipótese em que o crime de porte ou posse ilegal de arma é absorvido pelo tráfico. Do contrário, o delito previsto no Estatuto do Desarmamento é considerado crime autônomo, em concurso material com o tráfico de drogas",
-      "cor": "lime",
-      "chips": []
-    },
-    {
-      "numero": 1262,
-      "titulo": "Tráfico - Majoração Pena-base",
-      "tese": "Na análise das vetoriais da natureza e da quantidade da substância entorpecente, previstas no art. 42 da Lei n. 11.343/2006, configura-se desproporcional a majoração da pena-base quando a droga apreendida for de ínfima quantidade, independentemente de sua natureza.",
-      "cor": "lime",
-      "chips": []
-    },
-    {
-      "numero": 1269,
-      "titulo": "Interrogatório do Adolescente",
-      "tese": "No rito especial que visa apurar a prática de ato infracional, além da audiência de apresentação do adolescente prevista no art. 184 do ECA, aplica-se subsidiariamente o art. 400 do CPP, de modo que, em acréscimo, é preciso garantir ao adolescente o interrogatório ao final da instrução. A inobservância desse procedimento implicará nulidade se o prejuízo à autodefesa for informado pela parte na primeira oportunidade que tiver para se manifestar nos autos, sob pena de preclusão. O entendimento é aplicável aos feitos com instrução encerrada após 3/3/2016.",
-      "cor": "violet",
-      "chips": [],
-      "comentario": "Modulação dos efeitos: aplicável a partir de 04/03/2026."
-    },
-    {
-      "numero": 1274,
-      "titulo": "Direito à Visita",
-      "tese": "O fato de o visitante cumprir pena privativa de liberdade em regime aberto ou em livramento condicional não impede, por si só, o direito à visita em estabelecimento prisional.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1277,
-      "titulo": "Detração",
-      "tese": "É possível, conforme o artigo 42 do Código Penal, o cômputo do período de prisão provisória na análise dos requisitos para a concessão do indulto e da comutação previstos nos respectivos decretos.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1278,
-      "titulo": "Remição pela Leitura",
-      "tese": "Em decorrência dos objetivos da execução penal, a leitura pode resultar na remição de pena, com fundamento no art. 126 da Lei de Execução Penal, desde que observados os requisitos previstos para sua validação, não podendo ser acolhido o atestado realizado por profissional contratado pelo apenado.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1303,
-      "titulo": "ANPP e Confissão",
-      "tese": "1. A confissão pelo investigado na fase de inquérito policial não constitui exigência do art. 28-A do Código de Processo Penal para o cabimento de Acordo de Não Persecução Penal (ANPP), sendo inválida a negativa de formulação da respectiva proposta baseada em sua ausência. 2. A formalização da confissão para fins do ANPP pode se dar no momento da assinatura do acordo, perante o próprio órgão ministerial, após a ciência, avaliação e aceitação da proposta pelo beneficiado, devidamente assistido por defesa técnica, dado o caráter negocial do instituto.",
-      "cor": "teal",
-      "chips": []
-    },
-    {
-      "numero": 1318,
-      "titulo": "Premeditação e Pena-Base",
-      "tese": "1. A premeditação autoriza a valoração negativa da circunstância da culpabilidade prevista no art. 59 do Código Penal, desde que não constitua elementar ou seja ínsita ao tipo penal nem seja pressuposto para a incidência de circunstância agravante ou qualificadora; 2. A exasperação da pena-base pela premeditação não é automática, reclamando fundamentação específica acerca da maior reprovabilidade da conduta no caso concreto.",
-      "cor": "pink",
-      "chips": []
-    },
-    {
-      "numero": 1333,
-      "titulo": "Violência de Gênero e LCP",
-      "tese": "1 - A agravante prevista no art. 61, II, \"f\", do Código Penal é aplicável às contravenções penais praticadas no contexto de violência doméstica contra a mulher, salvo se houver previsão diversa pela Lei das Contravenções Penais, por força do que dispõem seu art. 1º e o art. 12 do Código Penal.  2 - Não é possível tal aplicação para a contravenção penal de vias de fato, prevista no art. 21 da Lei das Contravenções Penais, na hipótese de incidência de seu §2º, incluído pela Lei n. 14.994/2024, por força dos princípios da especialidade e da proibição de bis in idem.",
-      "cor": "pink",
-      "chips": []
-    },
-    {
-      "numero": 1336,
-      "titulo": "Tráfico - Indulto",
-      "tese": "O indulto previsto no Decreto n. 11.846/2023 não se aplica ao condenado por tráfico de drogas na forma do caput e § 1º do art. 33 da Lei de Drogas, vedação essa que abrange a pena de multa eventualmente cominada, salvo se beneficiado com o redutor especial (art. 33, § 4º, da Lei n. 11.343/2006).",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1347,
-      "titulo": "Regressão Cautelar de Regime",
-      "tese": "A regressão cautelar de regime prisional é medida de caráter provisório e está autorizada pelo poder geral de cautela do juízo da execução, podendo ser aplicada, mediante fundamentação idônea, até a apuração definitiva da falta.",
-      "cor": "orange",
-      "chips": []
-    },
-    {
-      "numero": 1377,
-      "titulo": "Poluição - Crime Formal",
-      "tese": "O tipo previsto na primeira parte do caput do artigo 54 da Lei n. 9.605/1998 possui natureza formal, sendo suficiente a potencialidade de dano à saúde humana para a configuração da conduta delitiva, não sendo exigida a efetiva ocorrência do dano nem a realização de perícia técnica, podendo a comprovação se dar por qualquer meio de prova idôneo.",
-      "cor": "green",
-      "chips": []
-    },
-    {
-      "numero": 1405,
-      "titulo": "Pena de Multa",
-      "tese": "A alteração promovida no art. 51 do Código Penal não afastou o caráter penal da multa, a qual permanece como sanção criminal. Em razão disso, embora à sua execução sejam aplicáveis as causas suspensivas da prescrição previstas na Lei n. 6.830/1980, bem como as causas interruptivas estabelecidas no art. 174 do Código Tributário Nacional, o prazo prescricional da multa continua sendo regido pelo art. 114, incisos I e II, do Código Penal.",
-      "cor": "indigo",
-      "chips": []
-    }
-  ]
-}
+[
+  {
+    "numero": 20,
+    "tribunal": "STJ",
+    "titulo": "Pena Substitutiva e Regime Aberto",
+    "tese": "É inadmissível a fixação de pena substitutiva (art. 44 do CP) como condição especial ao regime aberto.",
+    "observacao": "Súmula Originada: 493",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 157,
+    "tribunal": "STJ",
+    "titulo": "Crimes Tributários - Insignificância",
+    "tese": "Incide o princípio da insignificância aos crimes tributários federais e de descaminho quando o débito tributário verificado não ultrapassar o limite de R$ 20.000,00 (vinte mil reais), a teor do disposto no art. 20 da Lei n. 10.522/2002, com as atualizações efetivadas pelas Portarias 75 e 130, ambas do Ministério da Fazenda.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 177,
+    "tribunal": "STJ",
+    "titulo": "Viol. Doméstica - Ação Penal",
+    "tese": "A ação penal nos crimes de lesão corporal leve cometidos em detrimento da mulher, no âmbito doméstico e familiar, é pública incondicionada.",
+    "observacao": "Tese anterior: \"A ação penal nos crimes de lesão corporal leve cometidos em detrimento da mulher, no âmbito doméstico e familiar, é pública condicionada à representação da vítima\".",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 190,
+    "tribunal": "STJ",
+    "titulo": "Pena Abaixo do Mínimo",
+    "tese": "O critério trifásico de individualização da pena, trazido pelo art. 68 do Código Penal, não permite ao Magistrado extrapolar os marcos mínimo e máximo abstratamente cominados para a aplicação da sanção penal.",
+    "observacao": "Ver Súmula 231/STJ",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 191,
+    "tribunal": "STJ",
+    "titulo": "Lei de Drogas - Aplicação Retroativa",
+    "tese": "É cabível a aplicação retroativa da Lei n. 11.343/2006, desde que o resultado da incidência das suas disposições, na íntegra, seja mais favorável ao réu do que o advindo da utilização da Lei 6.368/76, sendo vedada a combinação de leis.",
+    "observacao": "Súmula Originada: 501",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 221,
+    "tribunal": "STJ",
+    "titulo": "ECA - Art. 244-B",
+    "tese": "A configuração do crime do art. 244-B do ECA independe da prova da efetiva corrupção do menor, por se tratar de delito formal.",
+    "observacao": "Súmula Originada: 500",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 445,
+    "tribunal": "STJ",
+    "titulo": "Saída Temporária",
+    "tese": "Primeira tese: É recomendável que cada autorização de saída temporária do preso seja precedida de decisão judicial motivada. Entretanto, se a apreciação individual do pedido estiver, por deficiência exclusiva do aparato estatal, a interferir no direito subjetivo do apenado e no escopo ressocializador da pena, deve ser reconhecida, excepcionalmente, a possibilidade de fixação de calendário anual de saídas temporárias por ato judicial único, observadas as hipóteses de revogação automática do art. 125 da LEP.\nSegunda tese: O calendário prévio das saídas temporárias deverá ser fixado, obrigatoriamente, pelo Juízo das Execuções, não se lhe permitindo delegar à autoridade prisional a escolha das datas específicas nas quais o apenado irá usufruir os benefícios. Inteligência da Súmula n. 520 do STJ.\nTerceira tese: Respeitado o limite anual de 35 dias, estabelecido pelo art. 124 da LEP, é cabível a concessão de maior número de autorizações de curta duração.\nQuarta tese: As autorizações de saída temporária para visita à família e para participação em atividades que concorram para o retorno ao convívio social, se limitadas a cinco vezes durante o ano, deverão observar o prazo mínimo de 45 dias de intervalo entre uma e outra. Na hipótese de maior número de saídas temporárias de curta duração, já intercaladas durante os doze meses do ano e muitas vezes sem pernoite, não se exige o intervalo previsto no art. 124, § 3°, da LEP.",
+    "observacao": "Tese anterior: \"A autorização das saídas temporárias é ato jurisdicional da competência do Juízo das Execuções Penais. Não é possível delegar ao administrador do presídio a fiscalização sobre diversas saídas temporárias, por se tratar de atribuição exclusiva do magistrado das execuções penais, sujeita à ação fiscalizadora do Ministério Público\".",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 446,
+    "tribunal": "STJ",
+    "titulo": "Recusa ao Bafômetro",
+    "tese": "O indivíduo não pode ser compelido a colaborar com os referidos testes do 'bafômetro' ou do exame de sangue, em respeito ao princípio segundo o qual ninguém é obrigado a se autoincriminar (nemo tenetur se detegere).",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 447,
+    "tribunal": "STJ",
+    "titulo": "Art. 306 do CTB - Critério Objetivo",
+    "tese": "O tipo penal do art. 306 do Código de Trânsito Brasileiro é formado, entre outros, por um elemento objetivo, de natureza exata, que não permite a aplicação de critérios subjetivos de interpretação, qual seja, o índice de 6 decigramas de álcool por litro de sangue. O grau de embriaguez é elementar objetiva do tipo, não configurando a conduta típica o exercício da atividade em qualquer outra concentração inferior àquela determinada pela lei, emanada do Congresso Nacional. O decreto regulamentador, podendo elencar quaisquer meios de prova que considerasse hábeis à tipicidade da conduta, tratou especificamente de 2 (dois) exames por métodos técnicos e científicos que poderiam ser realizados em aparelhos homologados pelo CONTRAN, quais sejam, o exame de sangue e o etilômetro.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 561,
+    "tribunal": "STJ",
+    "titulo": "Furto Privilegiado",
+    "tese": "Afigura-se absolutamente 'possível o reconhecimento do privilégio previsto no § 2º do art. 155 do Código Penal nos casos de furto qualificado (CP, art. 155, § 4º)', máxime se presente qualificadora de ordem objetiva, a primariedade do réu e, também, o pequeno valor da res furtiva.",
+    "observacao": "Súmula Originada: 511",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 581,
+    "tribunal": "STJ",
+    "titulo": "Estupro e Atentado - Hediondez",
+    "tese": "Os crimes de estupro e atentado violento ao pudor praticados antes da edição da Lei nº 12.015/2009, ainda que em sua forma simples, configuram modalidades de crime hediondo.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 585,
+    "tribunal": "STJ",
+    "titulo": "Confissão e Reincidência",
+    "tese": "É possível, na segunda fase da dosimetria da pena, a compensação integral da atenuante da confissão espontânea com a agravante da reincidência, seja ela específica ou não. Todavia, nos casos de multirreincidência, deve ser reconhecida a preponderância da agravante prevista no art. 61, I, do Código Penal, sendo admissível a sua compensação proporcional com a atenuante da confissão espontânea, em estrito atendimento aos princípios da individualização da pena e da proporcionalidade.",
+    "observacao": "Ver Súmulas 545/STJ e 630/STJ e Tema 1194/STJ.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 593,
+    "tribunal": "STJ",
+    "titulo": "Direito Autoral",
+    "tese": "Considera-se \"típica, formal e materialmente, a conduta prevista no artigo 184, § 2º, do Código Penal, afastando, assim, a aplicação do princípio da adequação social, de quem expõe à venda CD's E DVD's 'piratas'.\"",
+    "observacao": "Súmula Originada: 502",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 596,
+    "tribunal": "STJ",
+    "titulo": "Abolitio Criminis",
+    "tese": "É típica a conduta de possuir arma de fogo de uso permitido com numeração, marca ou qualquer outro sinal de identificação raspado, suprimido ou adulterado, praticada após 23/10/2005, pois, em relação a esse delito, a abolitio criminis temporária cessou nessa data, termo final da prorrogação dos prazos previstos na redação original dos arts. 30 e 32 da Lei n. 10.826/2003.",
+    "observacao": "Súmula Originada: 513",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 600,
+    "tribunal": "STJ",
+    "titulo": "Tráfico Privilegiado - Hediondez",
+    "tese": "O tráfico ilícito de drogas na sua forma privilegiada (art. 33, § 4º, da Lei n. 11.343/2006) não é crime equiparado a hediondo.",
+    "observacao": "Vide Súmula Vinculante 63.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 646,
+    "tribunal": "STJ",
+    "titulo": "Falsa Identidade e Autodefesa",
+    "tese": "É típica a conduta de atribuir-se falsa identidade perante autoridade policial, ainda que em situação de alegada autodefesa (art. 307 do CP).",
+    "observacao": "Súmula 522/STJ.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 652,
+    "tribunal": "STJ",
+    "titulo": "Falta Disciplinar",
+    "tese": "Para o reconhecimento da prática de falta disciplinar, no âmbito da execução penal, é imprescindível a instauração de procedimento administrativo pelo diretor do estabelecimento prisional, assegurado o direito de defesa, a ser realizado por advogado constituído ou defensor público nomeado.",
+    "observacao": "Súmula Originada: 533",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 655,
+    "tribunal": "STJ",
+    "titulo": "Falta Grave",
+    "tese": "O reconhecimento de falta grave decorrente do cometimento de fato definido como crime doloso no cumprimento da pena prescinde do trânsito em julgado de sentença penal condenatória no processo penal instaurado para apuração do fato.",
+    "observacao": "Súmula Originada: 526",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 709,
+    "tribunal": "STJ",
+    "titulo": "Interrupção da Contagem",
+    "tese": "1. A prática de falta grave interrompe o prazo para a progressão de regime, acarretando a modificação da data-base e o início de nova contagem do lapso necessário para o preenchimento do requisito objetivo.\n2. Em se tratando de livramento condicional, não ocorre a interrupção do prazo pela prática de falta grave. Aplicação da Súmula 441/STJ.\n3. Também não é interrompido automaticamente o prazo pela falta grave no que diz respeito à comutação de pena ou indulto, mas a sua concessão deverá observar o cumprimento dos requisitos previstos no decreto presidencial pelo qual foram instituídos.",
+    "observacao": "Súmula Originada: 534",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 901,
+    "tribunal": "STJ",
+    "titulo": "Direção de Veículo",
+    "tese": "É de perigo abstrato o crime previsto no art. 310 do Código de Trânsito Brasileiro. Assim, não é exigível, para o aperfeiçoamento do crime, a ocorrência de lesão ou de perigo de dano concreto na conduta de quem permite, confia ou entrega a direção de veículo automotor a pessoa não habilitada, com habilitação cassada ou com o direito de dirigir suspenso, ou ainda a quem, por seu estado de saúde, física ou mental, ou por embriaguez, não esteja em condições de conduzi-lo com segurança.",
+    "observacao": "Súmula Originada: 575",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 916,
+    "tribunal": "STJ",
+    "titulo": "Roubo - Consumação",
+    "tese": "Consuma-se o crime de roubo com a inversão da posse do bem, mediante emprego de violência ou grave ameaça, ainda que por breve tempo e em seguida a perseguição imediata ao agente e recuperação da coisa roubada, sendo prescindível a posse mansa e pacífica ou desvigiada.",
+    "observacao": "Súmula Originada: 582",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 917,
+    "tribunal": "STJ",
+    "titulo": "Remição - Atividades",
+    "tese": "É possível a remição de parte do tempo de execução da pena quando o condenado, em regime fechado ou semiaberto, desempenha atividade laborativa extramuros.",
+    "observacao": "Súmula Originada: 562",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 918,
+    "tribunal": "STJ",
+    "titulo": "Estupro de Vulnerável",
+    "tese": "Para a caracterização do crime de estupro de vulnerável previsto no art. 217-A, caput, do Código Penal, basta que o agente tenha conjunção carnal ou pratique qualquer ato libidinoso com pessoa menor de 14 anos. O consentimento da vítima, sua eventual experiência sexual anterior ou a existência de relacionamento amoroso entre o agente e a vítima não afastam a ocorrência do crime.",
+    "observacao": "Súmula Originada: 593",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 920,
+    "tribunal": "STJ",
+    "titulo": "Suspensão Condicional - Revogação",
+    "tese": "Se descumpridas as condições impostas durante o período de prova da suspensão condicional do processo, o benefício poderá ser revogado, mesmo se já ultrapassado o prazo legal, desde que referente a fato ocorrido durante sua vigência.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 924,
+    "tribunal": "STJ",
+    "titulo": "Furto - Vigilância e Crime Impossível",
+    "tese": "A existência de sistema de segurança ou de vigilância eletrônica não torna impossível, por si só, o crime de furto cometido no interior de estabelecimento comercial.",
+    "observacao": "Súmula Originada: 567",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 926,
+    "tribunal": "STJ",
+    "titulo": "Direito Autoral",
+    "tese": "É suficiente, para a comprovação da materialidade do delito previsto no art. 184, § 2º, do Código Penal, a perícia realizada, por amostragem, sobre os aspectos externos do material apreendido, sendo desnecessária a identificação dos titulares dos direitos autorais violados ou de quem os represente.",
+    "observacao": "Súmula Originada: 574",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 930,
+    "tribunal": "STJ",
+    "titulo": "Sursis - Condições",
+    "tese": "Não há óbice a que se estabeleçam, no prudente uso da faculdade judicial disposta no art. 89, § 2º, da Lei n. 9.099/1995, obrigações equivalentes, do ponto de vista prático, a sanções penais (tais como a prestação de serviços comunitários ou a prestação pecuniária), mas que, para os fins do sursis processual, se apresentam tão somente como condições para sua incidência.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 931,
+    "tribunal": "STJ",
+    "titulo": "Inadimplemento Pena de Multa",
+    "tese": "O inadimplemento da pena de multa, após cumprida a pena privativa de liberdade ou restritiva de direitos, não obsta a extinção da punibilidade, ante a alegada hipossuficiência do condenado, salvo se diversamente entender o juiz competente, em decisão suficientemente motivada, que indique concretamente a possibilidade de pagamento da sanção pecuniária.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 933,
+    "tribunal": "STJ",
+    "titulo": "Falso e Descaminho - Absorção",
+    "tese": "Quando o falso se exaure no descaminho, sem mais potencialidade lesiva, é por este absorvido, como crime-fim, condição que não se altera por ser menor a pena a este cominada.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 934,
+    "tribunal": "STJ",
+    "titulo": "Furto - Consumação",
+    "tese": "Consuma-se o crime de furto com a posse de fato da res furtiva, ainda que por breve espaço de tempo e seguida de perseguição ao agente, sendo prescindível a posse mansa e pacífica ou desvigiada.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 959,
+    "tribunal": "STJ",
+    "titulo": "Termo Inicial Prazo MP",
+    "tese": "O termo inicial da contagem do prazo para impugnar decisão judicial é, para o Ministério Público, a data da entrega dos autos na repartição administrativa do órgão, sendo irrelevante que a intimação pessoal tenha se dado em audiência, em cartório ou por mandado.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 983,
+    "tribunal": "STJ",
+    "titulo": "Violência Doméstica - Indenização",
+    "tese": "Nos casos de violência contra a mulher praticados no âmbito doméstico e familiar, é possível a fixação de valor mínimo indenizatório a título de dano moral, desde que haja pedido expresso da acusação ou da parte ofendida, ainda que não especificada a quantia, e independentemente de instrução probatória.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 984,
+    "tribunal": "STJ",
+    "titulo": "Honorários Dativo",
+    "tese": "1ª) As tabelas de honorários elaboradas unilateralmente pelos Conselhos Seccionais da OAB não vinculam o magistrado no momento de arbitrar o valor da remuneração a que faz jus o defensor dativo que atua no processo penal; servem como referência para o estabelecimento de valor que seja justo e que reflita o labor despendido pelo advogado;\n2ª) Nas hipóteses em que o juiz da causa considerar desproporcional a quantia indicada na tabela da OAB em relação aos esforços despendidos pelo defensor dativo para os atos processuais praticados, poderá, motivadamente, arbitrar outro valor;\n3ª) São, porém, vinculativas, quanto aos valores estabelecidos para os atos praticados por defensor dativo, as tabelas produzidas mediante acordo entre o Poder Público, a Defensoria Pública e a seccional da OAB.\n4ª) Dado o disposto no art. 105, parágrafo único, II, da Constituição da República, possui caráter vinculante a Tabela de Honorários da Justiça Federal, assim como tabelas similares instituídas, eventualmente, pelos órgãos competentes das Justiças dos Estados e do Distrito Federal, na forma dos arts 96, I, e 125, § 1º, parte final, da Constituição da República.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 992,
+    "tribunal": "STJ",
+    "titulo": "Maioridade Penal",
+    "tese": "A superveniência da maioridade penal não interfere na apuração de ato infracional nem na aplicabilidade de medida socioeducativa em curso, inclusive na liberdade assistida, enquanto não atingida a idade de 21 anos.",
+    "observacao": "Súmula Originada: 605.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 993,
+    "tribunal": "STJ",
+    "titulo": "Regime Prisional",
+    "tese": "A inexistência de estabelecimento penal adequado ao regime prisional determinado para o cumprimento da pena não autoriza a concessão imediata do benefício da prisão domiciliar, porquanto, nos termos da Súmula Vinculante n° 56, é imprescindível que a adoção de tal medida seja precedida das providências estabelecidas no julgamento do RE n° 641.320/RS, quais sejam: <br>(i) saída antecipada de outro sentenciado no regime com falta de vagas, abrindo-se, assim, vagas para os reeducandos que acabaram de progredir; <br>(ii) a liberdade eletronicamente monitorada ao sentenciado que sai antecipadamente ou é posto em prisão domiciliar por falta de vagas; e <br>(iii) cumprimento de penas restritivas de direitos e/ou estudo aos sentenciados em regime aberto.",
+    "observacao": "Súmula Vinculante 56.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1006,
+    "tribunal": "STJ",
+    "titulo": "Unificação das Penas e Data-Base",
+    "tese": "A unificação de penas não enseja a alteração da data-base para concessão de novos benefícios executórios.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1052,
+    "tribunal": "STJ",
+    "titulo": "Envolvimento de Menor - Prova",
+    "tese": "Para ensejar a aplicação de causa de aumento de pena prevista no art. 40, VI, da Lei n. 11.343/2006 ou a condenação pela prática do crime previsto no art. 244-B da Lei n. 8.069/1990, a qualificação do menor, constante do boletim de ocorrência, deve trazer dados indicativos de consulta a documento hábil - como o número do documento de identidade, do CPF ou de outro registro formal, tal como a certidão de nascimento.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1060,
+    "tribunal": "STJ",
+    "titulo": "Desobediência",
+    "tese": "A desobediência à ordem legal de parada, emanada por agentes públicos em contexto de policiamento ostensivo, para a prevenção e repressão de crimes, constitui conduta penalmente típica, prevista no art. 330 do Código Penal Brasileiro.",
+    "observacao": "Ver Tema 1242/STF (pendente de julgamento).",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1077,
+    "tribunal": "STJ",
+    "titulo": "Reincidência e Antecedentes",
+    "tese": "Condenações criminais transitadas em julgado, não consideradas para caracterizar a reincidência, somente podem ser valoradas, na primeira fase da dosimetria, a título de antecedentes criminais, não se admitindo sua utilização para desabonar a personalidade ou a conduta social do agente.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1084,
+    "tribunal": "STJ",
+    "titulo": "Progressão - Retroatividade",
+    "tese": "É reconhecida a retroatividade do patamar estabelecido no art. 112, V, da Lei n. 13.964/2019, àqueles apenados que, embora tenham cometido crime hediondo ou equiparado sem resultado morte, não sejam reincidentes em delito de natureza semelhante.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1087,
+    "tribunal": "STJ",
+    "titulo": "Furto Qualificado x Noturno",
+    "tese": "A causa de aumento prevista no § 1° do art. 155 do Código Penal (prática do crime de furto no período noturno) não incide no crime de furto na sua forma qualificada (§ 4°).",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1098,
+    "tribunal": "STJ",
+    "titulo": "ANPP",
+    "tese": "1 - O Acordo de Não Persecução Penal constitui um negócio jurídico processual penal instituído por norma que possui natureza processual, no que diz respeito à possibilidade de composição entre as partes com o fim de evitar a instauração da ação penal, e, de outro lado, natureza material em razão da previsão de extinção da punibilidade de quem cumpre os deveres estabelecidos no acordo (art. 28-A, § 13, do Código de Processo Penal (CPP). 2 - Diante da natureza híbrida da norma, a ela deve se aplicar o princípio da retroatividade da norma pena benéfica (art. 5º, XL, da CF), pelo que é cabível a celebração de Acordo de Não Persecução Penal em casos de processos em andamento quando da entrada em vigor da Lei n. 13.964/2019, mesmo se ausente confissão do réu até aquele momento, desde que o pedido tenha sido feito antes do trânsito em julgado da condenação. 3 - Nos processos penais em andamento em 18/09/2024 (data do julgamento do HC n. 185.913/DF, pelo Plenário do Supremo Tribunal Federal), nos quais seria cabível em tese o ANPP, mas ele não chegou a ser oferecido pelo Ministério Público ou não houve justificativa idônea para o seu não oferecimento, o Ministério Público, agindo de ofício, a pedido da defesa ou mediante provocação do magistrado da causa, deverá, na primeira oportunidade em que falar nos autos, manifestar-se motivadamente acerca do cabimento ou não do acordo no caso concreto. 4 - Nas investigações ou ações penais iniciadas a partir de 18/09/2024, será admissível a celebração de ANPP antes do recebimento da denúncia, ressalvada a possibilidade de propositura do acordo, no curso da ação penal, se for o caso.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1100,
+    "tribunal": "STJ",
+    "titulo": "Prescrição - Acórdão Condenatório",
+    "tese": "O acórdão condenatório de que trata o inciso IV do art. 117 do Código Penal interrompe a prescrição, inclusive quando confirmatório de sentença condenatória, seja mantendo, reduzindo ou aumentando a pena anteriormente imposta.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1106,
+    "tribunal": "STJ",
+    "titulo": "Unificação de Penas",
+    "tese": "Sobrevindo condenação por pena privativa de liberdade no curso da execução de pena restritiva de direitos, as penas serão objeto de unificação, com a reconversão da pena alternativa em privativa de liberdade, ressalvada a possibilidade de cumprimento simultâneo aos apenados em regime aberto e vedada a unificação automática nos casos em que a condenação substituída por pena alternativa é superveniente.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1110,
+    "tribunal": "STJ",
+    "titulo": "Roubo - Arma Branca",
+    "tese": "1. Em razão da novatio legis in mellius engendrada pela Lei n. 13.654/2018, o emprego de arma branca, embora não configure mais causa de aumento do crime de roubo, poderá ser utilizado como fundamento para a majoração da pena-base, quando as circunstâncias do caso concreto assim justificarem. 2. O julgador deve fundamentar o novo apenamento ou justificar a não realização do incremento na basilar, nos termos do que dispõe o art. 387, II e III, do CPP. 3. Não cabe a esta Corte Superior a transposição valorativa da circunstância para a primeira fase da dosimetria ou mesmo compelir que o Tribunal de origem assim o faça, em razão da discricionariedade do julgador ao aplicar a novatio legis in mellius.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1114,
+    "tribunal": "STJ",
+    "titulo": "Inversão Interrogatório",
+    "tese": "O interrogatório do réu é o último ato da instrução criminal. A inversão da ordem prevista no art. 400 do CPP tangencia somente à oitiva das testemunhas e não ao interrogatório. O eventual reconhecimento da nulidade se sujeita à preclusão, na forma do art. 571, I e II, do CPP, e à demonstração do prejuízo para o réu.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1120,
+    "tribunal": "STJ",
+    "titulo": "Execução da Pena - COVID",
+    "tese": "Nada obstante a interpretação restritiva que deve ser conferida ao art. 126, §4º, da LEP, os princípios da individualização da pena, da dignidade da pessoa humana, da isonomia e da fraternidade, ao lado da teoria da derrotabilidade da norma e da situação excepcionalíssima da pandemia de covid-19, impõem o cômputo do período de restrições sanitárias como de efetivo estudo ou trabalho em favor dos presos que já estavam trabalhando ou estudando e se viram impossibilitados de continuar seus afazeres unicamente em razão do estado pandêmico.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1121,
+    "tribunal": "STJ",
+    "titulo": "Estupro de Vulnerável e Importunação",
+    "tese": "Presente o dolo específico de satisfazer à lascívia, própria ou de terceiro, a prática de ato libidinoso com menor de 14 anos configura o crime de estupro de vulnerável (art. 217-A do CP), independentemente da ligeireza ou da superficialidade da conduta, não sendo possível a desclassificação para o delito de importunação sexual (art. 215-A do CP).",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1139,
+    "tribunal": "STJ",
+    "titulo": "Tráfico - Inquéritos em Curso",
+    "tese": "É vedada a utilização de inquéritos e/ou ações penais em curso para impedir a aplicação do art. 33, § 4.º, da Lei n. 11.343/06.",
+    "observacao": "Ver Súmula 444/STJ.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1143,
+    "tribunal": "STJ",
+    "titulo": "Contrabando Cigarros",
+    "tese": "O princípio da insignificância é aplicável ao crime de contrabando de cigarros quando a quantidade apreendida não ultrapassar 1.000 (mil) maços, seja pela diminuta reprovabilidade da conduta, seja pela necessidade de se dar efetividade à repressão ao contrabando de vulto, excetuada a hipótese de reiteração da conduta, circunstância apta a indicar maior reprovabilidade e periculosidade social da ação.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1144,
+    "tribunal": "STJ",
+    "titulo": "Furto - Repouso Noturno",
+    "tese": "1. Nos termos do § 1º do art. 155 do Código Penal, se o crime de furto é praticado durante o repouso noturno, a pena será aumentada de um terço. 2. O repouso noturno compreende o período em que a população se recolhe para descansar, devendo o julgador atentar-se às características do caso concreto. 3. A situação de repouso está configurada quando presente a condição de sossego/tranquilidade do período da noite, caso em que, em razão da diminuição ou precariedade de vigilância dos bens, ou, ainda, da menor capacidade de resistência da vítima, facilita-se a concretização do crime. 4. São irrelevantes os fatos das vítimas estarem ou não dormindo no momento do crime, ou o local de sua ocorrência, em estabelecimento comercial, via pública, residência desabitada ou em veículos, bastando que o furto ocorra, obrigatoriamente, à noite e em situação de repouso.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1155,
+    "tribunal": "STJ",
+    "titulo": "Detração",
+    "tese": "1) O período de recolhimento obrigatório noturno e nos dias de folga, por comprometer o status libertatis do acusado, deve ser reconhecido como período a ser detraído da pena privativa de liberdade e da medida de segurança, em homenagem aos princípios da proporcionalidade e do non bis in idem. 2) O monitoramento eletrônico associado, atribuição do Estado, não é condição indeclinável para a detração dos períodos de submissão a essas medidas cautelares, não se justificando distinção de tratamento ao investigado ao qual não é determinado e disponibilizado o aparelhamento. 3) As horas de recolhimento domiciliar noturno e nos dias de folga devem ser convertidas em dias para contagem da detração da pena. Se no cômputo total remanescer período menor que vinte e quatro horas, essa fração de dia deverá ser desprezada.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1161,
+    "tribunal": "STJ",
+    "titulo": "Livramento Condicional",
+    "tese": "A valoração do requisito subjetivo para concessão do livramento condicional - bom comportamento durante da execução da pena (art. 83, inciso III, alínea \"a\", do Código Penal) - deve considerar todo o histórico prisional, não se limitando ao período de 12 meses referido na alínea \"b\" do mesmo inciso III do art. 83 do Código Penal.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1165,
+    "tribunal": "STJ",
+    "titulo": "Progressão de Regime",
+    "tese": "A decisão que defere a progressão de regime não tem natureza constitutiva, senão declaratória. O termo inicial para a progressão de regime deverá ser a data em que preenchidos os requisitos objetivo e subjetivo descritos no art. 112 da Lei 7.210, de 11/07/1984 (Lei de Execução Penal), e não a data em que efetivamente foi deferida a progressão. Essa data deverá ser definida de forma casuística, fixando-se como termo inicial o momento em que preenchido o último requisito pendente, seja ele o objetivo ou o subjetivo. Se por último for preenchido o requisito subjetivo, independentemente da anterior implementação do requisito objetivo, será aquele (o subjetivo) o marco para fixação da data-base para efeito de nova progressão de regime.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1166,
+    "tribunal": "STJ",
+    "titulo": "Apropriação Indébita Previdenciária",
+    "tese": "O crime de apropriação indébita previdenciária, previsto no art. 168-A, § 1.º, inciso I, do Código Penal, possui natureza de delito material, que só se consuma com a constituição definitiva, na via administrativa, do crédito tributário, consoante o disposto na Súmula Vinculante n. 24 do Supremo Tribunal Federal.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1167,
+    "tribunal": "STJ",
+    "titulo": "Viol. Doméstica - Retratação",
+    "tese": "A audiência prevista no art. 16 da Lei 11.340/2006 tem por objetivo confirmar a retratação, não a representação, e não pode ser designada de ofício pelo juiz. Sua realização somente é necessária caso haja manifestação do desejo da vítima de se retratar trazida aos autos antes do recebimento da denúncia.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1168,
+    "tribunal": "STJ",
+    "titulo": "241-A e 241-B ECA - Concurso",
+    "tese": "Os tipos penais trazidos nos arts. 241-A e 241-B do Estatuto da Criança e do Adolescente são autônomos, com verbos e condutas distintas, sendo que o crime do art. 241-B não configura fase normal, tampouco meio de execução para o crime do art. 241-A, o que possibilita o reconhecimento de concurso material de crimes.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1171,
+    "tribunal": "STJ",
+    "titulo": "Roubo - Simulacro",
+    "tese": "A utilização de simulacro de arma configura a elementar grave ameaça do tipo penal do roubo, subsumindo à hipótese legal que veda a substituição da pena.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1172,
+    "tribunal": "STJ",
+    "titulo": "Reincidência Específica",
+    "tese": "A reincidência específica como único fundamento só justifica o agravamento da pena em fração mais gravosa que 1/6 em casos excepcionais e mediante detalhada fundamentação baseada em dados concretos do caso.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1186,
+    "tribunal": "STJ",
+    "titulo": "Lei Maria da Penha - Aplicação",
+    "tese": "1. A condição de gênero feminino é suficiente para atrair a aplicabilidade da Lei Maria da Penha em casos de violência doméstica e familiar, prevalecendo sobre a questão etária. 2. A Lei Maria da Penha prevalece quando suas disposições conflitarem com as de estatutos específicos, como o da Criança e do Adolescente.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1189,
+    "tribunal": "STJ",
+    "titulo": "Viol. Doméstica - Multa",
+    "tese": "A vedação constante do art. 17 da Lei n. 11.340/2006 (Lei Maria da Penha) obsta a imposição, nos casos de violência doméstica e familiar contra a mulher, de pena de multa isoladamente, ainda que prevista de forma autônoma no preceito secundário do tipo penal imputado.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1192,
+    "tribunal": "STJ",
+    "titulo": "Roubo - Concurso Formal",
+    "tese": "O cometimento de crimes de roubo mediante uma única conduta e sem desígnios autônomos contra o patrimônio de diferentes vítimas, ainda que da mesma família, configura concurso formal de crimes (art. 70 do CP).",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1194,
+    "tribunal": "STJ",
+    "titulo": "Atenuante da Confissão",
+    "tese": "1. A atenuante genérica da confissão espontânea, prevista no art. 65, III, d, do Código Penal, é apta a abrandar a pena independentemente de ter sido utilizada na formação do convencimento do julgador e mesmo que existam outros elementos suficientes de prova, desde que não tenha havido retratação, exceto, neste último caso, que a confissão tenha servido à apuração dos fatos.  2. A atenuação deve ser aplicada em menor proporção e não poderá ser considerada preponderante no concurso com agravantes quando o fato confessado for tipificado com menor pena ou caracterizar circunstância excludente da tipicidade, da ilicitude ou da culpabilidade.",
+    "observacao": "Ver Súmulas 545/STJ e 630/STJ e Tema 585/STJ.",
+    "modulacaoEfeitos": "\"Os efeitos prejudiciais aos réus decorrentes da tese fixada neste julgamento alcançam apenas os fatos ocorridos após a publicação deste acórdão\".\n\nO acórdão foi publicado em 16/09/2025."
+  },
+  {
+    "numero": 1195,
+    "tribunal": "STJ",
+    "titulo": "Comutação da Pena e Falta Grave",
+    "tese": "O período de doze meses a que se refere o art. 4º, I, do Decreto n. 9.246/2017 caracteriza-se pela não ocorrência de falta grave, não se relacionando à data de sua apuração, desde que já instaurado o processo administrativo disciplinar correspondente.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1196,
+    "tribunal": "STJ",
+    "titulo": "Progressão e Pacote Anticrime",
+    "tese": "É válida a aplicação retroativa do percentual de 50% (cinquenta por cento), para fins de progressão de regime, a condenado por crime hediondo, com resultado morte, que seja reincidente genérico, nos moldes da alteração legal promovida pela Lei n. 13.964/2019 no art. 112, inc. VI, alínea a, da Lei n. 7.210/84 (Lei de Execução Penal), bem como a posterior concessão do livramento condicional, podendo ser formulado posteriormente com base no art. 83, inc. V, do Código Penal, o que não configura combinação de leis na aplicação retroativa de norma penal material mais benéfica.",
+    "observacao": "Em decisão do Vice-Presidente, Min. Luis Felipe Salomão, no REsp 2.012.101/MG, e-STJ fls. 655-657, publicada no DJEN de 3/7/2025, foi determinado \"o sobrestamento do recurso extraordinário até o julgamento do TEMA 1.319 do STF\".",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1197,
+    "tribunal": "STJ",
+    "titulo": "Violência Doméstica e Agravante",
+    "tese": "A aplicação da agravante do art. 61, inc. II, alínea f, do Código Penal (CP), em conjunto com as disposições da Lei Maria da Penha (Lei n. 11.340/2006), não configura bis in idem.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1202,
+    "tribunal": "STJ",
+    "titulo": "Estupro de Vulnerável e Continuidade",
+    "tese": "No crime de estupro de vulnerável, é possível a aplicação da fração máxima de majoração prevista no art. 71, caput, do Código Penal, ainda que não haja a delimitação precisa do número de atos sexuais praticados, desde que o longo período de tempo e a recorrência das condutas permita concluir que houve 7 (sete) ou mais repetições.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1205,
+    "tribunal": "STJ",
+    "titulo": "Furto - Devolução do Bem",
+    "tese": "A restituição imediata e integral do bem furtado não constitui, por si só, motivo suficiente para a incidência do princípio da insignificância.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1206,
+    "tribunal": "STJ",
+    "titulo": "Laudo Toxicológico - Assinatura",
+    "tese": "A simples falta de assinatura do perito encarregado pela lavratura do laudo toxicológico definitivo constitui mera irregularidade e não tem o condão de anular a prova pericial na hipótese de existirem outros elementos que comprovem a sua autenticidade, notadamente quando o expert estiver devidamente identificado e for constatada a existência de substância ilícita.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1208,
+    "tribunal": "STJ",
+    "titulo": "Reincidência e Benefícios",
+    "tese": "A reincidência pode ser admitida pelo juízo das execuções penais para análise da concessão de benefícios, ainda que não reconhecida pelo juízo que prolatou a sentença condenatória.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1214,
+    "tribunal": "STJ",
+    "titulo": "Reenquadramento Circunst. Judicial",
+    "tese": "É  obrigatória  a  redução  proporcional  da  pena-base  quando  o tribunal de segunda instância, em recurso exclusivo da defesa, afastar circunstância judicial negativa reconhecida na sentença. Todavia, não implicam reformatio in pejus a mera correção da classificação de um fato já valorado negativamente pela sentença para enquadrá-lo como outra circunstância judicial, nem o simples reforço de fundamentação para  manter  a  valoração  negativa  de  circunstância  já  reputada desfavorável na sentença.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1215,
+    "tribunal": "STJ",
+    "titulo": "Dignidade Sexual - Cumulação de Agravantes",
+    "tese": "Nos crimes contra a dignidade sexual, não configura bis in idem a aplicação simultânea da agravante genérica do art. 61, II, \"f\", e da majorante específica do art. 226, II, ambos do Código Penal, salvo quando presente apenas a relação de autoridade do agente sobre a vítima, hipótese na qual deve ser aplicada tão somente a causa de aumento.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1218,
+    "tribunal": "STJ",
+    "titulo": "Descaminho - Reiteração e Insignificância",
+    "tese": "A reiteração da conduta delitiva obsta a aplicação do princípio da insignificância ao crime de descaminho - independentemente do valor do tributo não recolhido -, ressalvada a possibilidade de, no caso concreto, se concluir que a medida é socialmente recomendável. A contumácia pode ser aferida a partir de procedimentos penais e fiscais pendentes de definitividade, sendo inaplicável o prazo previsto no art. 64, I, do CP, incumbindo ao julgador avaliar o lapso temporal transcorrido desde o último evento delituoso à luz dos princípios da proporcionalidade e razoabilidade.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1219,
+    "tribunal": "STJ",
+    "titulo": "Fungibilidade Recursal",
+    "tese": "É adequada a aplicação do princípio da fungibilidade recursal aos casos em que, embora cabível recurso em sentido estrito, a parte impugna a decisão mediante apelação ou vice-versa, desde que observados a tempestividade e os demais pressupostos de admissibilidade do recurso cabível, na forma do art. 579, caput e parágrafo único, do Código de Processo Penal.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1236,
+    "tribunal": "STJ",
+    "titulo": "Remição de Pena e EAD",
+    "tese": "A remição de pena em razão do estudo a distância - EAD demanda a prévia integração do curso ao Projeto Político-Pedagógico - PPP da unidade ou do sistema prisional, não bastando o necessário credenciamento da instituição junto ao MEC, observando-se a comprovação de frequência e realização das atividades determinadas.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1249,
+    "tribunal": "STJ",
+    "titulo": "Medidas Protetivas de Urgência",
+    "tese": "I - As medidas protetivas de urgência (MPUs) têm natureza jurídica de tutela inibitória e sua vigência não se subordina à existência (atual ou vindoura) de boletim de ocorrência, inquérito policial, processo cível ou criminal. II - A duração das MPUs vincula-se à persistência da situação de risco à mulher, razão pela qual devem ser fixadas por prazo temporalmente indeterminado; III - Eventual reconhecimento de causa de extinção de punibilidade, arquivamento do inquérito policial ou absolvição do acusado não origina, necessariamente, a extinção da medida protetiva de urgência, máxime pela possibilidade de persistência da situação de risco ensejadora da concessão da medida. IV - Não se submetem a prazo obrigatório de revisão periódica, mas devem ser reavaliadas pelo magistrado, de ofício ou a pedido do interessado, quando constatado concretamente o esvaziamento da situação de risco. A revogação deve sempre ser precedida de contraditório, com as oitivas da vítima e do suposto agressor. Em caso de extinção da medida, a ofendida deve ser comunicada, nos termos do art. 21 da Lei n. 11.340/2006.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1255,
+    "tribunal": "STJ",
+    "titulo": "Falsa Identidade - Consumação",
+    "tese": "O delito de falsa identidade é crime formal, que se consuma quando o agente fornece, consciente e voluntariamente, dados inexatos sobre sua real identidade, e, portanto, independe da ocorrência de resultado naturalístico.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1258,
+    "tribunal": "STJ",
+    "titulo": "Reconhecimento de Pessoas",
+    "tese": "1 - As regras postas no art. 226 do CPP são de observância obrigatória tanto em sede inquisitorial quanto em juízo, sob pena de invalidade da prova destinada a demonstrar a autoria delitiva, em alinhamento com as normas do Conselho Nacional de Justiça sobre o tema. O reconhecimento fotográfico e/ou pessoal inválido não poderá servir de lastro nem a condenação nem a decisões que exijam menor rigor quanto ao standard probatório, tais como a decretação de prisão preventiva, o recebimento de denúncia ou a pronúncia. 2 - Deverão ser alinhadas pessoas semelhantes ao lado do suspeito para a realização do reconhecimento pessoal. Ainda que a regra do inciso II do art. 226 do CPP admita a mitigação da semelhança entre os suspeitos alinhados quando, justificadamente, não puderem ser encontradas pessoas com o mesmo fenótipo, eventual discrepância acentuada entre as pessoas comparadas poderá esvaziar a confiabilidade probatória do reconhecimento feito nessas condições. 3 - O reconhecimento de pessoas é prova irrepetível, na medida em que um reconhecimento inicialmente falho ou viciado tem o potencial de contaminar a memória do reconhecedor, esvaziando de certeza o procedimento realizado posteriormente com o intuito de demonstrar a autoria delitiva, ainda que o novo procedimento atenda os ditames do art. 226 do CPP. 4 - Poderá o magistrado se convencer da autoria delitiva a partir do exame de provas ou evidências independentes que não guardem relação de causa e efeito com o ato viciado de reconhecimento. 5 - Mesmo o reconhecimento pessoal válido deve guardar congruência com as demais provas existentes nos autos. 6 - Desnecessário realizar o procedimento formal de reconhecimento de pessoas, previsto no art. 226 do CPP, quando não se tratar de apontamento de indivíduo desconhecido com base na memória visual de suas características físicas percebidas no momento do crime, mas, sim, de mera identificação de pessoa que o depoente já conhecia anteriormente.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1259,
+    "tribunal": "STJ",
+    "titulo": "Tráfico - Majorante Arma",
+    "tese": "A majorante do art. 40, inciso IV, da Lei n. 11.343/2006 aplica-se quando há nexo finalístico entre o uso da arma e o tráfico de drogas, sendo a arma usada para garantir o sucesso da atividade criminosa, hipótese em que o crime de porte ou posse ilegal de arma é absorvido pelo tráfico. Do contrário, o delito previsto no Estatuto do Desarmamento é considerado crime autônomo, em concurso material com o tráfico de drogas",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1262,
+    "tribunal": "STJ",
+    "titulo": "Tráfico - Majoração Pena-base",
+    "tese": "Na análise das vetoriais da natureza e da quantidade da substância entorpecente, previstas no art. 42 da Lei n. 11.343/2006, configura-se desproporcional a majoração da pena-base quando a droga apreendida for de ínfima quantidade, independentemente de sua natureza.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1269,
+    "tribunal": "STJ",
+    "titulo": "Interrogatório do Adolescente",
+    "tese": "No rito especial que visa apurar a prática de ato infracional, além da audiência de apresentação do adolescente prevista no art. 184 do ECA, aplica-se subsidiariamente o art. 400 do CPP, de modo que, em acréscimo, é preciso garantir ao adolescente o interrogatório ao final da instrução. A inobservância desse procedimento implicará nulidade se o prejuízo à autodefesa for informado pela parte na primeira oportunidade que tiver para se manifestar nos autos, sob pena de preclusão. O entendimento é aplicável aos feitos com instrução encerrada após 3/3/2016.",
+    "observacao": "Modulação dos efeitos: aplicável a partir de 04/03/2026.",
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1274,
+    "tribunal": "STJ",
+    "titulo": "Direito à Visita",
+    "tese": "O fato de o visitante cumprir pena privativa de liberdade em regime aberto ou em livramento condicional não impede, por si só, o direito à visita em estabelecimento prisional.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1277,
+    "tribunal": "STJ",
+    "titulo": "Detração",
+    "tese": "É possível, conforme o artigo 42 do Código Penal, o cômputo do período de prisão provisória na análise dos requisitos para a concessão do indulto e da comutação previstos nos respectivos decretos.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1278,
+    "tribunal": "STJ",
+    "titulo": "Remição pela Leitura",
+    "tese": "Em decorrência dos objetivos da execução penal, a leitura pode resultar na remição de pena, com fundamento no art. 126 da Lei de Execução Penal, desde que observados os requisitos previstos para sua validação, não podendo ser acolhido o atestado realizado por profissional contratado pelo apenado.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1303,
+    "tribunal": "STJ",
+    "titulo": "ANPP e Confissão",
+    "tese": "1. A confissão pelo investigado na fase de inquérito policial não constitui exigência do art. 28-A do Código de Processo Penal para o cabimento de Acordo de Não Persecução Penal (ANPP), sendo inválida a negativa de formulação da respectiva proposta baseada em sua ausência. 2. A formalização da confissão para fins do ANPP pode se dar no momento da assinatura do acordo, perante o próprio órgão ministerial, após a ciência, avaliação e aceitação da proposta pelo beneficiado, devidamente assistido por defesa técnica, dado o caráter negocial do instituto.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1318,
+    "tribunal": "STJ",
+    "titulo": "Premeditação e Pena-Base",
+    "tese": "1. A premeditação autoriza a valoração negativa da circunstância da culpabilidade prevista no art. 59 do Código Penal, desde que não constitua elementar ou seja ínsita ao tipo penal nem seja pressuposto para a incidência de circunstância agravante ou qualificadora; 2. A exasperação da pena-base pela premeditação não é automática, reclamando fundamentação específica acerca da maior reprovabilidade da conduta no caso concreto.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1333,
+    "tribunal": "STJ",
+    "titulo": "Violência de Gênero e LCP",
+    "tese": "1 - A agravante prevista no art. 61, II, \"f\", do Código Penal é aplicável às contravenções penais praticadas no contexto de violência doméstica contra a mulher, salvo se houver previsão diversa pela Lei das Contravenções Penais, por força do que dispõem seu art. 1º e o art. 12 do Código Penal.  2 - Não é possível tal aplicação para a contravenção penal de vias de fato, prevista no art. 21 da Lei das Contravenções Penais, na hipótese de incidência de seu §2º, incluído pela Lei n. 14.994/2024, por força dos princípios da especialidade e da proibição de bis in idem.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1336,
+    "tribunal": "STJ",
+    "titulo": "Tráfico - Indulto",
+    "tese": "O indulto previsto no Decreto n. 11.846/2023 não se aplica ao condenado por tráfico de drogas na forma do caput e § 1º do art. 33 da Lei de Drogas, vedação essa que abrange a pena de multa eventualmente cominada, salvo se beneficiado com o redutor especial (art. 33, § 4º, da Lei n. 11.343/2006).",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1347,
+    "tribunal": "STJ",
+    "titulo": "Regressão Cautelar de Regime",
+    "tese": "A regressão cautelar de regime prisional é medida de caráter provisório e está autorizada pelo poder geral de cautela do juízo da execução, podendo ser aplicada, mediante fundamentação idônea, até a apuração definitiva da falta.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1377,
+    "tribunal": "STJ",
+    "titulo": "Poluição - Crime Formal",
+    "tese": "O tipo previsto na primeira parte do caput do artigo 54 da Lei n. 9.605/1998 possui natureza formal, sendo suficiente a potencialidade de dano à saúde humana para a configuração da conduta delitiva, não sendo exigida a efetiva ocorrência do dano nem a realização de perícia técnica, podendo a comprovação se dar por qualquer meio de prova idôneo.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  },
+  {
+    "numero": 1405,
+    "tribunal": "STJ",
+    "titulo": "Pena de Multa",
+    "tese": "A alteração promovida no art. 51 do Código Penal não afastou o caráter penal da multa, a qual permanece como sanção criminal. Em razão disso, embora à sua execução sejam aplicáveis as causas suspensivas da prescrição previstas na Lei n. 6.830/1980, bem como as causas interruptivas estabelecidas no art. 174 do Código Tributário Nacional, o prazo prescricional da multa continua sendo regido pelo art. 114, incisos I e II, do Código Penal.",
+    "observacao": null,
+    "modulacaoEfeitos": null
+  }
+]
