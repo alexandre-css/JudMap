@@ -1,6 +1,155 @@
 # JudMap
 
-Motor de extração de sentenças judiciais criminais para JSON estruturado, com suporte a dosimetria penal, prescrição, lei penal no tempo e validação de enums.
+Plataforma de extração e estruturação de acórdãos criminais do eProc/TJSC em JSON, com suporte a dosimetria penal, análise de prescrição, lei penal no tempo e extração via LLM para sentenças em texto livre.
+
+## Componentes
+
+O projeto tem dois modos de operação:
+
+### 1. Extrator de minutas eProc (`eproc/`)
+
+Processa HTMLs de minutas de acórdão diretamente do eProc (relatório + voto), sem consumir tokens de IA. Produz JSON estruturado com:
+
+- Identificação: classe processual, órgão julgador, relator, assessor/redator, partes
+- Relatório: transcrições tipadas (denúncia, sentença 1G, razões recursais, contrarrazões, parecer PGJ, dispositivo 1G)
+- Voto: seções segmentadas com papel semântico (`tese_defesa`, `tese_mp`, `fundamento2g`, `dosimetria`, `dispositivo`), citações classificadas, dosimetria estruturada por fase
+- Resultado do acórdão: resultado (enum), dosimetria modificada, nova pena total, novo regime, resultado por polo (defesa/MP)
+- Dados de 1º grau: pena, regime, artigos imputados, resultado da sentença recorrida
+- Teses recursais: via seção explícita do voto ou fallback pelas transcrições do relatório
+- Pessoas: réus (com qualificativos), vítimas, testemunhas, promotor
+- Metadados: usuário criador e editor do documento no eProc, versão, CRC
+
+```bash
+# Processar lote de minutas (JSON de entrada gerado pelo extrator eProc)
+node eproc/processar_minutas.js eproc/julgados/minutas-20260507.json
+
+# Processar HTML avulso
+node eproc/cleaner.js minuta.html --out resultado.json --md resultado.md
+```
+
+Os JSONs processados ficam em `eproc/julgados/processados/`. Cada arquivo corresponde a um acórdão identificado pelo `numero_documento` do eProc.
+
+### 2. Extrator via LLM (`cli.js`)
+
+Para sentenças em texto livre (PDF, TXT, Markdown), usa IA para extrair os campos do `sentenca_schema.json`:
+
+```bash
+# Arquivo de texto ou markdown
+node cli.js sentenca.txt
+
+# Leitura do stdin
+cat sentenca.txt | node cli.js --stdin
+
+# Salvar resultado em arquivo
+node cli.js sentenca.txt --out resultado.json
+
+# Provider e modelo específicos
+node cli.js sentenca.txt --provider anthropic --modelo claude-opus-4-5
+
+# Foco em grau 2 (acórdão)
+node cli.js acordao.txt --grau grau2
+```
+
+#### Opções CLI
+
+| Opção        | Descrição                          | Padrão                                 |
+| ------------ | ---------------------------------- | -------------------------------------- |
+| `--provider` | Provider de IA                     | `auto` (primeiro com chave disponível) |
+| `--modelo`   | ID do modelo                       | Modelo padrão do provider              |
+| `--grau`     | Foco: `grau1`, `grau2`, `completo` | `grau1`                                |
+| `--out`      | Arquivo de saída JSON              | stdout                                 |
+| `--stdin`    | Lê texto do stdin                  | —                                      |
+
+#### Providers suportados
+
+| Provider    | Variável de ambiente   | Modelo padrão                               |
+| ----------- | ---------------------- | ------------------------------------------- |
+| `anthropic` | `JUDMAP_ANTHROPIC_KEY` | `claude-sonnet-4-6`                         |
+| `google`    | `JUDMAP_GOOGLE_KEY`    | `gemini-3-flash-preview`                    |
+| `openai`    | `JUDMAP_OPENAI_KEY`    | `gpt-4o-mini`                               |
+| `deepseek`  | `JUDMAP_DEEPSEEK_KEY`  | `deepseek-chat`                             |
+| `meta`      | `JUDMAP_GROQ_KEY`      | `meta-llama/llama-4-scout-17b-16e-instruct` |
+| `xai`       | `JUDMAP_XAI_KEY`       | `grok-3-fast`                               |
+| `microsoft` | `JUDMAP_MICROSOFT_KEY` | `gpt-4o`                                    |
+
+Crie `.env` na raiz com as chaves desejadas.
+
+## Requisitos
+
+- Node.js ≥ 18
+- Chave de API de ao menos um provider (somente para o modo LLM)
+
+```bash
+npm install
+```
+
+## Schemas
+
+| Arquivo                | Descrição                                          |
+| ---------------------- | -------------------------------------------------- |
+| `sentenca_schema.json` | Schema completo grau1 + grau2 (sentença + acórdão) |
+| `enum.json`            | Valores válidos para todos os campos categóricos   |
+
+## Estrutura do projeto
+
+```
+cli.js                        Entrada CLI (modo LLM)
+sentenca_schema.json          Schema JSON de saída (grau1 + grau2)
+enum.json                     Enums de todos os campos categóricos
+eproc/
+  cleaner.js                  Extrator de minutas HTML do eProc
+  processar_minutas.js        Processamento em lote
+  julgados/
+    minutas-*.json            Lote de minutas (entrada)
+    processados/              JSONs estruturados por acórdão (saída)
+  ESTRUTURA_HTML_MINUTAS_EPROC.md  Documentação da estrutura HTML do eProc
+leis/
+  index_penas.json            Penas abstratas por lei/artigo
+  index_dosimetria.json       Frações legais por causa de aumento/diminuição
+  historico_legislativo.json  Alterações legislativas para análise intertemporal
+  extrator.js                 Extrai textos das leis do Planalto
+  extrator_historico.js       Extrai alterações de pena via texto riscado
+  senado_api.js               Resolve dataVigor via API do Senado
+  rag/                        Textos dos artigos por lei (lazy-loaded)
+  jsonld/                     Leis em JSON-LD
+  md/                         Leis em Markdown
+jurisprudencia/
+  sumulas/                    Súmulas do STF, STJ e ECA
+  temas/                      Temas repetitivos do STF e STJ
+src/
+  extractor.js                Orquestrador do pipeline LLM (7 etapas)
+  ai-client.js                Cliente unificado de IA (7 providers)
+  calculator.js               Cálculos determinísticos (prescrição, totalDias)
+  validator.js                Validação de enums e alertas automáticos
+  prompt-builder.js           Construção do prompt com schema e enums
+  lei-lookup.js               Lookup de penas e textos legais por dispositivo
+  lei-tempo.js                Lei penal no tempo (art. 2º CP)
+sentencas_reais/              Sentenças reais para testes
+test/
+  testar_pipeline.mjs         Teste de pipeline sem IA (fixture manual)
+  exemplos/                   Resultados de extrações salvas
+```
+
+## Leis cobertas
+
+CP, CPP, CTB, Lei de Drogas (11.343/2006), Estatuto do Desarmamento, Crimes Hediondos, LEP, ECA, Maria da Penha, Lavagem de Dinheiro, Crime Organizado, Abuso de Autoridade, Interceptação Telefônica, Pacote Anticrime, e outras.
+
+## Atualização das leis
+
+```bash
+# Extrair/atualizar texto de lei do Planalto
+npm run extract:leis -- --lei codigo_penal
+
+# Detectar alterações de pena e estimar dataVigor
+node leis/extrator_historico.js --out leis/rascunho_historico.json
+node leis/extrator_historico.js --merge
+```
+
+## Teste sem IA
+
+```bash
+node test/testar_pipeline.mjs
+```
 
 ## Requisitos
 
